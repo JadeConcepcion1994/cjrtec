@@ -37,9 +37,11 @@ wp_head();
           if(function_exists('the_custom_logo')){
             $custom_logo_id = get_theme_mod('custom_logo');
             $logo = wp_get_attachment_image_src($custom_logo_id);
+            
           }
+          
         ?>
-        <img src="<?php echo $logo[0]?>" alt="Logo" height="43px">
+        <img src="<?php echo $logo[0]; ?>" alt="Logo" height="43px">
       </a>
 
   <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarTogglerContent" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,12 +61,14 @@ wp_head();
            'container' => '',
            'theme_location' => 'primary',
            'menu_class' => 'navbar-nav mx-auto',
+           'walker' => new Bootstrap_Walker_Nav_Menu(),
            'list_item_class'  => 'nav-item',
            'link_class'   => 'nav-link',
-           'current_menu_item' => 'active',
-           'secondary' => 'secondary'
+           'current_menu_item' => 'active', 
       )
     );
+
+
   ?>
 
        <div class="my-2 my-lg-0">

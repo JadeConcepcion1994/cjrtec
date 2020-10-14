@@ -1,7 +1,7 @@
 <?php 
 
 
-echo "TEST THIS";
+echo "URL NOT FOUND";
 
 
 ?>

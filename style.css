@@ -37,12 +37,17 @@ ul > li.active a{
 	margin-left: 20px;
 }
 	
-.nav-link{
+.nav-item > a{
 	color: white;
+	padding: 5px 5px 5px 5px;
 }
 
-.nav-link:hover{
+.nav-item > a:hover{
 	color: rgb(255, 88, 41);
+}
+
+.dropdown-menu{
+	background-color: black;
 }
 
 .navbar-toggler{
