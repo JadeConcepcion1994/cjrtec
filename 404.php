@@ -1,7 +1,7 @@
 <?php 
 
 
-echo "TEST";
+echo "TEST THIS";
 
 
 ?>
