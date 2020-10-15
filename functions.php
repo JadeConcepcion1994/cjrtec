@@ -160,9 +160,9 @@ function add_menu_link_class( $atts, $item, $args ) {
 }
 add_filter( 'nav_menu_link_attributes', 'add_menu_link_class', 1, 3 );
 
-
 function add_menu_list_item_class($classes, $item, $args) {
-  if (property_exists($args, 'list_item_class')) {
+
+  if (property_exists($args, 'list_item_class')) { // Has error when there's no menu created in WordPress, will check later. - Leo
       $classes[] = $args->list_item_class;
   }
   return $classes;
