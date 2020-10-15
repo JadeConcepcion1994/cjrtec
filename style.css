@@ -77,10 +77,15 @@ ul > li.active a{
 }
 
 .upper-content{
-	background-color: rgb(255, 215, 0);
+	padding: 5px 5px 5px 5px;
 }
-
-
+.float-right-icons{
+	float: right;
+}
+.fb, .tw, .yt, .li{
+	padding-right: 20px;
+	color: rgb(255, 88, 41);
+}
 
 /* CSS for navbar toggler animations */
 .navbar-toggler .top-bar {

@@ -19,27 +19,39 @@ wp_head();
 
 
 
-  <div class="upper-content" id="content_top_fixed" align="center">
-    <small>
-      <?php
-      if(get_theme_mod('cjrtec_address_content_edit')){
-       echo get_theme_mod('cjrtec_address_content_edit');
-      }else{
-        echo '<i class="fa fa-map-marker" aria-hidden="true"></i> 7023 S 700 W Building B, Midvale UT 84047 USA         <i class="fa fa-phone" aria-hidden="true"></i>  800-733-2302    <i class="fa fa-clock-o" aria-hidden="true"></i>  09:00 - 05:00 Mountain Standard Time (MST)';
-      }
-      ?>  
-      </small>
+  <div class="upper-content" id="content_top_fixed">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+           <small>
+            <i class="fa fa-map-marker" aria-hidden="true"></i> 7023 S 700 W Bldg B, Midvale, UT 84047   
+            <strong style="margin-left: 10px; margin-right: 10px">|</strong>
+             <i class="fa fa-phone" aria-hidden="true"></i>  + 1(800) 733-2302 / 09:00AM - 5:00PM MST  
+           </small> 
+
+           <div class="float-right-icons">
+             <small>
+                <a href="#"><i class="fa fa-facebook fb" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter tw" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-youtube yt" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin li" aria-hidden="true"></i></a>
+                <strong style="margin-left: 10px; margin-right: 10px">|</strong>
+                <i class="fa fa-search" aria-hidden="true"></i>
+             </small>
+           </div>
+        </div>
+      </div>
+    </div>
   </div>
+
 <nav class="navbar navbar-expand-lg" id="navbar">
   <div class="container-fluid">
       <a class="navbar-brand" href="<?php echo get_home_url(); ?>">
         <?php 
           if(function_exists('the_custom_logo')){
             $custom_logo_id = get_theme_mod('custom_logo');
-            $logo = wp_get_attachment_image_src($custom_logo_id);
-            
+            $logo = wp_get_attachment_image_src($custom_logo_id); 
           }
-          
         ?>
         <img src="<?php echo $logo[0]; ?>" alt="Logo" height="43px">
       </a>
