@@ -7,7 +7,15 @@ get_header();
    </header>
 
 
-  <p><?php the_content(); ?></p>
+  <p>
+  	
+  <?php 
+  while( have_posts() ) : the_post();
+  the_content(); 
+  endwhile;
+  ?>
+  	
+  </p>
 
   </div>
 
