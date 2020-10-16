@@ -29,26 +29,22 @@
       
       <!-- SHOW ALL CATEGORIES -->
       <p>
-      Category: 
-      <?php 
-        $terms = get_field('category_group');
-        
-        if( $terms ): ?>
-          <?php foreach( $terms as $term ): ?>
-            <?php echo esc_html( $term->name ); ?>
-            <!-- <p><?php // echo esc_html( $term->description ); ?></p> -->
-            <!-- <a href="<?php // echo esc_url( get_term_link( $term ) ); ?>">View all '<?php // echo esc_html( $term->name ); ?>' posts</a> -->
-            
-          <?php endforeach; ?>
-        <?php endif; ?>
-        </p>
+        Type: 
+        <?php 
+          $term = get_field('category_group'); 
+          if ($term) {  
+           
+              echo esc_html($term->name); 
+           
+          }
+        ?>
+      </p>
 
       <img style="width: 50%; " src="<?php echo the_field('image', $post); ?>" alt="image">
     </div>
     <?php endwhile; ?>
     
     <?php wp_reset_query(); ?> 
-    <?php // posts_nav_link(); ?>
 
     <?php else : ?>
       <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
