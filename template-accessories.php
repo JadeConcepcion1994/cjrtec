@@ -7,7 +7,7 @@
 <?php get_header(); ?>
 
 <div class="container">
-  <h1><?php the_title(); ?></h1>
+  <h1 class="mb-5"><?php the_title(); ?></h1>
 
   <div class="row">
     
@@ -21,7 +21,7 @@
       while ( $the_query->have_posts() ) : $the_query->the_post();
         $post = get_the_ID();
     ?>
-    <div class="col-lg-6">
+    <div class="col-lg-6 mb-5">
       <h4><?php the_title(); ?></h4>
       
       <p>Model: <?php echo the_field('model_number', $post) ?></p>
@@ -32,15 +32,13 @@
         Type: 
         <?php 
           $term = get_field('category_group'); 
-          if ($term) {  
-           
-              echo esc_html($term->name); 
-           
+          if ($term) {
+            echo esc_html($term->name);
           }
         ?>
       </p>
 
-      <img style="width: 50%; " src="<?php echo the_field('image', $post); ?>" alt="image">
+      <img style="width: 90%; " src="<?php echo the_field('image', $post); ?>" alt="image">
     </div>
     <?php endwhile; ?>
     
