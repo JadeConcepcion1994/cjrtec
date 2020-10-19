@@ -1261,3 +1261,21 @@ h1 .Count{
 	padding: 1.25rem;
 }
 
+/* VIDEOS PAGE */
+#videos .card .card-body .embed-container {
+	position: relative; 
+	padding-bottom: 56.25%;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+
+#videos .card .card-body .embed-container iframe,
+#videos .card .card-body .embed-container object,
+#videos .card .card-body .embed-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
