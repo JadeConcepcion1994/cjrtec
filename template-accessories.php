@@ -40,13 +40,7 @@
               ?>
           </p>
         </div>
-
-
-
-        
       </div>
-
-
     </div>
     <?php endwhile; ?>
     
@@ -55,7 +49,6 @@
     <?php else : ?>
       <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
     <?php endif; ?>
-    
   </div>
 </div>
 
