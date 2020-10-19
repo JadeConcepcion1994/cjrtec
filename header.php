@@ -20,10 +20,10 @@ wp_head();
 
 
   <div class="upper-content" id="content_top_fixed">
-    <div class="container">
+    <div class="container cnt-test">
       <div class="row">
         <div class="col-md-12">
-           <small>
+           <small id="test-this">
             <i class="fa fa-map-marker" aria-hidden="true"></i> 7023 S 700 W Bldg B, Midvale, UT 84047   
             <strong style="margin-left: 10px; margin-right: 10px">|</strong>
              <i class="fa fa-phone" aria-hidden="true"></i>  + 1(800) 733-2302 / 09:00AM - 5:00PM MST  

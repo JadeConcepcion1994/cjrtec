@@ -1,121 +1,115 @@
-	
-	<div class="row">
-		<div class="col-md-12">
-			<div class="row row-foot-c">
-		 	<div class="col-md-6 col-foot-c">
-		 		<div data-aos="fade-up" data-aos-delay="510">
-		 		<h2 style="color: white">Get Your Free Qoute</h2>
-		 		<p>
-		 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		 			tempor incididunt ut labore et dolo
-		 		</p>	
-		 		</div>
-		 	</div>
-		 	<div class="col-md-6" style="padding: 100px 50px 100px 50px">
-		 		<div class="row">
-		 			<div class="col-md-6">
-		 				<label>Moving From Zip Code *</label>
-		 				<input type="text" name="" class="form-control">
-		 			</div>
-		 			<div class="col-md-6">
-		 				<label>Moving To Zip Code *</label>
-		 				<input type="text" name="" class="form-control">
-		 			</div>
-		 		</div>
-		 		<div class="row">
-		 			<div class="col-md-6">
-		 				<label>Moving Data *</label>
-		 				<input type="date" name="" class="form-control">
-		 			</div>
-		 			<div class="col-md-6">
-		 				<label>Number of Rooms *</label>
-		 				<select class="form-control">
-		 					<option selected disabled></option>
-		 					<option>Option 1</option>
-		 					<option>Option 2</option>
-		 				</select>
-		 			</div>
-		 		</div>
-		 		<div class="row" style="margin-bottom: 30px">
-		 			<div class="col-md-6">
-		 				<label>Name</label>
-		 				<input type="text" name="" class="form-control">
-		 			</div>
-		 			<div class="col-md-6">
-		 				<label>Phone</label>
-		 				<input type="text" name="" class="form-control">
-		 			</div>
-		 		</div>
-		 		<div class="row">
-		 			<div class="col-md-12">
-		 					<button class="btn btn-black form-control">Submit</button>	
-		 			</div>
-		 	
-		 		</div>
-		 	</div>
-		 </div>
+<section class="footer-list">
+	<footer>
+		<div class="container" style="margin-left: 50px">
+			<div class="row row-cjr-list" style="padding: 50px 0px 10px 10px; color: white">
+				<div class="col-md-2 col-xs-6">
+					<p class="ptitle" align="center">About CJRTEC</p>
+					<ul>
+						<li><a href="about.php">About us</a></li>
+						<li><a href="testimonials.php">Testimonials</a></li>
+						<li><a href="distributors.php">Distributors</a></li>
+						<li><a href="customers.php">Customers</a></li>
+						<li><a href="contact.php">Contact us</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2 col-xs-6">
+					<p class="ptitle" align="center">Account</p>
+					<ul>
+						<li><a href="login.php">Login</a></li>
+						<li><a href="view-price.php">Registration</a></li>
+						<li><a href="forgot-password.php">Forgot Password</a></li>
+						<li><a href="unsubscribe.php">Unsubscribe</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2 col-xs-6">
+					<p class="ptitle" align="center">Products</p>
+					<ul>
+						<li><a href="clicker-press.php">Clicker Press</a></li>
+						<li><a href="http://www.digitalcuttingsystems.com/" target="_blank">Waterjet Cutting</a></li>
+						<li><a href="http://www.convolutermachine.com/" target="_blank">Foam Cutting</a></li>
+						<li><a href="http://www.itbotics.com/" target="_blank">Industrial Robots</a></li>
+						<li><a href="http://www.hotmeltcoatingmachines.com/">Hotmelt Laminator</a></li>
+						<li><a href="http://www.industrialknive.com/" target="_blank">Industrial Knives</a></li>
+						<li><a href="clicker-press-parts.php">Press Parts</a></li>
+						<li><a href="accessories.php">Accessories</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2 col-xs-6">
+					<p class="ptitle" align="center">Useful Links</p>
+					<ul>
+						<li><a href="training.php">Trainings</a></li>
+						<li><a href="referrals.php">Referrals</a></li>
+						<li><a href="clicker-press-shipping.php">Shipping</a></li>
+						<li><a href="franchise.php">Franchise</a></li>
+						<li><a href="finance.php">Financing</a></li>
+						<li><a href="http://cjrterms.com/" target="_blank">Purchase Terms</a></li>
+						<li><a href="clicker-press-warranty.php">Warranty</a></li>
+						<li><a href="tonnage-formula.php">Tonnage Formula</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-md-2 col-xs-6">
+					<p class="ptitle" align="center">Learn More</p>
+					<ul>
+						<li><a href="types-of-dies.php">Types of Dies</a></li>
+						<li><a href="used-clicker-press.php">Used Presses</a></li>
+						<li><a href="die-makers.php">Die makers</a></li>
+						<li><a href="videos.php">Videos</a></li>
+						<li><a href="china-steel.php">China Steel</a></li>
+						<li><a href="buyback.php">Buy Back Protection</a></li>
+						<li><a href="commercial-die-cutting.php">Commercial Die Cutting</a></li>
+						<li><a href="swing-arm-press-testing.php">Swing Arm Press Testing</a></li>
+						
+					</ul>
+				</div>	
+				<div class="col-md-2 col-xs-12">
+					<p class="ptitle" align="center">Find us here</p>
 
+					<ul class="social">
+						<li><a href="https://www.facebook.com/cjrtec/" target="_blank"><i class="fa fa-facebook-official fa-lg"></i>  Connect to us</a></li>
+						<li><a href="https://www.instagram.com/cjrtec" target="_blank"><i class="fa fa-instagram fa-lg"></i>  View our feed</a></li>
+						<li><a href="https://www.youtube.com/channel/UCNph4b5fxTNKhQnycRp4oyw" target="_blank"><i class="fa fa-youtube  fa-lg"></i> Watch our Videos</a></li>
+					</ul>
 
+				</div>	
+				
 
-		</div>
-	</div>
-	
-<div class="row">
-	<div class="col-md-12">
-		<footer class="footer text-center py-2 ">
-		<div class="row">
-			<div class="col-md-3 f-c-1">
-				    <?php 
-			          if(function_exists('the_custom_logo')){
-			            $custom_logo_id = get_theme_mod('custom_logo');
-			            $logo = wp_get_attachment_image_src($custom_logo_id);
-			          }
-			        ?>
-				<img src="<?php echo $logo[0]?>" height="30px" width="30px" style="margin-bottom: 30px">
-
-				<p style="margin-bottom: 40px">Licence Number: 123-456-7890</p>
-				<small>© 2023 by Fly Right Movers. Proudly created with Wix.com</small>
 			</div>
-			<div class="col-md-3 f-c-2">
-				<p style="margin-bottom: 30px">CONTACT</p>
-				<p>
-					<small>Phone:</small> <small>123-456-7890</small> <br>
-					<small>Email:</small> <small>info@mysite.com</small>
+			<div class="row row-footer-content">
+				<div class="col-md-12">
+					<p align="center" style="color: white; font-size: 12px">
+					Call <strong style=" color: rgb(255, 88, 41)">(800)-733-2302</strong> or <strong style="color: rgb(255, 88, 41)">email support@cjrtec.com</strong> <br>
+					for more info.
 				</p>
-
-				<small>500 Terry Francois Street,<br> San Francisco, CA 94158</small>
+				<hr style="background-color: white">
+			<div class="row">
+			<div class="col-md-4">
+				<ul id="ul_li_inline">
+					<li><a href="http://cjrterms.com/" target="_blank">Terms |</a></li>
+					<li><a href="clicker-press-warranty.php">Warranty |</a></li>
+					<li><a href="buyback.php">Buy Back Protection |</a></li>
+					<li><a href="links.php">Links</a></li>
+				</ul>
 			</div>
-			<div class="col-md-3 f-c-3">
-				<p style="margin-bottom: 30px">WORKING HOURS</p>
-				<p align="center">
-					<small>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					
-					</small>
-				</p>
-			</div>
-			<div class="col-md-3 f-c-4">
-				<p style="margin-bottom: 30px">Resources</p>
-				<small>Locations</small><br>
-				<small>Tips</small><br>
-				<small>FAQs</small><br>
-				<small>Privacy & Terms</small>
+			<div class="col-md-4 col-copyright-footer"><p align="center">Copyright © <?php echo date('Y'); ?> <span style=" color: rgb(255, 88, 41)">CJRTec</span>. All rights reserved.</p></div>
+			<div class="col-md-4">
+				<button onclick="topFunction()"  id="myBtn" title="Go to top" ><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
 			</div>
 		</div>
-<!-- 		<p class="copyright"><a href="#">CJRTEC</a></p> -->
-  <button onclick="topFunction()"  id="myBtn" title="Go to top" ><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+				</div>
+			</div>
+		</div>
 	</footer>
-
-	</div>
-
-</div>
+</section>
 	
 	
+
+	
+	
+
 <?php 
 wp_footer();
-?>
-
+?>	
 
 </body>
 </html>
