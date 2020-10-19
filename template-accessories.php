@@ -8,8 +8,8 @@
 
 <section id="accessories">
   <div class="container">
-    <h1 class="mb-5"><?php the_title(); ?></h1>
-
+    <h1 class="my-4"><?php the_title(); ?></h1>
+    <div class="mb-5"><?php the_content(); ?></div>
     <div class="row">
       
       <?php 
@@ -22,7 +22,7 @@
         while ( $the_query->have_posts() ) : $the_query->the_post();
           $post = get_the_ID();
       ?>
-      <div class="col-lg-6 mb-4">
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
         <div class="card">
           <img class="card-img-top" src="<?php echo the_field('image', $post); ?>" alt="card image">
           <div class="card-body">

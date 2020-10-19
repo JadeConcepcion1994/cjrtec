@@ -8,8 +8,8 @@
 
 <section id="videos">
   <div class="container">
-    <h1 class="mb-5"><?php the_title(); ?></h1>
-
+    <h1 class="my-4"><?php the_title(); ?></h1>
+    <p></p>
     <div class="row">
       
       <?php 
