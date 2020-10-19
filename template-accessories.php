@@ -12,7 +12,7 @@
   <div class="row">
     
     <?php 
-      $args = array('post_type' => 'accessories');
+      $args = array('post_type' => 'cp_accessories');
         $the_query = new WP_Query( $args );
     ?>
 
@@ -21,7 +21,7 @@
       while ( $the_query->have_posts() ) : $the_query->the_post();
         $post = get_the_ID();
     ?>
-    <div class="col-lg-6 mb-5">
+    <div class="col-lg-6 mb-4">
       <div class="card">
         <img class="card-img-top" src="<?php echo the_field('image', $post); ?>" alt="card image">
         <div class="card-body">
@@ -29,8 +29,8 @@
             <?php the_title(); ?>
           </h5>
           <p class="card-text">
-            Model: <?php echo the_field('model_number', $post) ?>
-            Description: <?php echo the_field('description', $post) ?>
+            Model: <?php echo the_field('model_number', $post) ?> <br>
+            Description: <?php echo the_field('description', $post) ?> <br>
             Type: 
               <?php 
                 $term = get_field('category_group'); 
