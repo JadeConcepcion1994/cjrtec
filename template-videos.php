@@ -22,20 +22,26 @@
         $post = get_the_ID();
     ?>
     <div class="col-lg-6 mb-5">
-      <h4><?php the_title(); ?></h4>
-      <p>
-        Category: 
-        <?php 
-          $term = get_field('video_category'); 
-          if ($term) {
-            echo esc_html($term->name);
-          }
-        ?>
-      </p>
-
-      <div class="embed-container">
-        <?php the_field('video_link'); ?>
+      <div class="card">
+        <div class="card-body">
+          
+          <h5 class="card-title"><?php the_title(); ?></h5>
+          
+          <p class="card-text">
+            Category: 
+              <?php 
+                $term = get_field('video_category'); 
+                if ($term) {
+                  echo esc_html($term->name);
+                }
+              ?>
+          </p>
+          <div class="embed-container">
+            <?php the_field('video_link'); ?>
+          </div>
+        </div>
       </div>
+
       <style>
         .embed-container { 
           position: relative; 
@@ -55,7 +61,6 @@
           height: 100%;
         }
       </style>
-      
     </div>
     <?php endwhile; ?>
     
