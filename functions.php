@@ -237,6 +237,17 @@ function cjrtec_home_content($wp_customize){
     'type' => 'textarea'
   )));
 
+  $wp_customize->add_setting('cjrtec_first_box_link_edit', array(
+    'default' => 'Link here'
+  ));
+
+  $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'cjrtec_first_box_link_control', array(
+    'label' => 'First Box Link',
+    'section' => 'cjrtec_free_quote_section',
+    'settings' => 'cjrtec_first_box_link_edit'
+  )));
+
+
   $wp_customize->add_setting('cjrtec_second_box_edit', array(
     'default' => 'Second Box Content'
   ));
@@ -248,17 +259,118 @@ function cjrtec_home_content($wp_customize){
     'type' => 'textarea'
   )));
 
+  $wp_customize->add_setting('cjrtec_second_box_link_edit', array(
+    'default' => 'Link here'
+  ));
 
-  $wp_customize->add_setting('cjrtec_top_home_image');
-
-  $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'cjrtec_top_home_image_control', array(
-    'label' => 'Background Image',
+  $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'cjrtec_second_box_link_control', array(
+    'label' => 'Second Box Link',
     'section' => 'cjrtec_free_quote_section',
-    'settings' => 'cjrtec_top_home_image',
-    'height' => 700,
-    'width' => 1000
+    'settings' => 'cjrtec_second_box_link_edit'
+  )));
+
+
+
+//carousel images content
+  $wp_customize->add_setting('cjrtec_1st_carousel_image');
+
+  $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'cjrtec_1st_carousel_control', array(
+    'label' => '1st Slide Carousel Image',
+    'section' => 'cjrtec_free_quote_section',
+    'settings' => 'cjrtec_1st_carousel_image',
+    'height' => 1000,
+    'width' => 1500
 
   )));
+
+  $wp_customize->add_setting('cjrtec_2nd_carousel_image');
+
+  $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'cjrtec_2nd_carousel_control', array(
+    'label' => '2nd Slide Carousel Image',
+    'section' => 'cjrtec_free_quote_section',
+    'settings' => 'cjrtec_2nd_carousel_image',
+    'height' => 1000,
+    'width' => 1500
+
+  )));
+
+  $wp_customize->add_setting('cjrtec_3rd_carousel_image');
+
+  $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'cjrtec_3rd_carousel_control', array(
+    'label' => '3rd Slide Carousel Image',
+    'section' => 'cjrtec_free_quote_section',
+    'settings' => 'cjrtec_3rd_carousel_image',
+    'height' => 1000,
+    'width' => 1500
+
+  )));
+
+  $wp_customize->add_setting('cjrtec_4th_carousel_image');
+
+  $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'cjrtec_4th_carousel_control', array(
+    'label' => '4th Slide Carousel Image',
+    'section' => 'cjrtec_free_quote_section',
+    'settings' => 'cjrtec_4th_carousel_image',
+    'height' => 1000,
+    'width' => 1500
+
+  )));
+
+  $wp_customize->add_setting('cjrtec_5th_carousel_image');
+
+  $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'cjrtec_5th_carousel_control', array(
+    'label' => '5th Slide Carousel Image',
+    'section' => 'cjrtec_free_quote_section',
+    'settings' => 'cjrtec_5th_carousel_image',
+    'height' => 1000,
+    'width' => 1500
+
+  )));
+
+  $wp_customize->add_setting('cjrtec_6th_carousel_image');
+
+  $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'cjrtec_6th_carousel_control', array(
+    'label' => '6th Slide Carousel Image',
+    'section' => 'cjrtec_free_quote_section',
+    'settings' => 'cjrtec_6th_carousel_image',
+    'height' => 1000,
+    'width' => 1500
+
+  )));
+
+  $wp_customize->add_setting('cjrtec_7th_carousel_image');
+
+  $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'cjrtec_7th_carousel_control', array(
+    'label' => '7th Slide Carousel Image',
+    'section' => 'cjrtec_free_quote_section',
+    'settings' => 'cjrtec_7th_carousel_image',
+    'height' => 1000,
+    'width' => 1500
+
+  )));
+
+  $wp_customize->add_setting('cjrtec_8th_carousel_image');
+
+  $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'cjrtec_8th_carousel_control', array(
+    'label' => '8th Slide Carousel Image',
+    'section' => 'cjrtec_free_quote_section',
+    'settings' => 'cjrtec_8th_carousel_image',
+    'height' => 1000,
+    'width' => 1500
+
+  )));
+
+  $wp_customize->add_setting('cjrtec_9th_carousel_image');
+
+  $wp_customize->add_control( new WP_Customize_Cropped_Image_Control($wp_customize, 'cjrtec_9th_carousel_control', array(
+    'label' => '9th Slide Carousel Image',
+    'section' => 'cjrtec_free_quote_section',
+    'settings' => 'cjrtec_9th_carousel_image',
+    'height' => 1000,
+    'width' => 1500
+
+  )));
+
 
 
   //second row content
@@ -305,13 +417,23 @@ function cjrtec_home_content($wp_customize){
     'settings' => 'cjrtec_link_title_edit'
   )));
 
-  $wp_customize->add_setting('cjrtec_link_edit');
+  // $wp_customize->add_setting('cjrtec_link_edit');
+
+  // $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'cjrtec_link_control', array(
+  //   'label' => 'Link',
+  //   'section' => 'cjrtec_free_quote_section',
+  //   'settings' => 'cjrtec_link_edit',
+  //   'type' => 'dropdown-pages'
+  // )));
+
+  $wp_customize->add_setting('cjrtec_link_edit', array(
+    'default' => 'Link here'
+  ));
 
   $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'cjrtec_link_control', array(
     'label' => 'Link',
     'section' => 'cjrtec_free_quote_section',
     'settings' => 'cjrtec_link_edit',
-    'type' => 'dropdown-pages'
   )));
 
   $wp_customize->add_setting('cjrtec_second_row_image');
@@ -387,7 +509,6 @@ function cjrtec_home_content($wp_customize){
     'label' => 'First Link',
     'section' => 'cjrtec_free_quote_section',
     'settings' => 'cjrtec_first_link_edit',
-    'type' => 'dropdown-pages'
   )));
 
 
@@ -440,8 +561,7 @@ function cjrtec_home_content($wp_customize){
   $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'cjrtec_second_link_control', array(
     'label' => 'Second Link',
     'section' => 'cjrtec_free_quote_section',
-    'settings' => 'cjrtec_second_link_edit',
-    'type' => 'dropdown-pages'
+    'settings' => 'cjrtec_second_link_edit'
   )));
 
 
@@ -494,8 +614,7 @@ function cjrtec_home_content($wp_customize){
   $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'cjrtec_third_link_control', array(
     'label' => 'Third Link',
     'section' => 'cjrtec_free_quote_section',
-    'settings' => 'cjrtec_third_link_edit',
-    'type' => 'dropdown-pages'
+    'settings' => 'cjrtec_third_link_edit'
   )));
 
 
@@ -549,7 +668,6 @@ function cjrtec_home_content($wp_customize){
     'label' => 'Fourth Link',
     'section' => 'cjrtec_free_quote_section',
     'settings' => 'cjrtec_fourth_link_edit',
-    'type' => 'dropdown-pages'
   )));
 
 
@@ -619,7 +737,7 @@ function cjrtec_home_content($wp_customize){
 
 }
 add_action('customize_register', 'cjrtec_home_content');
-
+  
 
 
 ?>

@@ -22,6 +22,9 @@ body{
 	height: 100% !important;
 
 }
+nav {
+  box-shadow: 0 2px 4px 0 rgb(255, 88, 41);
+}
 
 .navbar{
 	background-color: black;
@@ -86,6 +89,35 @@ ul > li.active a{
 	padding-right: 20px;
 	color: rgb(255, 88, 41);
 }
+/*.btn-orange-contact{
+	background-color:  rgb(255, 88, 41);
+	color: white;
+}
+.btn-orange-contact:hover{
+	background-color: transparent;
+	color: white;
+}
+.btn-black-register{
+	background-color: black;
+	color: white;
+}
+.btn-black-register:hover{
+	background-color: transparent;
+	color: white;
+}*/
+.call-us{
+	color: white;
+}
+.call-us:hover{
+	color: rgb(255, 88, 41);
+}
+.get-started{
+	color: black;
+}
+.get-started:hover{
+	color: white;
+}
+
 
 /* CSS for navbar toggler animations */
 .navbar-toggler .top-bar {
@@ -122,8 +154,26 @@ ul > li.active a{
   margin-top: 4px;
 
 }
+.carousel-inner{
+  width: 100%; 
+  height: 100%; 
+  padding: none !important;
+}
+.img-car{
+	height: 700px;
+	width: 100%;
+}
+ .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-right: 10px;
 
+}
 
+#h1_fade{
+	font-size: 50px;
+}
 /*Fixed top for navbar & some content on top*/
 
 .sticky {
@@ -154,7 +204,6 @@ h1{
 	background-color: black;
 	width: 30%;
 	padding: 30px 30px 30px 30px;
-	color:white;
 }
 
 .second-box{
@@ -178,7 +227,7 @@ h1{
 }
 
 .h1-text{
-	color:black !important;
+	color:white !important;
 }
 
 .half-content-text{
@@ -200,6 +249,12 @@ h1{
 .btn-black{
 	background-color: black;
 	color: white;
+	padding: 30px 30px 30px 30px;
+	border-radius: 20px;
+}
+.btn-black:hover{
+	background-color: transparent;
+	color: black
 }
 
 .img-half{
@@ -266,7 +321,9 @@ h1{
 .card-body{
 	color: black !important;
 }
-
+.card-img-top{
+	height: 500px;
+}
 .btn-cjr{
 	background-color:  rgb(255, 88, 41);
 	color: black;
@@ -303,6 +360,10 @@ h1{
 	color: black;
 		padding: 50px 50px 50px 50px;
 	text-align: center;
+}
+#img_row{
+	height: 100px;
+	margin-bottom: 30px;
 }
 
 footer{
@@ -358,11 +419,66 @@ footer{
 .flex-container{
 	display: flex;
     background-color: #fff;
+ 
+
 }
 .flex-container > div{
-	padding: 20px;
-	margin:10px;
+	padding: 12px;
+	margin:12px;
 }
+
+ul{
+	list-style-type: none;
+}
+
+ul>li>a{
+	color: white;
+	font-size: 12px;
+}
+
+#ul_li_inline > li{
+	display: inline;
+	font-size: 12px;
+}
+.col-copyright-footer{
+	color: white;
+	font-size: 12px;
+}
+
+#ul_check {
+  list-style: none;
+}
+#ul_check li{
+	margin: 0 0 10px 0;
+	font-size: 18px;
+}
+#ul_check li > a{
+	color: rgb(255, 88, 41);
+	font-size: 18px;
+}
+
+#ul_check li:before {
+  content: '✓';
+  color: rgb(255, 88, 41); 
+  font-weight: 900;
+}
+.orange{
+	color: rgb(255, 88, 41);
+}
+.row-numbers{
+	background-color: #fda729;
+	padding: 100px 50px 100px 50px;
+	color: black;
+}
+.h5-number-title{
+	margin-top: 20px !important;
+	margin-left: 20px !important;
+}
+h1 .Count{
+	font-weight: bolder;
+}
+
+
 
 
 /*Responsive Design*/
@@ -385,13 +501,13 @@ footer{
 	    }
 
 	    .first-box{
-		  width: 30%;
+		  width: 40%;
 		  padding: 30px 40px 30px 20px;
 		  font-size: 10px !important;
 		}
 
 		.second-box{
-		  width: 30%;
+		  width: 40%;
 		  padding: 30px 40px 30px 20px;
 		  font-size: 10px !important;
 		}
@@ -431,12 +547,42 @@ footer{
 			margin-bottom: 30px;
 		}
 		.flex-container > div > img{
-			width: 50px;
-			height: 50px;
+			width: 30px;
+			height: 30px;
+
 		}
+
 		.flex-container > div{
-			padding: 5px;
-			margin: 5px;
+			padding: 5px !important;
+			margin: 5px !important;
+		}
+		.ptitle{
+			margin-left: -170px;
+		}
+		.row-footer-content{
+			margin-left: -100px;
+		}
+		#ul_li_inline{
+			margin-left: 45px;
+		}
+		.free-quote{
+			padding-top: 20px !important;
+		}
+
+		.img-responsive{
+			width: 100%;
+		}
+		#ul_check{
+		    margin-left: -40px;
+		}
+		.h5-number-title{
+			font-size: 20px;
+		}
+		.Count{
+			font-size: 34px;
+		}
+		.row-title-h1{
+			font-size: 30px;
 		}
   }
 
@@ -459,13 +605,13 @@ footer{
 	    }
 
 	    .first-box{
-		  width: 30%;
+		  width: 40%;
 		  padding: 30px 40px 30px 20px;
 		  font-size: 10px !important;
 		}
 
 		.second-box{
-		  width: 30%;
+		  width: 40%;
 		  padding: 30px 40px 30px 20px;
 		  font-size: 10px !important;
 		}
@@ -502,12 +648,40 @@ footer{
 			margin-bottom: 30px;
 		}
 		.flex-container > div > img{
-			width: 50px;
-			height: 50px;
+			width: 40px;
+			height: 40px;
 		}
 		.flex-container > div{
-			padding: 10px;
+			padding: 5px;
 			margin: 5px;
+		}
+		.ptitle{
+			margin-left: -200px;
+		}
+		.row-footer-content{
+			margin-left: -100px;
+		}
+		#ul_li_inline{
+			margin-left: 55px;
+		}
+		.free-quote{
+			padding-top: 20px !important;
+		}
+
+		.img-responsive{
+			width: 100%;
+		}
+		#ul_check{
+		    margin-left: -40px;
+		}
+		.h5-number-title{
+			font-size: 20px;
+		}
+		.Count{
+			font-size: 34px;
+		}
+		.row-title-h1{
+			font-size: 30px;
 		}
 
   }
@@ -530,13 +704,13 @@ footer{
 	    }
 
 	    .first-box{
-		  width: 30%;
+		  width: 40%;
 		  padding: 10px 10px 10px 10px;
 		  font-size: 10px !important;
 		}
 
 		.second-box{
-		  width: 30%;
+		  width: 40%;
 		  padding: 10px 10px 10px 10px;
 		  font-size: 10px !important;
 		}
@@ -575,12 +749,40 @@ footer{
 			margin-bottom: 30px;
 		}
 		.flex-container > div > img{
-			width: 50px;
-			height: 50px;
+			width: 30px;
+			height: 30px;
 		}
 		.flex-container > div{
 			padding: 3px;
 			margin: 3px;
+		}
+		.ptitle{
+			margin-left: -130px;
+		}
+		.row-footer-content{
+			margin-left: -100px;
+		}
+		#ul_li_inline{
+			margin-left: 20px;
+		}
+		.free-quote{
+			padding-top: 20px !important;
+		}
+
+		.img-responsive{
+			width: 100%;
+		}
+		#ul_check{
+		    margin-left: -40px;
+		}
+		.h5-number-title{
+			font-size: 20px;
+		}
+		.Count{
+			font-size: 34px;
+		}
+		.row-title-h1{
+			font-size: 30px;
 		}
 
   }
@@ -603,13 +805,13 @@ footer{
 	    }
 
 	    .first-box{
-		  width: 30%;
+		  width: 40%;
 		  padding: 20px 40px 20px 20px;
 		  font-size: 10px !important;
 		}
 
 		.second-box{
-		  width: 30%;
+		  width: 40%;
 		  padding: 20px 40px 20px 20px;
 		  font-size: 10px !important;
 		}
@@ -645,12 +847,40 @@ footer{
 			margin-bottom: 30px;
 		}
 		.flex-container > div > img{
-			width: 50px;
-			height: 50px;
+			width: 30px;
+			height: 30px;
 		}
 		.flex-container > div{
 			padding: 5px;
 			margin: 5px;
+		}
+		.ptitle{
+			margin-left: -200px;
+		}
+		.row-footer-content{
+			margin-left: -100px;
+		}
+		#ul_li_inline{
+			margin-left: 40px;
+		}
+		.free-quote{
+			padding-top: 20px !important;
+		}
+
+		.img-responsive{
+			width: 100%;
+		}
+		#ul_check{
+		    margin-left: -40px;
+		}
+		.h5-number-title{
+			font-size: 20px;
+		}
+		.Count{
+			font-size: 34px;
+		}
+		.row-title-h1{
+			font-size: 30px;
 		}
 
   }
@@ -675,13 +905,13 @@ footer{
 	    }
 
 	    .first-box{
-		  width: 30%;
+		  width: 40%;
 		  padding: 20px 40px 20px 20px;
 		  font-size: 10px !important;
 		}
 
 		.second-box{
-		  width: 30%;
+		  width: 40%;
 		  padding: 20px 40px 20px 20px;
 		  font-size: 10px !important;
 		}
@@ -718,12 +948,24 @@ footer{
 			margin-bottom: 30px;
 		}
 		.flex-container > div > img{
-			width: 50px;
-			height: 50px;
+			width: 30px;
+			height: 30px;
 		}
 		.flex-container > div{
 			padding: 10px;
 			margin: 5px;
+		}
+		.ptitle{
+			margin-left: -200px;
+		}
+		.row-footer-content{
+			margin-left: -110px;
+		}
+		#ul_li_inline{
+			margin-left: 70px;
+		}
+		.free-quote{
+			padding-top: 20px !important;
 		}
 
   }
@@ -737,93 +979,7 @@ footer{
   		}
 
   		.half-content-text{
-			padding: 100px 20px 20px 80px;
-		}
-
-		.r-1, .r-2, .r-3{
-			padding: 10px 10px 10px 10px;
-		}
-
-		.centered-text{
-			font-size: 25px;
-			text-align: center;
-		}
-		.h2-text{
-			font-size: 20px;
-		}
-		.row-foot-c{
-			padding: 5px 10px 5px 10px
-		}
-		.col-car-customers{
-			padding: 0px 10px 0px 10px; 
-			margin-bottom: 20px;
-		}
-		.col-car-company{
-			padding: 0px 10px 0px 10px; 
-			margin-bottom: 30px;
-		}
-		.flex-container > div > img{
-			width: 100px;
-			height: 100px;
-		}
-		.flex-container > div{
-			padding: 20px;
-			margin: 5px;
-		}
-
-  }
-
-         /* Ipad Pro */
-  @media screen and (device-width: 1024px) and (orientation:portrait) {
-
-  	  .flex-container > div > img{
-			width: 100px;
-			height: 100px;
-		}
-		.flex-container > div{
-			padding: 6px;
-			margin: 6px;
-		}
-
-  }
-
-
-       /* Surface Duo */
-  @media screen and (device-width: 540px) and (orientation:portrait) {
-
-	  .sticky {
-	 	 position: sticky;
-		}
-	  .upper-content{
-	     display: none;
-	    }
-	   .div-content-image{
-	     position: absolute;
-	     margin-top: -200px;
-	    }
-	    #h1_fade{
-	     font-size: 30px !important;
-	    }
-
-	    .first-box{
-		  width: 30%;
-		  padding: 20px 20px 20px 20px;
-		  font-size: 15px !important;
-		}
-
-		.second-box{
-		  width: 30%;
-		  padding: 20px 20px 20px 20px;
-		  font-size: 15px !important;
-		}
-
-		#row_fade{
-			margin-left: 5px;
-		}
-
-		#h1_fade{
-			margin-left: -50px;
-
+			padding: 50px 30px 30px 30px;
 		}
 
 		.r-1, .r-2, .r-3{
@@ -853,8 +1009,138 @@ footer{
 			height: 70px;
 		}
 		.flex-container > div{
+			padding: 17px;
+			margin: 5px;
+		}
+		.free-quote{
+			padding-top: 20px !important;
+		}
+		.row-cjr-list{
+			margin-left: -80px;
+		}
+
+  }
+
+         /* Ipad Pro */
+  @media screen and (device-width: 1024px) and (orientation:portrait) {
+
+  	  .flex-container > div > img{
+			width: 70px;
+			height: 170px;
+		}
+		.flex-container > div{
+			padding: 6px;
+			margin: 6px;
+		}
+		.row-cjr-list{
+			margin-left: -50px;
+		}
+		.half-content-text{
+	   padding: 50px 100px 50px 100px;
+	}
+
+  }
+
+
+       /* Surface Duo */
+  @media screen and (device-width: 540px) and (orientation:portrait) {
+
+	  .sticky {
+	 	 position: sticky;
+
+		}
+	  .upper-content{
+	     display: none !important;
+	    }
+	    #content_top_fixed{
+	    	display: none;
+	    }
+	   .div-content-image{
+	     position: absolute;
+	     margin-top: -300px;
+	    }
+	    #h1_fade{
+	     font-size: 30px !important;
+	    }
+
+	    .first-box{
+		  width: 30%;
+		  padding: 20px 20px 20px 20px;
+		  font-size: 15px !important;
+		}
+
+		.second-box{
+		  width: 30%;
+		  padding: 20px 20px 20px 20px;
+		  font-size: 15px !important;
+		}
+
+		#row_fade{
+			margin-left: 5px;
+		}
+
+		#h1_fade{
+			margin-left: -50px;
+
+		}
+
+		.r-1, .r-2, .r-3{
+			padding: 10px 10px 10px 10px;
+		}
+
+		.centered-text{
+			font-size: 25px;
+			text-align: center;
+		}
+		.h2-text{
+			font-size: 20px;
+		}
+		.row-foot-c{
+			padding: 5px 10px 5px 10px
+		}
+		.col-car-customers{
+			padding: 0px 10px 0px 10px; 
+			margin-bottom: 20px;
+		}
+		.col-car-company{
+			padding: 0px 10px 0px 10px; 
+			margin-bottom: 30px;
+		}
+		.flex-container > div > img{
+			width: 40px;
+			height: 40px;
+		}
+		.flex-container > div{
 			padding: 10px;
 			margin: 7px;
+		}
+		.free-quote{
+			padding-top: 20px !important;
+		}
+		.ptitle{
+			margin-left: -350px;
+		}
+		.row-footer-content{
+			margin-left: -120px;
+		}
+		#ul_li_inline{
+			margin-left: 140px;
+		}
+
+		.img-responsive{
+			width: 100%;
+		}
+		#ul_check{
+		    margin-left: -40px;
+		}
+		.h5-number-title{
+			font-size: 20px;
+		}
+		.Count{
+			font-size: 34px;
+		}
+		.row-title-h1{
+			font-size: 30px;
 		}
 
   }
@@ -877,13 +1163,13 @@ footer{
 	    }
 
 	    .first-box{
-		  width: 30%;
+		  width: 40%;
 		  padding: 20px 20px 20px 20px;
 		  font-size: 8px !important;
 		}
 
 		.second-box{
-		  width: 30%;
+		  width: 40%;
 		  padding: 20px 20px 20px 20px;
 		  font-size: 8px !important;
 		}
@@ -898,6 +1184,9 @@ footer{
 		}
 		.h1-text{
 			font-size: 25px;
+		}
+		.row-title-h1{
+			font-size: 30px;
 		}
 
 		.r-1, .r-2, .r-3{
@@ -924,12 +1213,44 @@ footer{
 			margin-bottom: 30px;
 		}
 		.flex-container > div > img{
-			width: 33px;
-			height: 33px;
+			width: 20px;
+			height: 20px;
 		}
 		.flex-container > div{
 			padding: 5px;
 			margin: 5px;
+		}
+		.free-quote{
+			padding-top: 20px;
+		}
+		.row-cjr-list{
+			margin-left: -50px;
+		}
+		.ptitle{
+			margin-left: -100px;
+		}
+		.row-footer-content{
+			margin-left: -110px;
+		}
+
+		.col-foot-c{
+			padding: 20px 20px 20px 20px;
+		}
+
+		.img-responsive{
+			width: 100%;
+		}
+		#ul_check{
+		    margin-left: -40px;
+		}
+		.h5-number-title{
+			font-size: 20px;
+		}
+		.Count{
+			font-size: 34px;
+		}
+		.row-title-h1{
+			font-size: 30px;
 		}
 
   }
