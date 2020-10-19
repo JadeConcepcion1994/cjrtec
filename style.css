@@ -1253,4 +1253,11 @@ h1 .Count{
 			font-size: 30px;
 		}
 
-  }
+	}
+
+/* ACCESSORIES PAGE */
+#accessories .card .card-img-top {
+	height: auto;
+	padding: 1.25rem;
+}
+
