@@ -35,45 +35,46 @@
               <?php the_title(); ?>
             </h5>
             <div class="card-text">
-              Item#: <?php echo the_field('item_number', $post) ?> <br>
-              
-              Category:
-              <?php 
-                $term = get_field('category_group'); 
-                if ($term) {
-                  echo esc_html($term->name);
-                }
-              ?>
+              <div class="card-text-item">
+                Item#: <?php echo the_field('item_number', $post) ?>
+              </div>
+              <div class="card-text-features">
+                <!-- LOOP THROUGH FEATURES -->
+                <?php if( have_rows('features') ): ?>
+                  <?php while( have_rows('features') ): the_row(); 
 
-              <br>
-              
-              Features:
-              <!-- LOOP THROUGH FEATURES -->
-              <?php if( have_rows('features') ): ?>
-                <?php while( have_rows('features') ): the_row(); 
-
-                  // Get sub field values.
-                  $feature_1 = get_sub_field('feature_1');
-                  $feature_2 = get_sub_field('feature_2');
-                  $feature_3 = get_sub_field('feature_3');
-                  $feature_4 = get_sub_field('feature_4');
-                  $feature_5 = get_sub_field('feature_5');
-                  
-                  ?>
-                  
-                  <!-- Display field values. -->
-                  <ul>
-                    <li><?php echo $feature_1; ?></li>
-                    <li><?php echo $feature_2; ?></li>
-                    <li><?php echo $feature_3; ?></li>
-                    <li><?php echo $feature_4; ?></li>
-                    <li><?php echo $feature_5; ?></li>
-                  </ul>
+                    // Get sub field values.
+                    $feature_1 = get_sub_field('feature_1');
+                    $feature_2 = get_sub_field('feature_2');
+                    $feature_3 = get_sub_field('feature_3');
+                    $feature_4 = get_sub_field('feature_4');
+                    $feature_5 = get_sub_field('feature_5');
                     
-                <?php endwhile; ?>
-              <?php endif; ?>
-
-              <a href="#login" class="btn btn-success">View Price</a>
+                    ?>
+                    
+                    <!-- Display field values. -->
+                    <ul>
+                      <li><?php echo $feature_1; ?></li>
+                      <li><?php echo $feature_2; ?></li>
+                      <li><?php echo $feature_3; ?></li>
+                      <li><?php echo $feature_4; ?></li>
+                      <li><?php echo $feature_5; ?></li>
+                    </ul>
+                      
+                  <?php endwhile; ?>
+                <?php endif; ?>
+              </div>
+              <div class="card-text-category">
+                Category:
+                <?php 
+                  $term = get_field('category_group'); 
+                  if ($term) {
+                    echo esc_html($term->name);
+                  }
+                ?>
+              </div>
+              
+              <a href="#login" class="card-text-cta btn btn-success">View Price</a>
               
             </div>
           </div>

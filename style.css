@@ -1295,3 +1295,20 @@ h1 .Count{
 	margin: 2rem 0;
 	font-size: 36px;
 }
+
+#cp-parts .card .card-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#cp-parts .card .card-body img {
+	width: 50%;
+  height: auto;
+}
+
+#cp-parts .card .card-body .card-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
