@@ -9,7 +9,6 @@
 <section id="videos">
   <div class="container">
     <h1 class="my-4"><?php the_title(); ?></h1>
-    <p></p>
     <div class="row">
       
       <?php 
@@ -23,7 +22,7 @@
           $post = get_the_ID();
       ?>
       <div class="col-lg-6 mb-5">
-        <div class="card">
+        <div class="card aos-init aos-animate" data-aos="fade-up">
           <div class="card-body">
             
             <h5 class="card-title"><?php the_title(); ?></h5>
