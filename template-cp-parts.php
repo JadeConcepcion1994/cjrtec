@@ -25,9 +25,9 @@
       ?>
 
 
-      <div class="col-md-6 col-lg-4 my-3">
+      <div class="col-md-6 col-lg-3 my-3">
 
-        <div class="card h-100">
+        <div class="card h-100 aos-init aos-animate" data-aos="fade-up">
           
           <div class="card-body">
             <img src="<?php echo the_field('image', $post); ?>" alt="image">
