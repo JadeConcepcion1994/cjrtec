@@ -1299,16 +1299,35 @@ h1 .Count{
 #cp-parts .card .card-body {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	/* justify-content: space-between; */
+	align-items: center;
 }
 
-#cp-parts .card .card-body img {
-	width: 50%;
-  height: auto;
+#cp-parts .card .card-body .card-heading {
+	text-align: center;
+}
+
+#cp-parts .card .card-body .card-heading img {
+	width: auto;
+  height: 125px;
 }
 
 #cp-parts .card .card-body .card-text {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	align-items: center;
+}
+
+#cp-parts .card .card-body .card-text .card-text-features ul {
+	margin: 0;
+	padding: 1.25rem 0;
+
+	text-align: center;
+	font-size: 0.9rem;
+}
+
+#cp-parts .card .card-cta {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	
 }
