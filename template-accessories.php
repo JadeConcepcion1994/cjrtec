@@ -22,29 +22,28 @@
           $post = get_the_ID();
       ?>
       <div class="col-md-6 col-lg-4 mb-4"> 
-        
-      
-        <div class="card h-100">
-          <img class="card-img-top" src="<?php echo the_field('image', $post); ?>" alt="card image">
-          <div class="card-body">
-            <h5 class="card-title">
-              <?php the_title(); ?>
-            </h5>
-            <p class="card-text">
-              Model: <?php echo the_field('model_number', $post) ?> <br>
-              Description: <?php echo the_field('description', $post) ?> <br>
-              Type: 
-                <?php 
-                  $term = get_field('category_group'); 
-                  if ($term) {
-                    echo esc_html($term->name);
-                  }
-                ?>
-            </p>
+        <!-- animate -->
+        <div data-aos="fade-up" class="aos-init aos-animate">
+          <div class="card h-100">
+            <img class="card-img-top" src="<?php echo the_field('image', $post); ?>" alt="card image">
+            <div class="card-body">
+              <h5 class="card-title">
+                <?php the_title(); ?>
+              </h5>
+              <p class="card-text">
+                Model: <?php echo the_field('model_number', $post) ?> <br>
+                Description: <?php echo the_field('description', $post) ?> <br>
+                Type: 
+                  <?php 
+                    $term = get_field('category_group'); 
+                    if ($term) {
+                      echo esc_html($term->name);
+                    }
+                  ?>
+              </p>
+            </div>
           </div>
         </div>
-
-
       </div>
       <?php endwhile; ?>
       
