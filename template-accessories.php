@@ -11,7 +11,6 @@
     <h1 class="my-4"><?php the_title(); ?></h1>
     <div class="mb-5"><?php the_content(); ?></div>
     <div class="row">
-      
       <?php 
         $args = array('post_type' => 'cp_accessories');
           $the_query = new WP_Query( $args );
@@ -22,8 +21,10 @@
         while ( $the_query->have_posts() ) : $the_query->the_post();
           $post = get_the_ID();
       ?>
-      <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
-        <div class="card">
+      <div class="col-sm-6 col-md-4 col-lg-3 mb-4"> 
+        
+      
+        <div class="card h-100">
           <img class="card-img-top" src="<?php echo the_field('image', $post); ?>" alt="card image">
           <div class="card-body">
             <h5 class="card-title">
@@ -42,6 +43,8 @@
             </p>
           </div>
         </div>
+
+
       </div>
       <?php endwhile; ?>
       
