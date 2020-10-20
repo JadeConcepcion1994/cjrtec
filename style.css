@@ -1257,6 +1257,7 @@ h1 .Count{
 
 /* ACCESSORIES PAGE */
 #accessories h1 {
+	margin: 2rem 0;
 	font-size: 36px;
 }
 
@@ -1267,6 +1268,7 @@ h1 .Count{
 
 /* VIDEOS PAGE */
 #videos h1 {
+	margin: 2rem 0;
 	font-size: 36px;
 }
 

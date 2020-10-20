@@ -8,8 +8,8 @@
 
 <section id="accessories">
   <div class="container">
-    <h1 class="my-4"><?php the_title(); ?></h1>
-    <div class="mb-5"><?php the_content(); ?></div>
+    <!-- <h1 class="my-4"><?php // the_title(); ?></h1> -->
+    <?php the_content(); ?>
     <div class="row">
       <?php 
         $args = array('post_type' => 'cp_accessories');
@@ -21,7 +21,7 @@
         while ( $the_query->have_posts() ) : $the_query->the_post();
           $post = get_the_ID();
       ?>
-      <div class="col-md-6 col-lg-4 mb-4"> 
+      <div class="col-md-6 col-lg-4 my-4"> 
         
         <div class="card h-100 aos-init aos-animate" data-aos="fade-up">
           <img class="card-img-top" src="<?php echo the_field('image', $post); ?>" alt="card image">

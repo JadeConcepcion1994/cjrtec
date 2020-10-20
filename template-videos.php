@@ -8,9 +8,9 @@
 
 <section id="videos">
   <div class="container">
-    <h1 class="my-4"><?php the_title(); ?></h1>
+    <!-- <h1 class="my-4"><?php // the_title(); ?></h1> -->
+    <?php the_content(); ?>
     <div class="row">
-      
       <?php 
         $args = array('post_type' => 'cjrtec_videos');
           $the_query = new WP_Query( $args );
