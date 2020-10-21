@@ -1435,3 +1435,21 @@ h1 .Count{
 		order: 1;
 	}
 }
+
+
+
+/* USED CLICKER PRESS PAGE */
+#used-clicker-press h1 {
+	margin: 2rem 0;
+	font-size: 36px;
+	text-align: center;
+}
+
+#used-clicker-press .row.d-flex {
+	align-items: center;
+}
+
+#used-clicker-press .col-md-5.d-flex {
+	justify-content: center;
+	margin: 3rem 0;
+}
