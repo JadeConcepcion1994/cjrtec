@@ -1331,3 +1331,13 @@ h1 .Count{
 	border-top-right-radius: 0;
 	
 }
+
+#cutting-boards h1 {
+	margin: 2rem 0;
+	font-size: 36px;
+}
+
+#cutting-boards table th,
+#cutting-boards table td {
+	border: 1px solid #cccccc;
+}
