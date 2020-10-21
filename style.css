@@ -1380,3 +1380,44 @@ h1 .Count{
 	font-size: 28px;
 	text-align: center;
 }
+
+
+/* WARRANTY PAGE */
+#warranty h1 {
+	/* margin: 2rem 0; */
+	font-size: 36px;
+	text-align: center;
+}
+
+#warranty ul {
+	margin: 0;
+	padding: 0;
+}
+
+#warranty ul li {
+	padding-bottom: 0.5rem;
+}
+
+#warranty ul li a {
+	color: #F39C12;
+	font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+	#warranty .row .col-md-4 {
+		order: 2;
+
+		margin-top: 2rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	#warranty .row .col-md-4 img {
+		width: 50%;
+	}
+
+	#warranty .row .col-md-8 {
+		order: 1;
+	}
+}
