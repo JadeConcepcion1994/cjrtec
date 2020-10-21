@@ -16,7 +16,7 @@
 
         <p>Most customers were completely unaware of this transition from Italian to Chinese machines and only discovered the issue after they had a machine go down and began searching for replacement parts. They learned the hard way that the older Italian machines were not compatible with the newer Chinese models.</p>
 
-        <a href="#china-steel-page">Click here to learn more about presses from China <i class="fa fa-chevron-right"></i></a>
+        <a href="<?php echo site_url(); ?>/china-steel">Click here to learn more about presses from China <i class="fa fa-chevron-right"></i></a>
       </div>
       
       <div class="col-md-5 d-flex mt-lg-0">
