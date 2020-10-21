@@ -29,11 +29,25 @@
 
     <p>There are, of course, some good second-hand presses out there. You just need to be more careful as you check out the vendor and the machine. A good way to avoid a potential problem is to deal with providers that give warranty for their products. At CJRTec, we offer a 12-month full warranty on all of our presses. We even offer extended warranties for as long as five years.</p>
 
-    <p>The bottom line is, CJRTec is the only clicker press manufacturer in America – which means we can get parts and service to you far quicker than any other company and you can be back up and running right away, should something unexpected happen.</p>
+    <p class="mb-4">The bottom line is, CJRTec is the only clicker press manufacturer in America – which means we can get parts and service to you far quicker than any other company and you can be back up and running right away, should something unexpected happen.</p>
 
-    <a href="http://cjrtec-dev.test/accessories/">View Our Press Accessories Here &gt;&gt;</a>
-    <a href="#used-clicker-press">Learn About Used Presses &gt;&gt;</a>
-    <a href="#warranty">Read Our Warranty Policy &gt;&gt;</a>
+    <ul class="mb-4">
+      <li>
+        <a href="<?php echo site_url(); ?>/accessories">
+          View Our Press Accessories Here <i class="fa fa-chevron-right"></i>
+        </a>
+      </li>  
+      <li>
+        <a href="<?php echo site_url(); ?>/used-clicker-press">
+          Learn About Used Presses <i class="fa fa-chevron-right"></i>
+        </a>
+      </li>
+      <li>
+        <a href="<?php echo site_url(); ?>/warranty">
+          Read Our Warranty Policy <i class="fa fa-chevron-right"></i>
+        </a>
+      </li>
+    </ul>
 
     <!-- get items from CP Parts CPT -->
     <div class="row mb-5">

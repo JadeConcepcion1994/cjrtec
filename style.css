@@ -1302,6 +1302,20 @@ h1 .Count{
 	font-size: 36px;
 }
 
+#cp-parts ul {
+	margin: 0;
+	padding: 0;
+}
+
+#cp-parts ul li {
+	padding-bottom: 0.25rem;
+}
+
+#cp-parts ul li a {
+	color: #F39C12;
+	font-size: 1rem;
+}
+
 #cp-parts .card .card-body {
 	display: flex;
 	flex-direction: column;

@@ -30,22 +30,22 @@
 
         <ul>
           <li>
-            <a href="<?php echo site_url(); ?>/cjrterms/">Read our terms and conditions 
+            <a href="<?php echo site_url(); ?>/cjrterms">Read our terms and conditions 
               <i class="fa fa-chevron-right"></i>
             </a>
           </li>
           <li>
-            <a href="<?php echo site_url(); ?>/about/">Learn more about us 
+            <a href="<?php echo site_url(); ?>/about">Learn more about us 
               <i class="fa fa-chevron-right"></i>
             </a>
           </li>
           <li>
-            <a href="<?php echo site_url(); ?>/clicker-press-parts/">Shop clicker press parts 
+            <a href="<?php echo site_url(); ?>/clicker-press-parts">Shop clicker press parts 
               <i class="fa fa-chevron-right"></i>
             </a>
           </li>
           <li>
-          <a href="<?php echo site_url(); ?>/clicker-press/">Shop swing arm press and other machines 
+          <a href="<?php echo site_url(); ?>/clicker-press">Shop swing arm press and other machines 
             <i class="fa fa-chevron-right"></i>
           </a>
           </li>

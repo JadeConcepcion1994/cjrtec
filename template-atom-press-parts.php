@@ -32,7 +32,7 @@
 
         <p>In an effort to be of service to our customers, we have worked hard to track down spare parts for the well-built, Italian presses. Locating usable parts has been a difficult process but we have finally been successful in finding some reliable sources – to get you back up and running should your press go down.</p>
 
-        <a href="#clicker-press-parts">Click here to view our clicker press parts <i class="fa fa-chevron-right"></i></a>
+        <a href="<?php echo site_url(); ?>/clicker-press-parts">Click here to view our clicker press parts <i class="fa fa-chevron-right"></i></a>
       </div>
     </div>
 
@@ -40,7 +40,7 @@
       <div class="col-sm-12">
         <p>Then once your machine has been repaired, we recommend replacing it with a new one that has numerous sources for spare parts, lots of trained technicians that can work on it and a warranty.</p>
 
-        <a href="#warranty">Click here to read about our warranty <i class="fa fa-chevron-right"></i></a>
+        <a href="<?php echo site_url(); ?>/warranty">Click here to read about our warranty <i class="fa fa-chevron-right"></i></a>
       </div>
     </div>
 
@@ -50,7 +50,7 @@
 
         <p>Give us a call today and we’ll do what we can to be of help to you.</p>
 
-        <a href="#clicker-press">Click here to view our clicker press machines  <i class="fa fa-chevron-right"></i></a>
+        <a href="<?php echo site_url(); ?>/clicker-press">Click here to view our clicker press machines  <i class="fa fa-chevron-right"></i></a>
       </div>
     </div>
 
