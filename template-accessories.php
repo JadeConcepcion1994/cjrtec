@@ -8,8 +8,16 @@
 
 <section id="accessories">
   <div class="container">
-    <!-- <h1 class="my-4"><?php // the_title(); ?></h1> -->
-    <?php the_content(); ?>
+
+    <h1>Clicker Press Accessories</h1>
+
+    <p>Our presses do amazing things all on their own – but there are many time-saving accessories and supportive equipment that can make a job go faster and more smoothly.</p>
+
+    <p>We invite you to take a look at the products below – they represent some of the solutions that we’ve provided for previous customers. Most of this equipment has been designed and built by our engineers to meet unique customer needs.</p>
+
+    <p>Just tell us what you’d like your press to do and we’ll get to work providing you with possible solutions.</p>
+    
+    <!-- get items from CP Accessories CPT -->
     <div class="row mb-5">
       <?php 
         $args = array('post_type' => 'cp_accessories');

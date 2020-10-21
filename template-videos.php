@@ -8,9 +8,11 @@
 
 <section id="videos">
   <div class="container">
-    <!-- <h1 class="my-4"><?php // the_title(); ?></h1> -->
-    <?php the_content(); ?>
-    <div class="row">
+    
+    <h1>Clicker Press Demonstration</h1>
+
+    <!-- get items from CJRTEC Videos CPT -->
+    <div class="row mb-5">
       <?php 
         $args = array('post_type' => 'cjrtec_videos');
           $the_query = new WP_Query( $args );

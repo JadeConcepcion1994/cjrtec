@@ -8,6 +8,9 @@
   
 <section id="cutting-boards">
   <div class="container">
+
+    <?php the_content(); ?>
+
     <h1>Clicker Press Cutting Board</h1>
 
     <p>The cutting board on your clicker press plays a critical role in the speed and quality of the output of your job. The efficiency of the cutting and throughput of the material is directly affected by three main factors. These are: the type of press, the kind of die and the material from which the cutting board is made.</p>
