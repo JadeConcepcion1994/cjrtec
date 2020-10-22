@@ -1468,7 +1468,7 @@ h1 .Count{
 }
 
 #used-clicker-press .cta-strip {
-	background-color: #ff6600;
+	background-color: rgb(255, 88, 41);
 	color: #ffffff;
 }
 
@@ -1513,3 +1513,79 @@ h1 .Count{
 #types-of-dies .card .card-body h2 {
 	font-size: 28px;
 }
+
+
+
+/* DIE DRAWINGS PAGE */
+#die-drawings h1 {
+	font-size: 36px;
+}
+
+#die-drawings h2 {
+	font-size: 28px;
+}
+
+#die-drawings h4 {
+	font-size: 18px;
+}
+
+#die-drawings .drawing-design .row.d-flex {
+	align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+	#die-drawings .col-md-6.col-img {
+		order: 2;
+	}
+
+	#die-drawings .col-md-6.col-text {
+		order: 1;
+		margin-bottom: 2rem;
+	}
+}
+
+#die-drawings .clicker-die ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* #die-drawings .clicker-die ul li { */
+	/* padding-bottom: 0.2rem; */
+/* } */
+
+#die-drawings .clicker-die ul li a {
+	color: rgb(255, 88, 41);
+	font-size: 1rem;
+}
+
+#die-drawings .cta-strip {
+	background-color: #ff6600;
+	color: #ffffff;
+}
+
+#die-drawings .cta-strip .container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#die-drawings .cta-strip .container h2 {
+  margin: 0;
+  font-size: 28px;
+}
+
+#die-drawings .cta-strip .container a {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+#die-drawings .cta-strip .container .btn-cta-strip {
+  display: inline-block;
+  border: 2px solid #ffffff;
+  padding: 15px 30px;
+  margin-left: 30px;
+}
+
+
+
+
