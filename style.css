@@ -1581,3 +1581,15 @@ h1 .Count{
   padding: 15px 30px;
   margin-left: 30px;
 }
+
+
+
+/* DIE SIZE PAGE */
+#die-size h1 {
+	margin: 2rem 0;
+	font-size: 36px;
+}
+
+#die-size h2 {
+	font-size: 28px;
+}
