@@ -19,7 +19,7 @@
 
           <p>The first thing a die maker will ask for is a drawing. Most drawings are done in AutoCAD&circledR; or SolidWorks&circledR;, but programs like Adobe&circledR; Photoshop&circledR;, Illustrator&circledR; or CorelDRAW&circledR; can also be used. Regardless of the program you use, you will need to provide a drawing that calls out every aspect of your drawing and you will need to show the location of your registration pins.</p>
 
-          <a href="">
+          <a href="#registration-pins">
             Learn more about registration pins <i class="fa fa-chevron-right"></i>
           </a>
         </div>

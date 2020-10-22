@@ -1590,6 +1590,20 @@ h1 .Count{
 	font-size: 36px;
 }
 
-#die-size h2 {
-	font-size: 28px;
+
+
+/* DIE BEVEL PAGE */
+#die-bevel h1 {
+	margin: 2rem 0;
+	font-size: 36px;
+}
+
+#die-bevel .img-container {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+#die-bevel a {
+	color: #ff6600;
 }
