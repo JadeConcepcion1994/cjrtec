@@ -1549,10 +1549,6 @@ h1 .Count{
 	padding: 0;
 }
 
-/* #die-drawings .clicker-die ul li { */
-	/* padding-bottom: 0.2rem; */
-/* } */
-
 #die-drawings .clicker-die ul li a {
 	color: rgb(255, 88, 41);
 	font-size: 1rem;
@@ -1585,7 +1581,3 @@ h1 .Count{
   padding: 15px 30px;
   margin-left: 30px;
 }
-
-
-
-
