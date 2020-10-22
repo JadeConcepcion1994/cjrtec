@@ -1439,17 +1439,58 @@ h1 .Count{
 
 
 /* USED CLICKER PRESS PAGE */
-#used-clicker-press h1 {
+#used-clicker-press .info-1 h1 {
 	margin: 2rem 0;
 	font-size: 36px;
 	text-align: center;
 }
 
-#used-clicker-press .row.d-flex {
+#used-clicker-press .info-1 .row.d-flex {
 	align-items: center;
 }
 
-#used-clicker-press .col-md-5.d-flex {
+#used-clicker-press .info-1 .col-md-5.d-flex {
 	justify-content: center;
 	margin: 3rem 0;
+}
+
+#used-clicker-press .info-2 {
+	background-color: #e5e5e5;
+}
+
+#used-clicker-press .info-2 h2 {
+	font-size: 28px;
+	text-align: center;
+}
+
+#used-clicker-press .info-2 .img-fluid {
+	margin: 0 auto;
+}
+
+#used-clicker-press .cta-strip {
+	background-color: #ff6600;
+	color: #ffffff;
+}
+
+#used-clicker-press .cta-strip .container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#used-clicker-press .cta-strip .container h2 {
+  margin: 0;
+  font-size: 28px;
+}
+
+#used-clicker-press .cta-strip .container a {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+#used-clicker-press .cta-strip .container .btn-cta-strip {
+  display: inline-block;
+  border: 2px solid #ffffff;
+  padding: 15px 30px;
+  margin-left: 30px;
 }
