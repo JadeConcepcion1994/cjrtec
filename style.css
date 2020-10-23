@@ -1628,9 +1628,14 @@ h1 .Count{
 	font-size: 36px;
 }
 
-/* #steel-rule-depth .row.d-flex .col-md-4 {
-	background-color: green;
-	width: 100%;
-	max-width: 500px;
-	margin: 0 auto;
-} */
+
+
+/* STEEL RULE DIES PAGE */
+#steel-rule-dies h1 {
+	margin: 2rem 0;
+	font-size: 36px;
+}
+
+#steel-rule-dies h4 {
+	font-size: 18px;
+}
