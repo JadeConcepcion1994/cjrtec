@@ -1679,3 +1679,9 @@ h1 .Count{
 }
 
 
+
+/* DIE MAINTENANCE PAGE */
+#die-maintenance h1 {
+	margin: 2rem 0;
+	font-size: 36px;
+}
