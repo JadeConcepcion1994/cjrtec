@@ -24,7 +24,7 @@
     <p>
       We offer training at our facility in Utah and can even come to your location if you would like. <br>
       
-      <a href="">
+      <a href="#training">
         Click here to learn more about our training 
         <i class="fa fa-chevron-right"></i>
       </a>
@@ -33,7 +33,7 @@
     <p>
       We have also produced a number of valuable videos to help train new press owners and operators. <br>
 
-      <a href="">
+      <a href="<?php echo site_url(); ?>/videos" target="_blank">
         Click here to see our videos 
         <i class="fa fa-chevron-right"></i>
       </a>
@@ -42,15 +42,13 @@
     <p>
       If you find that part of your die is not cutting anymore, you can take the die to your local die maker and request that they replace some of the rule or you can buy a steel rule sharpener and put a new edge on what you have. A little preventative maintenance will go a long way. <br>
 
-      <a href="">
+      <a href="<?php echo site_url(); ?>/die-makers" target="_blank">
         Click here to view die makers around the country 
         <i class="fa fa-chevron-right"></i>
       </a>
     </p>
 
     <p class="mb-5">These details and many more work together to affect production and cost per piece. If your workers are not taught what to look for or trained how to be vigilant, you won’t be able to count on them as useful components of your production process.</p>
-    
-    
   </div>
 </section>
 
