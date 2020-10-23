@@ -1619,22 +1619,3 @@ h1 .Count{
 #registration-pins h4 {
 	font-size: 18px;
 }
-
-#registration-pins .container .embed-container {
-	position: relative;
-	padding-bottom: 56.25%;
-	overflow: hidden;
-	max-width: 100%;
-	height: auto;
-}
-
-#registration-pins .container .embed-container iframe,
-#registration-pins .container .embed-container object,
-#registration-pins .container .embed-container embed {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-

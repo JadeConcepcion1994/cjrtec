@@ -18,8 +18,8 @@
       </div>
 
       <div class="col-md-7">
-        <div class="embed-container">
-          <iframe width="900" height="506" src="https://www.youtube.com/embed/_5sprjhXBfo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_5sprjhXBfo" allowfullscreen></iframe>
         </div>
 
         <h4 class="text-center mt-3">Die Alignment Pins</h4>
