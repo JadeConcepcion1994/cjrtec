@@ -1655,3 +1655,27 @@ h1 .Count{
 	margin: 2rem 0;
 	font-size: 36px;
 }
+
+
+
+/* DIE MAKERS PAGE */
+#die-makers h1 {
+	margin: 2rem 0;
+	font-size: 36px;
+}
+
+#die-makers h4 {
+	font-size: 18px;
+}
+
+#die-makers a {
+	color: #ff6600;
+}
+
+#die-makers table td {
+	border: 1px solid #cccccc;
+	font-size: 14px;
+	text-align: center;
+}
+
+

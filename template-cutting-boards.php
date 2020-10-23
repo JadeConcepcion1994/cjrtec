@@ -21,7 +21,7 @@
 
     <p>The following shows some technical data on a number of different kinds of cutting board materials.</p>
 
-    <div class="table-responsive-md my-5">
+    <div class="table-responsive-lg my-5">
       <table class="table table-striped">
         <thead>
           <tr class="table-success">
