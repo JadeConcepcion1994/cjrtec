@@ -7,7 +7,6 @@
 <?php get_header(); ?>
 
 <section id="clicker-press-shipping">
-  <!-- <div class="container"> -->
 
   <div class="container">
     <h1 class="text-center">Shipping Information and Freight Companies</h1>
