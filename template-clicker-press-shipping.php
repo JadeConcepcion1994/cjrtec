@@ -170,7 +170,7 @@
         <div class="col-md-7">
 
 
-          <!-- ACCORIDION GOES HERE -->
+          <!-- shipping accordion -->
 
 
         </div>
@@ -178,7 +178,7 @@
     </div>
 
 
-    
+
 
 
   </div>
