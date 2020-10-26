@@ -1697,3 +1697,48 @@ h1 .Count{
 #die-cut-testing h2 {
 	font-size: 28px;
 }
+
+
+
+/* CLICKER PRESS SHIPPING PAGE */
+#clicker-press-shipping h1 {
+	margin: 2rem 0;
+	font-size: 36px;
+}
+
+#clicker-press-shipping h2 {
+	font-size: 28px;
+}
+
+#clicker-press-shipping h5 {
+	font-size: 14px;
+	margin: 0;
+} 
+
+#clicker-press-shipping .shipping-content-2 .row {
+	display: flex;
+	align-items: center;
+	
+}
+
+#clicker-press-shipping .shipping-content-2 .row .col-md-3 {
+	text-align: right;
+	color: #ff6600;
+}
+
+#clicker-press-shipping .shipping-content-2 .row .col-md-9 {
+	padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	#clicker-press-shipping .shipping-content-2 .row .col-md-3 {
+		text-align: left;
+		padding: 0 10px; 
+	}
+
+	#clicker-press-shipping .shipping-content-2 .row .col-md-9 {
+		padding: 5px 10px;
+		margin-bottom: 20px;
+	}
+}
+
