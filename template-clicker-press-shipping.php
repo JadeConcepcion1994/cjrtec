@@ -114,7 +114,6 @@
     </div>
 
 
-
     <div class="shipping-content-3 mb-5">
       <h2 class="text-center mb-4">Helpful Shipping Information</h2>
 
@@ -158,9 +157,28 @@
       <img class="img-fluid d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/trailer-flatbed.jpg" alt="shipping flatbed">
     </div>
 
+    <div class="shipping-content-4 mb-5">
+      <h2 class="text-center mb-4">When Choosing a Freight Company:</h2>
+
+      <div class="row">
+        <div class="col-md-5">
+          <h5 class="center mb-3"><strong>Here are the questions you should ask your freight company:</strong></h5>
+
+          <p>These are just a few of the questions you may want answers to, before you sign a contract. Do not be afraid to ask these questions and any others you may have, before you commit to a freight company.</p>
+        </div>
+
+        <div class="col-md-7">
 
 
+          <!-- ACCORIDION GOES HERE -->
 
+
+        </div>
+      </div>
+    </div>
+
+
+    
 
 
   </div>
