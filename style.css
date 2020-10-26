@@ -1840,3 +1840,15 @@ h1 .Count{
 	text-decoration: none;
 	font-size: .85rem;
 }
+
+
+
+/* CUSTOMERS PAGE */
+#customers h1 {
+	margin: 2rem 0;
+	font-size: 36px;
+}
+
+#customers h2 {
+	font-size: 28px;
+}
