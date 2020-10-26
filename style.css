@@ -1710,8 +1710,12 @@ h1 .Count{
 	font-size: 28px;
 }
 
+#clicker-press-shipping h4 {
+	font-size: 18px;
+}
+
 #clicker-press-shipping h5 {
-	font-size: 20px;
+	font-size: 16px;
 	margin: 0;
 } 
 
@@ -1742,3 +1746,97 @@ h1 .Count{
 	}
 }
 
+#clicker-press-shipping .shipping-content-3 table {
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#clicker-press-shipping .shipping-content-3 table th,
+#clicker-press-shipping .shipping-content-3 table td {
+	border: 1px solid #cccccc;
+}
+
+#clicker-press-shipping .shipping-content-4 .card-header .card-link {
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-decoration: none;
+	color: #ff6600;
+}
+
+#clicker-press-shipping .shipping-content-4 .card-header .card-link .card-title {
+	margin: 0;
+	flex: 3;
+}
+
+#clicker-press-shipping .shipping-content-4 .card-header .card-link .card-plus-minus {
+	flex: 1;
+	display: flex;
+  justify-content: flex-end;
+}
+
+#clicker-press-shipping .shipping-content-4 .card-header .card-link .card-plus-minus::before {
+  font-family: FontAwesome;
+  content: "\f077";
+}
+
+#clicker-press-shipping .shipping-content-4 .card-header .card-link.collapsed .card-plus-minus::before {
+  content: "\f078";
+}
+
+
+#clicker-press-shipping .shipping-content-5 .row {
+	margin: 0;
+}
+
+#clicker-press-shipping .shipping-content-5 .col-md-6 .card {
+	border: 0px;
+	border-radius: 0px;
+}
+
+#clicker-press-shipping .shipping-content-5 .card .img-container {
+	padding: 1rem;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+#clicker-press-shipping .shipping-content-5 .card .img-container img {
+	height: 100px;
+	object-fit: contain;
+}
+
+#clicker-press-shipping .shipping-content-5 .card-body {
+	margin: 0 auto;
+	padding: 0;
+}
+
+#clicker-press-shipping .shipping-content-5 .card-text {
+		padding: 0;
+    margin-bottom: 2rem;
+}
+
+#clicker-press-shipping .shipping-content-5 .card-text li {
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+}
+
+#clicker-press-shipping .shipping-content-5 .card-text li .list-icon {
+	margin-right: 10px;
+	font-size: 20px;
+	display: flex;
+	width: 20px;
+  justify-content: flex-end;
+}
+
+#clicker-press-shipping .shipping-content-5 .card-text li .list-info {
+	line-height: 1.1;
+	font-size: .85rem;
+}
+
+#clicker-press-shipping .shipping-content-5 .card-text li a {
+	color: #000000;
+	text-decoration: none;
+	font-size: .85rem;
+}
