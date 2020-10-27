@@ -92,9 +92,9 @@
 				</ul>
 			</div>
 			<div class="col-md-4 col-copyright-footer"><p align="center">Copyright © <?php echo date('Y'); ?> <span style=" color: rgb(255, 88, 41)">CJRTec</span>. All rights reserved.</p></div>
-			<div class="col-md-4">
+			<!-- <div class="col-md-4">
 				<button onclick="topFunction()"  id="myBtn" title="Go to top" ><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
-			</div>
+			</div> -->
 		</div>
 				</div>
 			</div>
