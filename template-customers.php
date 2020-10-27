@@ -44,6 +44,16 @@
       <?php endif; ?>
     </div>
   </div>
+
+  <div class="cta-strip py-5">
+    <div class="container">
+      <h2>Create an Account with CJRTec Now</h2>
+      <a href="#registration" class="btn-cta-strip">
+        Get Started Today <i class="fa fa-angle-right"></i>
+      </a>
+    </div>
+  </div>
+
 </section>
 
 <?php get_footer(); ?>
