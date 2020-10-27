@@ -1882,3 +1882,26 @@ h1 .Count{
 }
 
 
+/* CUSTOMER TEST PAGE */
+#customer-tests h1 {
+	margin: 2rem 0;
+	font-size: 36px;
+}
+
+#customer-tests .embed-container {
+	position: relative; 
+	padding-bottom: 56.25%;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+
+#customer-tests .embed-container iframe,
+#customer-tests .embed-container object,
+#customer-tests .embed-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
