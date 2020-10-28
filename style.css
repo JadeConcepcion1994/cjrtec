@@ -2087,3 +2087,60 @@ h1 .Count{
   padding: 15px 30px;
   margin-left: 30px;
 }
+
+
+
+/* CONTACT PAGE */
+/* #contact {
+	background-color: #ffffff;
+} */
+
+#contact h1 {
+	margin: 2rem;
+	font-size: 36px;
+}
+
+#contact h2 {
+	font-size: 28px;
+}
+
+#contact h3 {
+	font-size: 24px;
+}
+
+#contact .card {
+	background-color: #ff6600;
+}
+
+#contact .card h3,
+#contact .card p {
+	color: #ffffff;
+}
+
+#contact .card,
+#contact .card h3,
+#contact .card p {
+	transition: ease-in-out 0.25s;
+}
+
+#contact .card:hover {
+	background-color: #ffffff;	
+}	
+
+#contact .card:hover h3 {
+	color: #000000;
+}
+
+#contact .card:hover p {
+	color: #ff6600;
+}
+
+#contact .card p {
+	font-size: 20px;
+}
+
+#contact .card a {
+	text-decoration: none;
+}
+
+
