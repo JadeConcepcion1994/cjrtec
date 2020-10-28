@@ -2153,7 +2153,6 @@ h1 .Count{
 
 
 
-
 /* REFERRALS PAGE */
 #referrals h1 {
 	margin: 2rem;
@@ -2162,7 +2161,7 @@ h1 .Count{
 
 
 
-/* Franchise PAGE */
+/* FRANCHISE PAGE */
 #franchise h1 {
 	margin: 2rem;
 	font-size: 36px;
@@ -2170,7 +2169,14 @@ h1 .Count{
 
 
 
-/* Franchise PAGE */
+/* FINANCE PAGE */
 #finance h1 {
+	font-size: 36px;
+}
+
+
+
+/* BUYBACK PAGE */
+#buyback h1 {
 	font-size: 36px;
 }
