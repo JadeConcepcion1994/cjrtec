@@ -8,7 +8,9 @@
 
 <section id="customers">
   <div class="container">
-    <h1 class="text-center">Customers Page Template</h1>
+    <h1 class="text-center">
+      Customers Who Bought Our Clicker Press Machines
+    </h1>
 
     <h2 class="text-center text-muted mb-4">
       From Small Businesses to Fortune 500 Companies
