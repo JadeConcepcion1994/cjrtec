@@ -2144,3 +2144,9 @@ h1 .Count{
 }
 
 
+
+/* TRAINING PAGE */
+#training h1 {
+	margin: 2rem;
+	font-size: 36px;
+}
