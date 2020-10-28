@@ -1854,7 +1854,8 @@ h1 .Count{
 }
 
 #customers .cta-strip {
-	background-color: rgb(255, 88, 41);
+	/* background-color: rgb(255, 88, 41); */
+	background-color: #ff6600;
 	color: #ffffff;
 }
 
@@ -1996,3 +1997,103 @@ h1 .Count{
 	color: #808080;
 	font-size: 12px;
 }
+
+
+
+/* ABOUT PAGE */
+#about h1 {
+	margin-top: 2rem;
+	font-size: 36px;
+}
+
+#about h2 {
+	font-size: 28px;
+}
+
+#about .lead {
+	font-size: 28px;
+	line-height: 1;
+	font-weight: 500;
+	font-style: italic;
+	padding: 1.5rem;
+
+	border-left: 5px solid #ffd700;
+}
+
+#about .section-difference {
+	background-color: #ffffff;
+	padding: 3rem 0;
+}
+
+#about .section-difference .orange {
+	color: #ff6600;
+}
+
+#about .section-difference ul {
+  list-style-type: none;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+#about .section-difference ul li {
+  font-size: 20px;
+	margin-bottom: 5px;
+}
+
+#about .section-difference ul li a {
+	font-size: 20px;
+}
+
+#about .section-difference ul li::before {
+	font-family: FontAwesome;
+	content: '\f00c';
+	font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  
+	color: #ff6600;
+	
+	position: relative;
+	top: 0;
+	left: 0;
+
+	margin-right: 5px;
+}
+
+#about .cta-strip {
+	background-color: #ff6600;
+	color: #ffffff;
+}
+
+#about .cta-strip .container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#about .cta-strip .container h2 {
+  margin: 0;
+  font-size: 28px;
+}
+
+#about .cta-strip .container a {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+#about .cta-strip .container .btn-cta-strip {
+  display: inline-block;
+  border: 2px solid #ffffff;
+  padding: 15px 30px;
+  margin-left: 30px;
+}
+
+
+/* 
+
+
+
+
+
+
+*/
