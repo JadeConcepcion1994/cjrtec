@@ -134,7 +134,7 @@ function cjrtec_register_styles(){
 	wp_enqueue_style('cjrtec-bootstrap', "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css", array(), '4.5.2', 'all');
   wp_enqueue_style('cjrtec-fontawesome', "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", array(), '4.7.9', 'all');
   wp_enqueue_style('cjrtec-aos', "https://unpkg.com/aos@next/dist/aos.css", array(), '', 'all');
-  wp_enqueue_style('cjrtec-pages-css', get_template_directory_uri() . "/assets/css/cjrtec-pages.css", array(), false, 'all');
+  wp_enqueue_style('cjrtec-pages-css', get_template_directory_uri() . "/css/cjrtec-pages.css", array(), false, 'all');
 }
 
 add_action('wp_enqueue_scripts', 'cjrtec_register_styles');
