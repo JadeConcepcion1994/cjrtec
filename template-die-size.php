@@ -8,15 +8,17 @@
 
 <section id="die-size" class="mb-5">
   <div class="container">
-    <h1 class="text-center">Die Size Page Template</h1>
+    <h1 class="text-center">
+      Different Sizes of Clicker Dies
+    </h1>
 
     <p>The size of your die will often determine the type of press you will need and the tonnage. It also determines the ultimate cost per piece of the product you are cutting. In the die cutting world, everything is driven by cost per piece. If you have a press with a 19 x 24&quot; cutting head and you are cutting out 9&quot; circles, you can cut 4 circles with every stroke providing the press is strong enough to cut 4 circles depending on the material you are cutting.</p>
 
-    <p>However, it takes nearly the same labor to cut 4 circles with a swing arm press as it does to cut 21 circles with a 30 x 64&quot; beam press. Once you have paid for a press, your highest cost will be labor. The more items you can cut per stroke, the less your cost per piece will be. As a rule, you're always better to buy the biggest press you can afford (which is a onetime purchase) than to bear the expense of labor forever.</p>
+    <p>However, it takes nearly the same labor to cut 4 circles with a swing arm press as it does to cut 21 circles with a 30 x 64&quot; beam press. Once you have paid for a press, your highest cost will be labor. The more items you can cut per stroke, the less your cost per piece will be. As a rule, you're always better to buy the biggest press you can afford &lpar;which is a onetime purchase&rpar; than to bear the expense of labor forever.</p>
 
     <p>It&apos;s important to remember that the larger your die, the more pressure you will need to complete the cut. This is what causes a lot of uncertainty with prospective buyers. They have no idea how many tons they will need to cut a given material with a specific die. Everyone hopes for a formula so they can measure the linear inches of steel rule and enter in a factor for the material they are cutting. It’s not quite this simple but we can give you a bit of help.</p>
 
-    <a href="#tonnage-formula">
+    <a href="<?php echo site_url(); ?>/tonnage-formula" target="_blank">
       Click here to see our tonnage formula for help with this 
       <i class="fa fa-chevron-right"></i>
     </a>

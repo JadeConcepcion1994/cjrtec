@@ -19,7 +19,7 @@
 
           <p>The first thing a die maker will ask for is a drawing. Most drawings are done in AutoCAD&circledR; or SolidWorks&circledR;, but programs like Adobe&circledR; Photoshop&circledR;, Illustrator&circledR; or CorelDRAW&circledR; can also be used. Regardless of the program you use, you will need to provide a drawing that calls out every aspect of your drawing and you will need to show the location of your registration pins.</p>
 
-          <a href="#registration-pins">
+          <a href="<?php echo site_url(); ?>/registration-pins" target="_blank">
             Learn more about registration pins <i class="fa fa-chevron-right"></i>
           </a>
         </div>
@@ -33,23 +33,23 @@
 
       <p>A <strong>clicker die</strong>, or simply a &quot;die&quot;, is an important <a href="<?php echo site_url(); ?>/accessories" target="_blank">clicker press accessory</a> used to cut raw materials used in production. The most common material is leather but a clicker press can cut all sorts of soft materials like plastic, rubber, lace, PVC, and fiberglass among others.</p>
 
-      <p><a href="#clicker-press-parts" target="_blank">Clicker dies come in different sizes, forms, and shapes</a>. But ultimately, dies can be customized according to your specifications. The most common clicker die is for cutting leather wallets, shoe strings, business cards, puzzles, packaging, and more.</p>
+      <p><a href="#clicker-press-parts">Clicker dies come in different sizes, forms, and shapes</a>. But ultimately, dies can be customized according to your specifications. The most common clicker die is for cutting leather wallets, shoe strings, business cards, puzzles, packaging, and more.</p>
 
       <ul class="mt-4">
         <li>
-          <a href="">
+          <a href="<?php echo site_url(); ?>/die-makers" target="_blank">
             Looking to have a die custom made for your clicker press? 
             <i class="fa fa-chevron-right"></i>
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="#cliker-press">
             View American clicker press for sale
             <i class="fa fa-chevron-right"></i>
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="<?php echo site_url(); ?>/warranty" target="_blank">
             Know about our FULL one-year warranty for all Clicker Presses
             <i class="fa fa-chevron-right"></i>
           </a>
