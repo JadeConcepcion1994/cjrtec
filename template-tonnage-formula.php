@@ -8,10 +8,32 @@
 
 <section id="tonnage-formula">
   <div class="container">
-    <h1 class="text-center my-5">
+    <h1 class="text-center mt-5">
       <small class="text-muted">Clicker Press</small> <br>
       Tonnage Formula
     </h1>
+
+    <div class="section-info my-5">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-6 my-3">
+          <img class="img-fluid img-thumbnail d-block mx-auto" src="<?php echo get_template_directory_uri(); ?>/assets/img/how-much-tonnage-of-swing-arm-clicker-press.png" alt="how much tonnage of swing arm clicker press">
+        </div>
+
+        <div class="col-lg-6 my-3">
+          <h2 class="text-center mb-4">How Many Tons of <em>Clicker Press</em> Do I Need?</h2>
+
+          <p>One of the most common questions we hear from someone in the market for a clicker press is&colon; <strong>&quot;How many tons do I need&quest;&quot;</strong></p>
+
+          <p><strong>The short answer is</strong> &hyphen; let us test your material and your die on different machines and we’ll determine what is right for you.</p>
+
+          <p><strong>The long answer is</strong> &hyphen; it is possible to calculate the exact tonnage by collecting the information required to complete the Tonnage Worksheet and submitting it to us. We can calculate the tonnage it will take to cut your product, from a particular material on a specific press with a certain cutting board.</p>
+
+          <p>The challenge in most cases is the time it takes to collect all the necessary specifications to build the formula. In most cases, it will take longer and cost more in labor than simply having a die made and testing it on different tonnage machines. The tonnage needed to cut/emboss a material is strictly a function of the strength of the material, the shear power of the process being used to cut, the size of the image to cut, and other factors like flex in the machinery, ejection materials, air pressure build-ups, cutting board specifications and so on.</p>
+
+          <p>These are the necessary factors that are required before determining how many tons you will need to cut with a specific die and material.</p>
+        </div>
+      </div>
+    </div>
 
     <div class="tonnage_form mb-5">
       <h2>Tonnage Worksheet</h2>

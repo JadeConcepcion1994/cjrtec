@@ -931,6 +931,10 @@
 	font-size: 36px;	
 }
 
+#tonnage-formula h2	{
+	font-size: 28px;	
+}
+
 #tonnage-formula form .panel-container {
 	border: 1px solid rgba(0,0,0,0.3);
 	border-radius: 14px;
