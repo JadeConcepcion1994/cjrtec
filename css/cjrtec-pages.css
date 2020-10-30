@@ -2,8 +2,22 @@
 
 /* ACCESSORIES PAGE */
 #accessories h1 {
-	margin: 2rem 0;
 	font-size: 36px;
+	margin-bottom: 2rem;
+}
+
+#accessories a {
+	color: #F39C12;
+}
+
+#accessories a::after {
+	font-family: FontAwesome;
+  content: " \f054";
+}
+
+#accessories a:hover {
+	color: #ff6600;
+	text-decoration: none;
 }
 
 #accessories .card .card-img-top {
@@ -11,6 +25,13 @@
 	padding: 1.25rem;
 }
 
+
+/* 
+#clicker-press-shipping .shipping-content-4 .card-header .card-link .card-plus-minus::before {
+  font-family: FontAwesome;
+  content: "\f077";
+} 
+*/
 
 
 /* VIDEOS PAGE */
