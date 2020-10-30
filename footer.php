@@ -114,7 +114,7 @@
 
 <section class="footer-list">
 	<footer>
-		<div class="container" style="margin-left: 50px">
+		<div class="container">
 			<div class="row row-cjr-list" style="padding: 50px 0px 10px 10px; color: white">
 				<div class="col-md-2 col-xs-6">
 					<p class="ptitle" align="center">About CJRTEC</p>
