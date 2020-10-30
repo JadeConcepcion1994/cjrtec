@@ -6,10 +6,11 @@
 
 <?php get_header(); ?>
 
-<section id="videos">
+<section id="videos" class="my-5">
   <div class="container">
     
-    <h1>Clicker Press Demonstration</h1>
+    <!-- Pull the content from WP -->
+    <?php the_content(); ?>
 
     <!-- get items from CJRTEC Videos CPT -->
     <div class="row mb-5">

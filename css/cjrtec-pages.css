@@ -3,7 +3,7 @@
 /* ACCESSORIES PAGE */
 #accessories h1 {
 	font-size: 36px;
-	margin-bottom: 2rem;
+	margin-bottom: 3rem;
 }
 
 #accessories a {
@@ -25,19 +25,10 @@
 	padding: 1.25rem;
 }
 
-
-/* 
-#clicker-press-shipping .shipping-content-4 .card-header .card-link .card-plus-minus::before {
-  font-family: FontAwesome;
-  content: "\f077";
-} 
-*/
-
-
 /* VIDEOS PAGE */
 #videos h1 {
-	margin: 2rem 0;
 	font-size: 36px;
+	margin-bottom: 3rem;
 }
 
 #videos .card .card-body .embed-container {
