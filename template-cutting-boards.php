@@ -11,6 +11,8 @@
 
     <?php the_content(); ?>
 
+  </div>
+
 </section>
 
 <?php get_footer(); ?>
