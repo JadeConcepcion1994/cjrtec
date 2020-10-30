@@ -940,3 +940,55 @@
 	border-radius: 14px;
 	padding: 30px 20px;
 }
+
+
+
+/* CUTTING PRESS LIST SECTION ON FOOTER */
+#cutting-press-footer h2 {
+  font-size: 28px;  
+}
+
+#cutting-press-footer h3 {
+  font-size: 24px;  
+}
+
+#cutting-press-footer .press-list ul {
+  list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#cutting-press-footer .press-list ul li {
+	line-height: 1.25;
+	margin-bottom: .25rem;
+}
+
+#cutting-press-footer .press-list a {
+  font-size: 14px;
+	text-decoration: none;
+	color: #337ab7;
+	font-weight: 400;
+}
+
+#cutting-press-footer .banner {
+  height: 70vh;
+  position: relative;
+  color: #ffffff;
+}
+
+#cutting-press-footer .banner .banner-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  text-align: center;
+}
+
+#cutting-press-footer .banner .banner-content a {
+  color: #f1c40f;
+}

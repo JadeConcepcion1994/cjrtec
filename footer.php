@@ -1,3 +1,117 @@
+<section id="cutting-press-footer" class="my-5">
+	<div class="container">
+		<h2 class="text-center">
+			High-Quality Cutting Presses for Different Industries
+		</h2>
+	</div>
+
+	<div class="press-list mb-4">
+		<div class="container">
+			<div class="row">
+				<div class="col-6 col-md-3 py-3 d-sm-flex justify-content-center">
+					<ul>
+						<li><a href="beam-press.php">Beam Press</a></li>
+						<li><a href="traveling-head-press.php">Traveling Head Press</a></li>
+						<li><a href="receding-beam-press.php">Receding Beam Press</a></li>
+						<li><a href="auto-table-beam-press.php">Dual Feed Press</a></li>
+						<li><a href="wide-open.php">Plane Press</a></li>
+						<li><a href="traveling-head-press.php">CNC Traveling Head Press</a></li>
+						<li><a href="beam-press.php">Hydraulic Beam Press</a></li>
+						<li><a href="clicker-press.php">Automatic Cutting Press</a></li>
+						<li><a href="swing-arm-press.php">Shoe Press</a></li>
+						<li><a href="conveyor-press.php">Gasket Press</a></li>
+						<li><a href="beam-press.php">Plastics Press</a></li>
+						<li><a href="cutting-machines.php#convoluter">Foam Press</a></li>
+						<li><a href="conveyor-press.php">PET Press</a></li>
+						<li><a href="wide-open.php">4 Post Clicker Press</a></li>
+					</ul>
+				</div>
+
+				<div class="col-6 col-md-3 py-3 d-sm-flex justify-content-center">
+					<ul>
+						<li><a href="beam-press.php">Beam Cutting Press</a></li>
+						<li><a href="clicker-press.php">Auto Cutting Press</a></li>
+						<li><a href="swing-arm-press.php">Shoe Cutting Press</a></li>
+						<li><a href="conveyor-press.php">Gasket Cutting Press</a></li>
+						<li><a href="beam-press.php">Plastic Cutting Press</a></li>
+						<li><a href="videos.php">Die Cutting Press</a></li>
+						<li><a href="traveling-head-press.php">Paper Cutting Press</a></li>
+						<li><a href="cutting-machines.php#convoluter">Foam Cutting Press</a></li>
+						<li><a href="cutting-machines.php">Mold Forming Press</a></li>
+						<li><a href="wide-open.php">Impression Press</a></li>
+						<li><a href="conveyor-press.php">Plastic Welding Press</a></li>
+						<li><a href="cutting-machines.php">Heat Sealing Press</a></li>
+						<li><a href="wide-open.php">Plane Cutting Press</a></li>
+						<li><a href="clicker-press.php">Custom Clicker Press</a></li>
+					</ul>
+				</div>
+
+				<div class="col-6 col-md-3 py-3 d-sm-flex justify-content-center">
+					<ul>
+						<li><a href="swing-arm-press.php">Leather Clicker Press</a></li>
+						<li><a href="videos.php">Leather Die Cutting</a></li>
+						<li><a href="auto-table-beam-press.php">Auto Feed Cutting Press</a></li>
+						<li><a href="beam-press.php">4 Post Cutting Press</a></li>
+						<li><a href="wide-open.php">2 Post Cutting Press</a></li>
+						<li><a href="cutting-machines.php#waterjet">Flooring Cutting Press</a></li>
+						<li><a href="conveyor-press.php">200 Ton Press</a></li>
+						<li><a href="receding-beam-press.php">100 Ton Press</a></li>
+						<li><a href="traveling-head-press.php">80 Ton Press</a></li>
+						<li><a href="beam-press.php">50 Ton Press</a></li>
+						<li><a href="swing-arm-press.php">25 Ton Press</a></li>
+						<li><a href="swing-arm-press.php">27 Ton Swing Arm Press</a></li>
+						<li><a href="clicker-press.php">20 Ton Press</a></li>
+						<li><a href="swing-arm-press.php">10 Ton Press</a></li>
+					</ul>
+				</div>
+
+				<div class="col-6 col-md-3 py-3 d-sm-flex justify-content-center">
+					<ul>
+						<li><a href="clicker-press.php">Flooring Clicker Press</a></li>
+						<li><a href="cutting-boards.php">Die Press</a></li>
+						<li><a href="beam-press.php">Cork Cutting Press</a></li>
+						<li><a href="wide-open.php">Wood Cutting Press</a></li>
+						<li><a href="traveling-head-press.php">Bonding Press</a></li>
+						<li><a href="videos.php">Lamination Press</a></li>
+						<li><a href="swing-arm-press.php">10 Ton Clicker Press</a></li>
+						<li><a href="clicker-press.php">27 Ton Clicker Press</a></li>
+						<li><a href="traveling-head-press.php">40 Ton CLicker Press</a></li>
+						<li><a href="traveling-head-press.php">50 Ton Clicker PRess</a></li>
+						<li><a href="beam-press.php">80 Ton Clicker Press</a></li>
+						<li><a href="receding-beam-press.php">100 Ton Clicker Press</a></li>
+						<li><a href="conveyor-press.php">200 Ton Clicker Press</a></li>
+						<li><a href="swing-arm-press.php">25 Ton Swing Arm Press</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="press-banner">
+		<div class="container">
+			<div 
+				class="banner"
+				style="background: url('<?php bloginfo('template_directory'); ?>/assets/img/cnc-press-cutting.jpg'); 
+				background-repeat: no-repeat;
+    		background-size: contain;
+    		background-position: center;"
+			>
+				<div class="banner-content">
+					<h3 class="mb-1">Take full advantage of automation.</h3>
+					<p class="mb-4">
+						Get the most out of your manufacturing business through CJRTec
+						Automated Engineering.
+					</p>
+					<a href="#">
+						Register now and see for yourself
+						<i class="fa fa-angle-right"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 <section class="footer-list">
 	<footer>
 		<div class="container" style="margin-left: 50px">
