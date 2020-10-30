@@ -109,14 +109,34 @@
 
 /* CUTTING BOARDS PAGE */
 #cutting-boards h1 {
-	margin: 2rem 0;
 	font-size: 36px;
+	margin-bottom: 3rem;
 }
 
 #cutting-boards table th,
 #cutting-boards table td {
-	border: 1px solid #cccccc;
+	border: 1px solid #dddddd;
+	padding: 1rem;
+	/* border: none; */
 }
+
+#cutting-boards table tr:first-child td {
+	background-color: #dff0d8;
+	color: #417c25;
+	text-align: center;
+}
+
+#cutting-boards table tr:nth-child(even) {
+	background-color: #f9f9f9;	
+	color: #333333;
+}
+
+#cutting-boards table tr:not(:first-child) td:nth-child(3),
+#cutting-boards table tr:not(:first-child) td:nth-child(4),
+#cutting-boards table tr:not(:first-child) td:nth-child(5),
+#cutting-boards table tr:not(:first-child) td:nth-child(6) {
+	text-align: right;
+}	
 
 
 
