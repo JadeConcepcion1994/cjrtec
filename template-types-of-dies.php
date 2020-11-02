@@ -8,13 +8,17 @@
 
 <section id="types-of-dies">
   <div class="container">
-    <h1 class="text-center">Types of Dies</h1>
+
+    <?php the_content(); ?>
+
+
+    <!-- <h1 class="text-center">Types of Dies</h1>
 
     <div class="row mb-5">
       <div class="col-md-6 my-3">
         <div class="card h-100 aos-init aos-animate" data-aos="fade-up">
           
-          <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/assets/img/wood-backed-type-of-die.jpg" alt="Wood backed type of die.">
+          <img class="card-img-top" src="<?php // echo get_template_directory_uri(); ?>/assets/img/wood-backed-type-of-die.jpg" alt="Wood backed type of die.">
           
 
           <div class="card-body text-center">
@@ -30,7 +34,7 @@
 
       <div class="col-md-6 my-3">
         <div class="card h-100 aos-init aos-animate" data-aos="fade-up">
-          <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/assets/img/acrylic-backed-type-of-die.jpg" alt="Acrylic backed type of die.">
+          <img class="card-img-top" src="<?php // echo get_template_directory_uri(); ?>/assets/img/acrylic-backed-type-of-die.jpg" alt="Acrylic backed type of die.">
 
           <div class="card-body text-center">
             <h2 class="card-title ">
@@ -45,7 +49,7 @@
       
       <div class="col-md-6 my-3">
         <div class="card h-100 aos-init aos-animate" data-aos="fade-up">
-          <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/assets/img/steel-backed-type-of-die.jpg" alt="Steel backed type of die.">
+          <img class="card-img-top" src="<?php // cho get_template_directory_uri(); ?>/assets/img/steel-backed-type-of-die.jpg" alt="Steel backed type of die.">
 
           <div class="card-body text-center">
             <h2 class="card-title ">
@@ -60,7 +64,7 @@
 
       <div class="col-md-6 my-3">
         <div class="card h-100 aos-init aos-animate" data-aos="fade-up">
-          <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/assets/img/deep-steel-die.png" alt="Deep Steel die.">
+          <img class="card-img-top" src="<?php // echo get_template_directory_uri(); ?>/assets/img/deep-steel-die.png" alt="Deep Steel die.">
 
           <div class="card-body text-center">
             <h2 class="card-title ">
@@ -75,7 +79,7 @@
 
       <div class="col-md-6 my-3">
         <div class="card h-100 aos-init aos-animate" data-aos="fade-up">
-          <img class="card-img-top" src="<?php echo get_template_directory_uri(); ?>/assets/img/mold-type-of-die.jpg" alt="Mold type of die.">
+          <img class="card-img-top" src="<?php // echo get_template_directory_uri(); ?>/assets/img/mold-type-of-die.jpg" alt="Mold type of die.">
 
           <div class="card-body text-center">
             <h2 class="card-title ">
@@ -88,7 +92,7 @@
         </div>
       </div>
 
-    </div>
+    </div> -->
   </div>
 </section>
 
