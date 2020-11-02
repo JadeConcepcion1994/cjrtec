@@ -1,0 +1,19 @@
+/* reset body background */
+body {
+  background-color: white;
+}
+
+/* Main column width */
+.wp-block {
+  max-width: 1024px;
+}
+
+/* Width of "wide" blocks */
+.wp-block[data-align="wide"] {
+  /* we let this inherit the max-width set above */
+}
+
+/* Width of "full-wide" blocks */
+.wp-block[data-align="full"] {
+  max-width: none;
+}
