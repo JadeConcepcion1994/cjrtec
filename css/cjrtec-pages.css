@@ -17,6 +17,12 @@ p.href-link a:hover {
 }
 
 
+/* maintain image aspect ratio */
+.wp-block-image img {
+	max-width: 100%;
+	height: auto;
+}
+
 
 /* =============================================== */
 
@@ -272,21 +278,15 @@ p.href-link a:hover {
 
 
 /* TYPES OF DIES PAGE */
-#types-of-dies h1 {
+/* #types-of-dies h1 {
 	margin: 2rem 0;
 	font-size: 36px;
 }
 
-#types-of-dies .card .card-img-top {
-	width: 100%;
-	height: 40vh;
-	object-fit: contain;
-	padding: 1rem;
-}
-
 #types-of-dies .card .card-body h2 {
 	font-size: 28px;
-}
+} */
+
 
 
 
