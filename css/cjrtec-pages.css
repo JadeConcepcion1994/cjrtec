@@ -26,6 +26,23 @@
 }
 
 
+p.href-link a {
+	/* color: #F39C12; */
+	color: #ff6600;
+	text-decoration: none;
+}
+
+p.href-link a::after {
+	font-family: FontAwesome;
+  content: " \f054";
+}
+
+p.href-link a:hover {
+	/* color: #ff6600; */
+	color: #F39C12;
+}
+
+
 
 /* ACCESSORIES PAGE */
 #accessories h1 {
