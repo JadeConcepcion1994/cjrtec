@@ -6,13 +6,10 @@
 
 <?php get_header(); ?>
 
-<section id="accessories" class="my-5">
+<section id="accessories">
   <div class="container">
-    
-    <!-- Pull the content from WP -->
-    <?php the_content(); ?>
 
-    <div class="mb-5"></div>
+    <?php the_content(); ?>
 
     <h2>SHEET FEEDERS</h2>
     <!-- get items from CP Accessories CPT with Sheet Feeders category -->
@@ -60,14 +57,7 @@
         <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
       <?php endif; ?>
     </div>
-  
-
-  
-
-  
-  
-  
-  
+    
     <h2>AIR ROLLS</h2>
     <!-- get items from CP Accessories CPT with Air Rolls category -->
     <div class="row mb-5">
@@ -117,7 +107,8 @@
         <?php endif; ?>
       </div>
     </div>
-  </div>
+  </div>  
+
 </section>
 
 <?php get_footer(); ?>

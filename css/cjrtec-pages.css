@@ -23,29 +23,12 @@ p.href-link a:hover {
 
 
 /* ACCESSORIES PAGE */
-#accessories h1 {
-	font-size: 36px;
-	margin-bottom: 3rem;
-}
-
-#accessories a {
-	color: #F39C12;
-}
-
-#accessories a::after {
-	font-family: FontAwesome;
-  content: " \f054";
-}
-
-#accessories a:hover {
-	color: #ff6600;
-	text-decoration: none;
-}
-
 #accessories .card .card-img-top {
 	height: auto;
 	padding: 1.25rem;
-}
+} 
+
+
 
 /* VIDEOS PAGE */
 #videos h1 {
