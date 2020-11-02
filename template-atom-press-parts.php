@@ -8,7 +8,16 @@
 
 <section id="atom-press-parts">
   <div class="container">
-    <h1>Ordering Atom Clicker Press Parts</h1>
+    
+    <?php the_content(); ?>
+    
+    
+    
+    
+    
+    
+    
+    <!-- <h1>Ordering Atom Clicker Press Parts</h1>
     
     <div class="row mb-5 d-flex">
       <div class="col-md-7">
@@ -16,12 +25,12 @@
 
         <p>Most customers were completely unaware of this transition from Italian to Chinese machines and only discovered the issue after they had a machine go down and began searching for replacement parts. They learned the hard way that the older Italian machines were not compatible with the newer Chinese models.</p>
 
-        <a href="<?php echo site_url(); ?>/china-steel" target="_blank">Click here to learn more about presses from China <i class="fa fa-chevron-right"></i></a>
+        <a href="<?php // echo site_url(); ?>/china-steel" target="_blank">Click here to learn more about presses from China <i class="fa fa-chevron-right"></i></a>
       </div>
       
       <div class="col-md-5 d-flex mt-lg-0">
         <div class="img-responsive">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/atom-press.png" alt="atom press">
+          <img src="<?php // echo get_template_directory_uri(); ?>/assets/img/atom-press.png" alt="atom press">
         </div>
       </div>
     </div>
@@ -40,7 +49,7 @@
       <div class="col-sm-12">
         <p>Then once your machine has been repaired, we recommend replacing it with a new one that has numerous sources for spare parts, lots of trained technicians that can work on it and a warranty.</p>
 
-        <a href="<?php echo site_url(); ?>/warranty" target="_blank">Click here to read about our warranty <i class="fa fa-chevron-right"></i></a>
+        <a href="<?php // echo site_url(); ?>/warranty" target="_blank">Click here to read about our warranty <i class="fa fa-chevron-right"></i></a>
       </div>
     </div>
 
@@ -52,7 +61,7 @@
 
         <a href="#clicker-press">Click here to view our clicker press machines  <i class="fa fa-chevron-right"></i></a>
       </div>
-    </div>
+    </div> -->
 
   </div>
 </section>
