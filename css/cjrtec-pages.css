@@ -1,46 +1,24 @@
-/* PAGES */
+/* PAGE UTILITES CLASS */
 
-/* UTILITIES */
-.page-h1 {
-	font-size: 36px;
-}
-
-.page-h2 {
-	font-size: 28px;
-}
-
-.page-h3 {
-	font-size: 24px;
-}
-
-.page-h4 {
-	font-size: 18px;
-}
-
-.page-h5 {
-	font-size: 16px;
-}
-
-.page-h6 {
-	font-size: 12px;
-}
-
-
+/* for href Links */
 p.href-link a {
-	/* color: #F39C12; */
 	color: #ff6600;
 	text-decoration: none;
 }
 
 p.href-link a::after {
+	/* display chevron right icon after link */
 	font-family: FontAwesome;
   content: " \f054";
 }
 
 p.href-link a:hover {
-	/* color: #ff6600; */
 	color: #F39C12;
 }
+
+
+
+/* =============================================== */
 
 
 
