@@ -31,11 +31,6 @@ p.href-link a:hover {
 
 
 /* VIDEOS PAGE */
-#videos h1 {
-	font-size: 36px;
-	margin-bottom: 3rem;
-}
-
 #videos .card .card-body .embed-container {
 	position: relative; 
 	padding-bottom: 56.25%;

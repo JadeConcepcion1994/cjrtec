@@ -25,10 +25,13 @@
           $post = get_the_ID();
       ?>
       <div class="col-lg-6 mb-5">
-        <div class="card aos-init aos-animate" data-aos="fade-up">
+        <div class="card h-100 aos-init aos-animate" data-aos="fade-up">
           <div class="card-body">
+            <div class="embed-container mb-3">
+              <?php the_field('video_link'); ?>
+            </div>
             
-            <h5 class="card-title"><?php the_title(); ?></h5>
+            <h5 class="card-title text-center"><?php the_title(); ?></h5>
             
             <p class="card-text">
               Category: 
@@ -39,9 +42,6 @@
                   }
                 ?>
             </p>
-            <div class="embed-container">
-              <?php the_field('video_link'); ?>
-            </div>
           </div>
         </div>
 
