@@ -108,16 +108,15 @@ p.href-link a:hover {
 
 
 /* CUTTING BOARDS PAGE */
-#cutting-boards h1 {
+/* #cutting-boards h1 {
 	font-size: 36px;
 	margin-bottom: 3rem;
-}
+} */
 
 #cutting-boards table th,
 #cutting-boards table td {
 	border: 1px solid #dddddd;
-	padding: 1rem;
-	/* border: none; */
+	padding: .3rem;
 }
 
 #cutting-boards table tr:first-child td {

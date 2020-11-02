@@ -6,7 +6,7 @@
 
 <?php get_header(); ?>
   
-<section id="cutting-boards" class="my-5">
+<section id="cutting-boards">
   <div class="container">
 
     <?php the_content(); ?>
