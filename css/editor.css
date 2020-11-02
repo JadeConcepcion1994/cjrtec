@@ -5,12 +5,13 @@ body {
 
 /* Main column width */
 .wp-block {
-  max-width: 1024px;
+  max-width: 992px;
 }
 
 /* Width of "wide" blocks */
 .wp-block[data-align="wide"] {
   /* we let this inherit the max-width set above */
+  max-width: inherit;
 }
 
 /* Width of "full-wide" blocks */
