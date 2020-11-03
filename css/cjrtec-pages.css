@@ -1,5 +1,10 @@
 /* PAGE UTILITES CLASS */
 
+/* orange color */
+.orange {
+	color: #ff6600;
+}
+
 /* for href Links */
 p.href-link a {
 	color: #ff6600;
@@ -15,6 +20,32 @@ p.href-link a::after {
 p.href-link a:hover {
 	color: #F39C12;
 }
+
+
+
+
+
+
+/* for href Links */
+.href-link {
+	color: #ff6600;
+	text-decoration: none;
+}
+
+.href-link::after {
+	/* display chevron right icon after link */
+	font-family: FontAwesome;
+  content: " \f054";
+}
+
+.href-link:hover {
+	color: #F39C12;
+}
+
+
+
+
+
 
 
 /* maintain image aspect ratio */
@@ -278,14 +309,66 @@ p.href-link a:hover {
 
 
 /* TYPES OF DIES PAGE */
-/* #types-of-dies h1 {
-	margin: 2rem 0;
-	font-size: 36px;
+#types-of-dies .wp-block-group.card {
+	width: 50%;
+	margin: 0 auto;
 }
 
-#types-of-dies .card .card-body h2 {
-	font-size: 28px;
-} */
+@media screen and (max-width: 767px) {
+	#types-of-dies .wp-block-column.my-3.card {
+		margin-left: 0;
+	}
+
+	#types-of-dies .wp-block-group.card {
+		width: 100%;
+	}
+}
+
+#types-of-dies #carousel-testimonials {
+  padding: 50px 0;
+}
+
+#types-of-dies #carousel-testimonials .carousel-inner {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#types-of-dies #carousel-testimonials .carousel-inner .carousel-item img {
+  width: 20%;
+  margin: 0 auto;
+}
+
+#types-of-dies #carousel-testimonials .carousel-inner .carousel-item .testimonial-message {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#types-of-dies #carousel-testimonials .carousel-inner .carousel-item .testimonial-message .description::before {
+  content: '\f10d';
+  font-family: 'FontAwesome';
+  font-weight: 900;
+  font-size: 25px;
+  color: #d7d7d7;
+  margin-right: 10px;
+}
+
+#types-of-dies #carousel-testimonials .carousel-inner .carousel-item .testimonial-message h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #c7373c;
+}
+
+#types-of-dies #carousel-testimonials .carousel-inner .carousel-item .testimonial-message h3 span {
+  font-size: 15px;
+  color: #671a36;
+}
+
+#types-of-dies #carousel-testimonials .carousel-inner .carousel-control-prev span,
+#types-of-dies #carousel-testimonials .carousel-inner .carousel-control-next span {
+  font-size: 36px;
+}
 
 
 
