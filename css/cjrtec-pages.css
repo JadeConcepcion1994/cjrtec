@@ -2,7 +2,7 @@
 
 a {
 	text-decoration: none;
-	color: #000000;
+	/* color: #000000; */
 	transition: 0.2s ease-in-out;
 }
 
@@ -99,6 +99,46 @@ a:hover {
   }
 }
 
+/* SECTION DIFFERENCE */
+.section-difference {
+	background-color: #ffffff;
+	padding: 3rem 0;
+}
+
+.section-difference .orange {
+	color: #ff6600;
+}
+
+.section-difference ul {
+  list-style-type: none;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.section-difference ul li {
+  font-size: 20px;
+	margin-bottom: 5px;
+}
+
+.section-difference ul li a {
+	font-size: 20px;
+}
+
+.section-difference ul li::before {
+	font-family: FontAwesome;
+	content: '\f00c';
+	font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  
+	color: #ff6600;
+	
+	position: relative;
+	top: 0;
+	left: 0;
+
+	margin-right: 5px;
+}
 
 
 /* =============================================== */
@@ -318,7 +358,7 @@ a:hover {
 	margin: 0 auto;
 }
 
-#used-clicker-press .cta-strip {
+/* #used-clicker-press .cta-strip {
 	background-color: rgb(255, 88, 41);
 	color: #ffffff;
 }
@@ -344,7 +384,7 @@ a:hover {
   border: 2px solid #ffffff;
   padding: 15px 30px;
   margin-left: 30px;
-}
+} */
 
 
 
@@ -547,10 +587,10 @@ a:hover {
 
 
 /* WELDED RULE PAGE */
-#welded-rule h1 {
+/* #welded-rule h1 {
 	margin: 2rem 0;
 	font-size: 36px;
-}
+} */
 
 
 
@@ -757,8 +797,7 @@ a:hover {
 	font-size: 28px;
 }
 
-#customers .cta-strip {
-	/* background-color: rgb(255, 88, 41); */
+/* #customers .cta-strip {
 	background-color: #ff6600;
 	color: #ffffff;
 }
@@ -784,7 +823,7 @@ a:hover {
   border: 2px solid #ffffff;
   padding: 15px 30px;
   margin-left: 30px;
-}
+} */
 
 
 /* CUSTOMER TEST PAGE */
@@ -924,7 +963,7 @@ a:hover {
 	border-left: 5px solid #ffd700;
 }
 
-#about .section-difference {
+/* #about .section-difference {
 	background-color: #ffffff;
 	padding: 3rem 0;
 }
@@ -962,9 +1001,9 @@ a:hover {
 	left: 0;
 
 	margin-right: 5px;
-}
+} */
 
-#about .cta-strip {
+/* #about .cta-strip {
 	background-color: #ff6600;
 	color: #ffffff;
 }
@@ -990,7 +1029,7 @@ a:hover {
   border: 2px solid #ffffff;
   padding: 15px 30px;
   margin-left: 30px;
-}
+} */
 
 
 
