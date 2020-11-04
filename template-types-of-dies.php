@@ -13,8 +13,7 @@
 
     <!-- carousel -->
     <div
-      id="carousel-testimonials"
-      class="carousel slide"
+      class="carousel-testimonials carousel slide"
       data-ride="carousel"
     >
       <div class="carousel-inner">
