@@ -9,7 +9,7 @@
 <section id="clicker-press-shipping">
 
   <div class="container">
-    <h1 class="text-center">SHIPPING INFORMATION AND FREIGHT COMPANIES</h1>
+    <h1 class="text-center my-5">SHIPPING INFORMATION AND FREIGHT COMPANIES</h1>
   </div>
 
     <div class="shipping-content-1 mb-5">

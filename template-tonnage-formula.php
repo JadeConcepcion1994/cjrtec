@@ -9,8 +9,8 @@
 <section id="tonnage-formula">
   <div class="container">
     <h1 class="text-center mt-5">
-      <small class="text-muted">Clicker Press</small> <br>
-      Tonnage Formula
+      <small class="text-muted">CLICKER PRESS</small><br>
+      TONNAGE FORMULA
     </h1>
 
     <div class="section-info my-5">
