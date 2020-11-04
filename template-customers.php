@@ -8,12 +8,14 @@
 
 <section id="customers">
   <div class="container">
-    <h1 class="text-center">
-      Customers Who Bought Our Clicker Press Machines
+    <h1 class="text-center my-5">
+      CUSTOMERS WHO BOUGHT OUR CLICKER PRESS MACHINES
     </h1>
 
     <h2 class="text-center text-muted mb-4">
-      From Small Businesses to Fortune 500 Companies
+      <small>
+        From Small Businesses to Fortune 500 Companies
+      </small>
     </h2>
 
     <p class="text-center mb-5">Companies can say anything they want to get the sale, but if you really want to know about a company, ask to speak to their customers. We are proud to have presses with some of the largest manufacturers in the country. If you&apos;re concerned at all about our quality or after the sale service, please give us a call and we will let you speak with customers that have come to rely on our products.</p>
