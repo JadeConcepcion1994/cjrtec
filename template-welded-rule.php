@@ -69,7 +69,7 @@
     </div>
   </div>
 
-  <div class="cta-strip py-5">
+  <div class="cta-strip">
     <div class="container">
       <h2>Create an Account with CJRTec Now</h2>
       <a href="#registration" class="btn-cta-strip">
@@ -77,7 +77,7 @@
       </a>
     </div>
   </div>
-  
+
 </section>
 
 <?php get_footer(); ?>
