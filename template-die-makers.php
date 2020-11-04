@@ -8,31 +8,8 @@
 
 <section id="die-makers">
   <div class="container">
-    <h1 class="text-center">Local Die Makers of America</h1>
-    
-    <div class="row mb-4 d-flex justify-content-center align-items-center">
-      <div class="col-lg-6 mb-4">
-        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/die_maker.jpg" alt="die makers">
-      </div>
 
-      <div class="col-lg-6">
-        <p>Unfortunately, many die makers are struggling to stay profitable. Die making is an art and a die maker can save you thousands of dollars in excess labor down the road – however, employing a die maker requires more of your time getting clear on your project needs and then communicating your ideas to him.</p>
-
-        <p>It&apos;s a lot easier for a die maker to be profitable if, when a customer asks for a drawing, he simply provides the die without spending hours on the phone explaining all the details and educating the customer. Even though this education is extremely valuable to the customer and helps make the die maker&apos;s job easier, most customers take this information and then look for the cheapest supplier for the die. This is why die makers struggle to stay profitable.</p>
-
-        <p>This is also why many die makers stopped trying to educate the customer. Time spent on the phone and at the front desk isn&apos;t free. Soon, they discover that great customer service isn&apos;t resulting in any loyalty, and eventually, something has to give. As consumers, we want good service and informative help, but once we get what we want, we go online and give our business to someone less expensive that hasn&apos;t invested any time with us at all.</p>
-      </div>
-    </div>
-
-    <div class="lower-content mb-5">
-      <p>Die makers have learned this the hard way and consequently have been forced to simply give the customer what they asked for and forego the education, even though they know they can save that customer thousands of dollars. So, if you&apos;re lucky enough to find a die maker that will spend some time with you, you need to reciprocate and give him some business – or at least be willing to pay them for consulting. Word to the wise – what a die maker knows can save you thousands.</p>
-
-      <p>Ask your die maker about <a href="<?php echo site_url(); ?>/die-bevel" target="_blank">bevel considerations</a>, <a href="<?php echo site_url(); ?>/ejection-options" target="_blank">ejection options</a>, cavity issues, backing options and make sure you understand the pros and cons of each element before buying a die. Dies made throughout Asia tend to be less than half the cost of USA made dies, but there are many factors that need to be considered. First of all, <a href="<?php echo site_url(); ?>/china-steel" target="_blank">Chinese steel rule</a> is made of low-quality steel that is not nearly as good as the Japanese steel rule. If you&apos;re running a short job, then it doesn&apos;t matter. But if you&apos;re going to be cutting the same job time and time again, you may want to consider the steel rule that will last longer. Another consideration is that dies can easily be broken by dropping them or forgetting a tool on top of the die, or messing up the press settings and pushing the die all the way into the cutting board. Let&apos;s just say there are many ways to mess up a die and when it happens, odds are it will be in the middle of a big job with a tight deadline.</p>
-
-      <a href="<?php echo site_url(); ?>/types-of-dies" target="_blank">
-        Know which type of die you need here <i class="fa fa-chevron-right"></i>
-      </a>
-    </div>
+    <?php the_content(); ?>
 
     <div class="die-makers-by-state mb-5">
       <h4 class="text-center">See the list below to view die makers by state:</h4>
