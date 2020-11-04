@@ -382,7 +382,11 @@ a:hover {
 
 
 /* USED CLICKER PRESS PAGE */
-#used-clicker-press .info-1 h1 {
+#used-clicker-press .bg-custom-gray {
+	background-color: #e5e5e5;
+}
+
+/* #used-clicker-press .info-1 h1 {
 	margin: 2rem 0;
 	font-size: 36px;
 	text-align: center;
@@ -408,7 +412,7 @@ a:hover {
 
 #used-clicker-press .info-2 .img-fluid {
 	margin: 0 auto;
-}
+} */
 
 /* #used-clicker-press .cta-strip {
 	background-color: rgb(255, 88, 41);
