@@ -9,7 +9,7 @@
 <section id="clicker-press-shipping">
 
   <div class="container">
-    <h1 class="text-center">Shipping Information and Freight Companies</h1>
+    <h1 class="text-center">SHIPPING INFORMATION AND FREIGHT COMPANIES</h1>
   </div>
 
     <div class="shipping-content-1 mb-5">
@@ -18,9 +18,9 @@
 
         <p>Below you will find all the information you will need to hire a shipping company.</p>
 
-        <a href="#clicker-press">
+        <a class="href-link" href="#clicker-press">
           Find the weight and dimensions here 
-          <i class="fa fa-chevron-right"></i>
+          <!-- <i class="fa fa-chevron-right"></i> -->
         </a>
       </div>
     </div>
