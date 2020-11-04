@@ -141,6 +141,60 @@ a:hover {
 }
 
 
+
+/* CAROUSEL TESTIMONIALS */
+.carousel-testimonials {
+  padding: 75px 0;
+}
+
+.carousel-testimonials .carousel-inner {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel-testimonials .carousel-inner .carousel-item img {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.carousel-testimonials .carousel-inner .carousel-item .testimonial-message {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.carousel-testimonials .carousel-inner .carousel-item .testimonial-message .description::before {
+  content: '\f10d';
+  font-family: 'FontAwesome';
+  font-weight: 900;
+  font-size: 25px;
+  color: #d7d7d7;
+  margin-right: 10px;
+}
+
+.carousel-testimonials .carousel-inner .carousel-item .testimonial-message h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #c7373c;
+}
+
+.carousel-testimonials .carousel-inner .carousel-item .testimonial-message h3 span {
+  font-size: 15px;
+  color: #671a36;
+}
+
+.carousel-testimonials .carousel-inner .carousel-control-prev span,
+.carousel-testimonials .carousel-inner .carousel-control-next span {
+  font-size: 36px;
+}
+
+
+
+
+
+
+
 /* =============================================== */
 
 
@@ -404,51 +458,7 @@ a:hover {
 	}
 }
 
-#types-of-dies #carousel-testimonials {
-  padding: 50px 0;
-}
 
-#types-of-dies #carousel-testimonials .carousel-inner {
-  width: 80%;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-#types-of-dies #carousel-testimonials .carousel-inner .carousel-item img {
-  width: 20%;
-  margin: 0 auto;
-}
-
-#types-of-dies #carousel-testimonials .carousel-inner .carousel-item .testimonial-message {
-  width: 70%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-#types-of-dies #carousel-testimonials .carousel-inner .carousel-item .testimonial-message .description::before {
-  content: '\f10d';
-  font-family: 'FontAwesome';
-  font-weight: 900;
-  font-size: 25px;
-  color: #d7d7d7;
-  margin-right: 10px;
-}
-
-#types-of-dies #carousel-testimonials .carousel-inner .carousel-item .testimonial-message h3 {
-  font-size: 18px;
-  font-weight: 700;
-  color: #c7373c;
-}
-
-#types-of-dies #carousel-testimonials .carousel-inner .carousel-item .testimonial-message h3 span {
-  font-size: 15px;
-  color: #671a36;
-}
-
-#types-of-dies #carousel-testimonials .carousel-inner .carousel-control-prev span,
-#types-of-dies #carousel-testimonials .carousel-inner .carousel-control-next span {
-  font-size: 36px;
-}
 
 
 
@@ -595,10 +605,10 @@ a:hover {
 
 
 /* EJECTION OPTIONS PAGE */
-#ejection-options h1 {
+/* #ejection-options h1 {
 	margin: 2rem 0;
 	font-size: 36px;
-}
+} */
 
 
 
