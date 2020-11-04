@@ -8,7 +8,7 @@
 
 <section id="customer-tests">
   <div class="container">
-    <h1 class="text-center">Customer Test Cutting</h1>
+    <h1 class="text-center my-5">CUSTOMER TEST CUTTING</h1>
 
     <div class="row mb-5">
       <?php 
