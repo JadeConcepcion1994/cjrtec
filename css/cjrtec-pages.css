@@ -1043,12 +1043,7 @@ a:hover {
 
 
 /* CONTACT PAGE */
-/* #contact {
-	background-color: #ffffff;
-} */
-
 #contact h1 {
-	margin: 2rem;
 	font-size: 36px;
 }
 
@@ -1061,12 +1056,13 @@ a:hover {
 }
 
 #contact .card {
-	background-color: #ff6600;
+	background-color: #ffffff;
+	box-shadow: 0 5px 10px rgb(0,0,0, 0.1);
 }
 
 #contact .card h3,
 #contact .card p {
-	color: #ffffff;
+	color: #333333;
 }
 
 #contact .card,
@@ -1076,23 +1072,19 @@ a:hover {
 }
 
 #contact .card:hover {
-	background-color: #ffffff;	
+	background-color: #ff6600;	
 }	
 
 #contact .card:hover h3 {
-	color: #000000;
+	color: #ffffff;
 }
 
 #contact .card:hover p {
-	color: #ff6600;
+	color: #ffffff;
 }
 
 #contact .card p {
 	font-size: 20px;
-}
-
-#contact .card a {
-	text-decoration: none;
 }
 
 

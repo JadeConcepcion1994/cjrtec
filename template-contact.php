@@ -7,10 +7,10 @@
 <?php get_header(); ?>
 
 <section id="contact">
-  <div class="section-heading mb-5">
+  <div class="section-heading my-5">
     <div class="container">
       <h1 class="text-center">
-        CJRTEC Contact Number and Mailing Address
+        CJRTEC CONTACT NUMBER AND MAILING ADDRESS
       </h1>
 
       <p class="text-center">Our operators are standing by ready to answer your calls. Use the following links and numbers to contact us.</p>
@@ -229,7 +229,8 @@
         </div>
       </div>
     </div>
-  </div>
+  </div>  
+ 
 
 </section>
 
