@@ -13,6 +13,7 @@
     
     <!-- carousel -->
     <div
+      id="carousel-testimonials"
       class="carousel-testimonials carousel slide"
       data-ride="carousel"
     >
