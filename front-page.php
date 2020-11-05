@@ -7,9 +7,12 @@
 		</div> -->
 			
 		
+		
 		<!-- <div class="row">
 			<?php // include get_theme_file_path( '/inc/inc.header_second.php' ); ?>
 		</div> -->
+
+
 
 		<!-- <div class="container">
 				<?php // include get_theme_file_path( '/inc/inc.know_the_difference.php' ); ?>
@@ -62,16 +65,16 @@
 			</div>
 		</div> -->
 
-
+		
 
 		<!-- <div class="container-fluid cnt-flu">
-
 			<?php // include get_theme_file_path( '/inc/inc.best_sellers.php' ); ?>
 
 			<br>
 
 			<div class="row">
 				<div class="col-md-12">
+
 					<div class="zoom-wrap">
 						<img src="
 							<?php 
@@ -102,7 +105,9 @@
 								</p>
 							</div>
 						</div>
-					</div>	 	
+
+					</div>
+
 				</div>	
 			</div>
 
@@ -141,7 +146,7 @@
 			</div>
 		</div> -->
 
-
+		
 
 		<!-- <div class="row" style="margin-bottom: 100px">
 			<?php // include get_theme_file_path( '/inc/inc.cjr_testimonials.php' ); ?>
