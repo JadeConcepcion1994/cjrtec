@@ -2,7 +2,6 @@
 
 a {
 	text-decoration: none;
-	/* color: #000000; */
 	transition: 0.2s ease-in-out;
 }
 
@@ -309,34 +308,11 @@ a:hover {
 
 
 /* ATOM PRESS PARTS PAGE */
-/* #atom-press-parts h1 {
-	margin: 2rem 0;
-	font-size: 36px;
-	text-align: center;
-}
-
-#atom-press-parts .row.d-flex {
-	align-items: center;
-}
-
-#atom-press-parts .col-md-5.d-flex {
-	justify-content: center;
-	margin-top: 3rem;
-} */
 
 
 
 /* CHINA STEEL PAGE */
-/* #china-steel h1 {
-	margin: 2rem 0;
-	font-size: 36px;
-	text-align: center;
-}
 
-#china-steel h2 {
-	font-size: 30px;
-	text-align: center;
-} */
 
 
 /* WARRANTY PAGE */
@@ -362,105 +338,11 @@ a:hover {
 }
 
 
-/* #warranty h1 {
-	font-size: 36px;
-}
-
-#warranty ul {
-	margin: 0;
-	padding: 0;
-}
-
-#warranty ul li {
-	padding-bottom: 0.5rem;
-}
-
-#warranty ul li a {
-	color: #F39C12;
-	font-size: 1rem;
-}
-
-@media screen and (max-width: 768px) {
-	#warranty .row .col-md-4 {
-		order: 2;
-
-		margin-top: 2rem;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-
-	#warranty .row .col-md-4 img {
-		width: 50%;
-	}
-
-	#warranty .row .col-md-8 {
-		order: 1;
-	}
-} */
-
-
 
 /* USED CLICKER PRESS PAGE */
 #used-clicker-press .bg-custom-gray {
 	background-color: #e5e5e5;
 }
-
-/* #used-clicker-press .info-1 h1 {
-	margin: 2rem 0;
-	font-size: 36px;
-	text-align: center;
-}
-
-#used-clicker-press .info-1 .row.d-flex {
-	align-items: center;
-}
-
-#used-clicker-press .info-1 .col-md-5.d-flex {
-	justify-content: center;
-	margin: 3rem 0;
-}
-
-#used-clicker-press .info-2 {
-	background-color: #e5e5e5;
-}
-
-#used-clicker-press .info-2 h2 {
-	font-size: 30px;
-	text-align: center;
-}
-
-#used-clicker-press .info-2 .img-fluid {
-	margin: 0 auto;
-} */
-
-/* #used-clicker-press .cta-strip {
-	background-color: rgb(255, 88, 41);
-	color: #ffffff;
-}
-
-#used-clicker-press .cta-strip .container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-#used-clicker-press .cta-strip .container h2 {
-  margin: 0;
-  font-size: 28px;
-}
-
-#used-clicker-press .cta-strip .container a {
-  color: #ffffff;
-  font-size: 18px;
-}
-
-#used-clicker-press .cta-strip .container .btn-cta-strip {
-  display: inline-block;
-  border: 2px solid #ffffff;
-  padding: 15px 30px;
-  margin-left: 30px;
-} */
 
 
 
@@ -482,86 +364,14 @@ a:hover {
 
 
 
-
-
 /* DIE DRAWINGS PAGE */
 #die-drawings h4 {
 	font-size: 18px;
 }
 
 
-/* #die-drawings h1 {
-	font-size: 36px;
-}
-
-#die-drawings h2 {
-	font-size: 28px;
-}
-
-#die-drawings h4 {
-	font-size: 18px;
-}
-
-#die-drawings .drawing-design .row.d-flex {
-	align-items: center;
-}
-
-@media screen and (max-width: 768px) {
-	#die-drawings .col-md-6.col-img {
-		order: 2;
-	}
-
-	#die-drawings .col-md-6.col-text {
-		order: 1;
-		margin-bottom: 2rem;
-	}
-}
-
-#die-drawings .clicker-die ul {
-	margin: 0;
-	padding: 0;
-}
-
-#die-drawings .clicker-die ul li a {
-	color: rgb(255, 88, 41);
-	font-size: 1rem;
-}
-
-#die-drawings .cta-strip {
-	background-color: #ff6600;
-	color: #ffffff;
-}
-
-#die-drawings .cta-strip .container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-#die-drawings .cta-strip .container h2 {
-  margin: 0;
-  font-size: 28px;
-}
-
-#die-drawings .cta-strip .container a {
-  color: #ffffff;
-  font-size: 18px;
-}
-
-#die-drawings .cta-strip .container .btn-cta-strip {
-  display: inline-block;
-  border: 2px solid #ffffff;
-  padding: 15px 30px;
-  margin-left: 30px;
-} */
-
-
 
 /* DIE SIZE PAGE */
-/* #die-size h1 {
-	margin: 2rem 0;
-	font-size: 36px;
-} */
 
 
 
@@ -569,68 +379,23 @@ a:hover {
 
 
 
-/* #die-bevel h1 {
-	margin: 2rem 0;
-	font-size: 36px;
-}
-
-#die-bevel .img-container {
-	width: 100%;
-	max-width: 800px;
-	margin: 0 auto;
-}
-
-#die-bevel a {
-	color: #ff6600;
-} */
-
-
-
 /* REGISTRATION PINS PAGE */
-/* #registration-pins h1 {
-	margin: 2rem 0;
-	font-size: 36px;
-}
-
-#registration-pins h4 {
-	font-size: 18px;
-} */
 
 
 
 /* STEEL RULE DEPTH PAGE */
-/* #steel-rule-depth h1 {
-	margin: 2rem 0;
-	font-size: 36px;
-} */
 
 
 
 /* STEEL RULE DIES PAGE */
-/* #steel-rule-dies h1 {
-	margin: 2rem 0;
-	font-size: 36px;
-}
-
-#steel-rule-dies h4 {
-	font-size: 18px;
-} */
 
 
 
 /* WELDED RULE PAGE */
-/* #welded-rule h1 {
-	margin: 2rem 0;
-	font-size: 36px;
-} */
 
 
 
 /* EJECTION OPTIONS PAGE */
-/* #ejection-options h1 {
-	margin: 2rem 0;
-	font-size: 36px;
-} */
 
 
 
@@ -652,22 +417,6 @@ a:hover {
 
 
 /* DIE MAINTENANCE PAGE */
-/* #die-maintenance h1 {
-	margin: 2rem 0;
-	font-size: 36px;
-} */
-
-
-
-/* DIE CUT TESTING PAGE */
-/* #die-cut-testing h1 {
-	margin: 2rem 0;
-	font-size: 36px;
-}
-
-#die-cut-testing h2 {
-	font-size: 28px;
-} */
 
 
 
@@ -821,38 +570,10 @@ a:hover {
 	font-size: 30px;
 }
 
-/* #customers .cta-strip {
-	background-color: #ff6600;
-	color: #ffffff;
-}
-
-#customers .cta-strip .container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-#customers .cta-strip .container h2 {
-  margin: 0;
-  font-size: 28px;
-}
-
-#customers .cta-strip .container a {
-  color: #ffffff;
-  font-size: 18px;
-}
-
-#customers .cta-strip .container .btn-cta-strip {
-  display: inline-block;
-  border: 2px solid #ffffff;
-  padding: 15px 30px;
-  margin-left: 30px;
-} */
 
 
 /* CUSTOMER TEST PAGE */
 #customer-tests h1 {
-	/* margin: 2rem 0; */
 	font-size: 36px;
 }
 
@@ -904,7 +625,6 @@ a:hover {
 	font-size: 14px;
 }
 
-
 #testimonials .banner-testimonial p {
 	font-size: 18px;
 }
@@ -914,13 +634,9 @@ a:hover {
 	border-radius: 0px;
 }
 
-
 #testimonials .banner-testimonial .card .card-body {
 	padding: 0 6rem 1.25rem;
 }
-
-
-
 
 #testimonials .client-name {
 	color: #ff6600;
@@ -950,7 +666,6 @@ a:hover {
 	padding: 0 1.25rem 1.25rem;
 }
 
-
 #testimonials .card-body p.card-text.text-center::before {
   font-family: FontAwesome;
 	content: "\f10d";
@@ -977,88 +692,6 @@ a:hover {
 
 	border-left: 5px solid #ffd700;
 }
-
-
-/* #about h1 {
-	margin-top: 2rem;
-	font-size: 36px;
-}
-
-#about h2 {
-	font-size: 30px;
-} */
-
-/* #about .lead  */
-
-
-
-/* #about .section-difference {
-	background-color: #ffffff;
-	padding: 3rem 0;
-}
-
-#about .section-difference .orange {
-	color: #ff6600;
-}
-
-#about .section-difference ul {
-  list-style-type: none;
-  margin-bottom: 30px;
-  padding: 0;
-}
-
-#about .section-difference ul li {
-  font-size: 20px;
-	margin-bottom: 5px;
-}
-
-#about .section-difference ul li a {
-	font-size: 20px;
-}
-
-#about .section-difference ul li::before {
-	font-family: FontAwesome;
-	content: '\f00c';
-	font-size: 24px;
-  font-style: normal;
-  font-weight: normal;
-  
-	color: #ff6600;
-	
-	position: relative;
-	top: 0;
-	left: 0;
-
-	margin-right: 5px;
-} */
-
-/* #about .cta-strip {
-	background-color: #ff6600;
-	color: #ffffff;
-}
-
-#about .cta-strip .container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-#about .cta-strip .container h2 {
-  margin: 0;
-  font-size: 28px;
-}
-
-#about .cta-strip .container a {
-  color: #ffffff;
-  font-size: 18px;
-}
-
-#about .cta-strip .container .btn-cta-strip {
-  display: inline-block;
-  border: 2px solid #ffffff;
-  padding: 15px 30px;
-  margin-left: 30px;
-} */
 
 
 
@@ -1110,40 +743,22 @@ a:hover {
 
 
 /* TRAINING PAGE */
-/* #training h1 {
-	margin: 2rem;
-	font-size: 36px;
-} */
 
 
 
 /* REFERRALS PAGE */
-/* #referrals h1 {
-	margin: 2rem;
-	font-size: 36px;
-} */
 
 
 
 /* FRANCHISE PAGE */
-/* #franchise h1 {
-	margin: 2rem;
-	font-size: 36px;
-} */
 
 
 
 /* FINANCE PAGE */
-/* #finance h1 {
-	font-size: 36px;
-} */
 
 
 
 /* BUYBACK PAGE */
-/* #buyback h1 {
-	font-size: 36px;
-} */
 
 
 
