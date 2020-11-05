@@ -948,16 +948,7 @@ a:hover {
 
 
 /* ABOUT PAGE */
-#about h1 {
-	margin-top: 2rem;
-	font-size: 36px;
-}
-
-#about h2 {
-	font-size: 30px;
-}
-
-#about .lead {
+#about .h2-blockquote {
 	font-size: 28px;
 	line-height: 1;
 	font-weight: 500;
@@ -966,6 +957,20 @@ a:hover {
 
 	border-left: 5px solid #ffd700;
 }
+
+
+/* #about h1 {
+	margin-top: 2rem;
+	font-size: 36px;
+}
+
+#about h2 {
+	font-size: 30px;
+} */
+
+/* #about .lead  */
+
+
 
 /* #about .section-difference {
 	background-color: #ffffff;

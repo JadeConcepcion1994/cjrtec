@@ -7,34 +7,8 @@
 <?php get_header(); ?>
 
 <section id="about">
-  <div class="section-heading mb-5">
-    <div class="container">
-      <h1 class="text-center">About CJRTEC</h1>
-
-      <h2 class="text-center text-muted mb-5">
-        THE NO. 1 AMERICAN CLICKER PRESS DISTRIBUTOR IN THE WORLD
-      </h2>
-    
-      <div class="row d-flex align-items-center">
-        <div class="col-md-5">
-          <blockquote class="lead text-center">
-            CJRTec is the Leader in Clicker Press Machine Manufacturing and Distribution
-          </blockquote>
-        </div>
-
-        <div class="col-md-7">
-          <p>CJRTec has been in the manufacturing business for more than a decade. We are an international company based in the USA, with sales all over the world and offices in the USA, the Philippines, Korea and China. Our focus is in all types of specialized cutting machines with an emphasis in automated cutting.</p>
-
-          <p><a href="#clicker-press">Most of the machines we sell are custom-built to customer-specific needs</a>. While we are not the sole company in this market segment, we are the only company that can make custom presses from a 10 ton to a 350 ton – in a variety of table sizes and machine types.</p>
-
-          <p>CJRTec enjoys annual sales that are nearly twice that of all USA-based competitors. We also have the <a href="<?php echo site_url(); ?>/warranty" target="_blank">best warranty</a> and customer service in the industry.</p>
-
-          <p>If you want to do business with a company that prides itself in answering the phone right away and values customer service over anything else . . . you are in the right place!</p>
-
-          <p><a href="<?php echo site_url(); ?>/contact" target="_blank">Call us today</a> and let us design, build and deliver a solution for you!</p>
-        </div>
-      </div>
-    </div>
+  <div class="container">
+    <?php the_content(); ?>
   </div>
 
   <div class="section-difference">
@@ -93,7 +67,7 @@
     </div>
   </div>
 
-  <div class="cta-strip py-5">
+  <div class="cta-strip">
     <div class="container">
       <h2>Create an Account with CJRTec Now</h2>
       <a href="#registration" class="btn-cta-strip">
