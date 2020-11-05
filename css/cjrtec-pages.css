@@ -340,10 +340,30 @@ a:hover {
 
 
 /* WARRANTY PAGE */
-#warranty h1 {
-	/* margin: 2rem 0; */
+@media screen and (max-width: 768px) {
+	#warranty .warranty-text {
+		order: 1;
+	}
+
+	#warranty .warranty-img {
+		order: 2;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	#warranty .warranty-img figure {
+		display: inline;
+	}
+
+	#warranty .warranty-img figure img {
+		width: 240px;
+	}
+}
+
+
+/* #warranty h1 {
 	font-size: 36px;
-	text-align: center;
 }
 
 #warranty ul {
@@ -377,7 +397,7 @@ a:hover {
 	#warranty .row .col-md-8 {
 		order: 1;
 	}
-}
+} */
 
 
 
