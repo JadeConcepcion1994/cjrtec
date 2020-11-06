@@ -224,20 +224,28 @@ img.img-car {
 h1{
 	font-size: 70px;
 }
+h1#h1_fade {
+	margin-bottom: 18px;
+}
 
-.first-box{
+.first-box {
 	background-color: black;
 	width: 30%;
-	padding: 30px 30px 30px 30px;
+	padding: 30px;
 	text-align: center;
 }
 
-.second-box{
+.second-box {
 	background-color: rgb(255, 88, 41);
 	width: 30%;
-	padding: 30px 30px 30px 30px;
+	padding: 30px;
 	color:black;
 	text-align: center;
+}
+
+.first-box p,
+.second-box p {
+	margin: 0;
 }
 
 #row_fade{
@@ -265,13 +273,13 @@ h1{
 	}
 
 	.first-box {
-		height: 40%;
+		/* height: 40%; */
 		width: 90%;
 		padding: 10px;
 	}
 
 	.second-box {
-		height: 40%;
+		/* height: 40%; */
 		width: 90%;
 		padding: 10px;
 	}
