@@ -1,10 +1,10 @@
 
 <?php get_header(); ?>
 	
-	<div class="container-fluid cntr-top-content">
-		<!-- <div class="row">
-			<?php // include get_theme_file_path( '/inc/inc.banner_carousel.php' ); ?>
-		</div> -->
+	<!-- <div class="container-fluid cntr-top-content"> -->
+	<div class="cntr-top-content">
+		<?php include get_theme_file_path( '/inc/inc.banner_carousel.php' ); ?>
+		
 			
 		
 		
