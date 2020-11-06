@@ -214,12 +214,6 @@ img.img-car {
 	padding-bottom: 100px;
 }
 
-
-
-
-
-
-
 .cntr-top-content{
 	width: 100%; 
 	color: white; 
@@ -235,6 +229,7 @@ h1{
 	background-color: black;
 	width: 30%;
 	padding: 30px 30px 30px 30px;
+	text-align: center;
 }
 
 .second-box{
@@ -242,6 +237,7 @@ h1{
 	width: 30%;
 	padding: 30px 30px 30px 30px;
 	color:black;
+	text-align: center;
 }
 
 #row_fade{
@@ -551,7 +547,7 @@ h1 .Count{
 /*Responsive Design*/
 
 /*Moto G4 / Galaxy S5*/
-  @media screen and (device-width: 360px) and (orientation:portrait) {
+  /* @media screen and (device-width: 360px) and (orientation:portrait) {
 
 	  .sticky {
 	 	 position: sticky;
@@ -651,11 +647,11 @@ h1 .Count{
 		.row-title-h1{
 			font-size: 30px;
 		}
-  }
+  } */
 
 
   /*Pixel 2 / Pixel 2 XL*/
-  @media screen and (device-width: 411px) and (orientation:portrait) {
+  /* @media screen and (device-width: 411px) and (orientation:portrait) {
 
 	  .sticky {
 	 	 position: sticky;
@@ -751,10 +747,10 @@ h1 .Count{
 			font-size: 30px;
 		}
 
-  }
+  } */
 
    /* Iphone 5/SE*/
-  @media screen and (device-width: 320px) and (orientation:portrait) {
+  /* @media screen and (device-width: 320px) and (orientation:portrait) {
 
 	  .sticky {
 	 	 position: sticky;
@@ -852,10 +848,10 @@ h1 .Count{
 			font-size: 30px;
 		}
 
-  }
+  } */
 
      /* Iphone 6/7/8 */
-  @media screen and (device-width: 375px) and (orientation:portrait) {
+  /* @media screen and (device-width: 375px) and (orientation:portrait) {
 
 	  .sticky {
 	 	 position: sticky;
@@ -950,12 +946,12 @@ h1 .Count{
 			font-size: 30px;
 		}
 
-  }
+  } */
 
 
 
      /* Iphone 6/7/8 PLUS */
-  @media screen and (device-width: 414px) and (orientation:portrait) {
+  /* @media screen and (device-width: 414px) and (orientation:portrait) {
 
 	  .sticky {
 	 	 position: sticky;
@@ -1035,11 +1031,11 @@ h1 .Count{
 			padding-top: 20px !important;
 		}
 
-  }
+  } */
 
 
        /* Ipad */
-  @media screen and (device-width: 768px) and (orientation:portrait) {
+  /* @media screen and (device-width: 768px) and (orientation:portrait) {
 
   		.div-content-image{
   			top: 0;
@@ -1086,10 +1082,10 @@ h1 .Count{
 			margin-left: -80px;
 		}
 
-  }
+  } */
 
          /* Ipad Pro */
-  @media screen and (device-width: 1024px) and (orientation:portrait) {
+  /* @media screen and (device-width: 1024px) and (orientation:portrait) {
 
   	  .flex-container > div > img{
 			width: 70px;
@@ -1106,11 +1102,11 @@ h1 .Count{
 	   padding: 50px 100px 50px 100px;
 	}
 
-  }
+  } */
 
 
        /* Surface Duo */
-  @media screen and (device-width: 540px) and (orientation:portrait) {
+  /* @media screen and (device-width: 540px) and (orientation:portrait) {
 
 	  .sticky {
 	 	 position: sticky;
@@ -1210,10 +1206,10 @@ h1 .Count{
 			font-size: 30px;
 		}
 
-  }
+  } */
 
          /* Galaxy Fold */
-  @media screen and (device-width: 280px) and (orientation:portrait) {
+  /* @media screen and (device-width: 280px) and (orientation:portrait) {
 
 	  .sticky {
 	 	 position: sticky;
@@ -1320,4 +1316,4 @@ h1 .Count{
 			font-size: 30px;
 		}
 
-	}
+	} */

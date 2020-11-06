@@ -169,7 +169,7 @@
 
 						<div class="row"  id="row_fade">
 							<div class="first-box">
-								<center>
+								<!-- <center> -->
 									<a href="<?php echo get_theme_mod('cjrtec_first_box_link_edit'); ?>" class="call-us">
 										<?php
 											if (get_theme_mod('cjrtec_first_box_edit')) {
@@ -182,11 +182,11 @@
 									<p>
 										800-733-2302
 									</p>
-								</center>
+								<!-- </center> -->
 							</div>
 								
 							<div class="second-box">
-								<center>
+								<!-- <center> -->
 									<a href="<?php echo get_theme_mod('cjrtec_second_box_link_edit'); ?>" class="get-started">
 										<?php 
 											if (get_theme_mod('cjrtec_second_box_edit')) {
@@ -199,7 +199,7 @@
 									<p>
 										Request a FREE quote now
 									</p>
-								</center>
+								<!-- </center> -->
 							</div>
 
 						</div><!-- row row_fade -->
