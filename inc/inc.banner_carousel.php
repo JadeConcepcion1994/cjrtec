@@ -1,6 +1,7 @@
 <!-- <div class="row row-content"> -->
 	<!-- <div class="row"> -->
 		<!-- <div class="col-md-12"> -->
+		
 			<div id="carouselExampleIndicators" class="carousel slide carousel-top" data-ride="carousel">
 				<ol class="carousel-indicators">
 			  	<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -150,69 +151,60 @@
 						>
 			    </div>
 
+					<div class="div-content-image px-0">
+						<div class="container">
+							<h1 id="h1_fade">
+								<strong>
+									<?php
+										if (get_theme_mod('cjrtec_image_header_edit')) {
+											echo get_theme_mod('cjrtec_image_header_edit');
+										} else {
+											echo "#1 American Clicker Press Distributor";
+										}
+									?>	
+								</strong>
+							</h1>
 
-
-
-
-					<div class="div-content-image">
-						<h1 id="h1_fade" class="text-center">
-							<strong>
-								<?php
-									if (get_theme_mod('cjrtec_image_header_edit')) {
-										echo get_theme_mod('cjrtec_image_header_edit');
-									} else {
-										echo "#1 American Clicker Press Distributor";
-									}
-								?>	
-							</strong>
-						</h1>
-
-						<div class="row"  id="row_fade">
-							<div class="first-box">
-								<!-- <center> -->
-									<a href="<?php echo get_theme_mod('cjrtec_first_box_link_edit'); ?>" class="call-us">
-										<?php
-											if (get_theme_mod('cjrtec_first_box_edit')) {
-												echo get_theme_mod('cjrtec_first_box_edit');
-											} else {
-												echo "CALL US";
-											} 
-										?>	
-									</a>	
-									<p>
-										800-733-2302
-									</p>
-								<!-- </center> -->
-							</div>
-								
-							<div class="second-box">
-								<!-- <center> -->
-									<a href="<?php echo get_theme_mod('cjrtec_second_box_link_edit'); ?>" class="get-started">
-										<?php 
-											if (get_theme_mod('cjrtec_second_box_edit')) {
-												echo get_theme_mod('cjrtec_second_box_edit');
-											} else {
-												echo "GET STARTED";
-											}
-										?>
-									</a>
-									<p>
-										Request a FREE quote now
-									</p>
-								<!-- </center> -->
-							</div>
-
-						</div><!-- row row_fade -->
-					</div><!-- div-content-image -->
-
-					
+							<div class="row mx-0"  id="row_fade">
+								<div class="first-box">
+									<!-- <center> -->
+										<a href="<?php echo get_theme_mod('cjrtec_first_box_link_edit'); ?>" class="call-us">
+											<?php
+												if (get_theme_mod('cjrtec_first_box_edit')) {
+													echo get_theme_mod('cjrtec_first_box_edit');
+												} else {
+													echo "CALL US";
+												} 
+											?>	
+										</a>	
+										<p>
+											800-733-2302
+										</p>
+									<!-- </center> -->
+								</div>
+									
+								<div class="second-box">
+									<!-- <center> -->
+										<a href="<?php echo get_theme_mod('cjrtec_second_box_link_edit'); ?>" class="get-started">
+											<?php 
+												if (get_theme_mod('cjrtec_second_box_edit')) {
+													echo get_theme_mod('cjrtec_second_box_edit');
+												} else {
+													echo "GET STARTED";
+												}
+											?>
+										</a>
+										<p>
+											Request a FREE quote now
+										</p>
+									<!-- </center> -->
+								</div>
+							</div><!-- row row_fade -->
+						</div>
+					</div><!-- div-content-image -->					
 			  </div><!-- carousel-inner -->
 			</div><!-- carouselExampleIndicators -->
 
-
 		<!-- </div> --> <!-- col-md-12 -->
 	<!-- </div> --> <!-- row -->
-
-	
-
 <!-- </div> --> <!-- row row-content -->
