@@ -155,6 +155,18 @@ ul > li.active a{
 
 }
 
+/* .carousel-inner{
+  width: 100%; 
+  height: 100%; 
+  padding: none !important;
+} */
+
+/* .img-car{
+	height: 700px;
+	width: 100%;
+} */
+
+
 img.img-car {
 	height: 600px;
 	object-fit: cover;
@@ -188,8 +200,18 @@ img.img-car {
 
 .div-content-image {
   position: absolute;
-  top: 300px;
-  left: 100px;
+  top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.4);
+	height: 100%;
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	justify-content: flex-end;
+	padding-bottom: 100px;
 }
 
 
@@ -223,10 +245,46 @@ h1{
 }
 
 #row_fade{
-	margin-left: 20px;
-	margin-top: 20px;
+	/* margin-left: 20px;
+	margin-top: 20px; */
 	width: 100%;
 }
+
+.row#row_fade {
+	justify-content: center;
+}
+
+@media screen and (max-width: 640px) {
+	.div-content-image {
+		padding-bottom: 50px;
+	}
+
+	.row#row_fade {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	h1#h1_fade {
+		font-size: 38px;
+	}
+
+	.first-box {
+		height: 40%;
+		width: 90%;
+		padding: 10px;
+	}
+
+	.second-box {
+		height: 40%;
+		width: 90%;
+		padding: 10px;
+	}
+}
+
+
+
+
+
 
 .img-main-top{
     object-fit: cover; 

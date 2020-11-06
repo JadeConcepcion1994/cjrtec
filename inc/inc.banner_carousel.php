@@ -155,7 +155,7 @@
 
 
 					<div class="div-content-image">
-						<h1 id="h1_fade">
+						<h1 id="h1_fade" class="text-center">
 							<strong>
 								<?php
 									if (get_theme_mod('cjrtec_image_header_edit')) {
