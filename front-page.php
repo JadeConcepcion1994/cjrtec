@@ -4,23 +4,23 @@
 	<!-- <div class="container-fluid cntr-top-content"> -->
 	<div class="cntr-top-content">
 		<?php include get_theme_file_path( '/inc/inc.banner_carousel.php' ); ?>
+
+
+
+		<div class="row">
+			<?php include get_theme_file_path( '/inc/inc.header_second.php' ); ?>
+		</div>
 		
-			
-		
-		
-		<!-- <div class="row">
-			<?php // include get_theme_file_path( '/inc/inc.header_second.php' ); ?>
-		</div> -->
 
 
-
-		<!-- <div class="container">
-				<?php // include get_theme_file_path( '/inc/inc.know_the_difference.php' ); ?>
-		</div> -->
+		<div class="container">
+				<?php include get_theme_file_path( '/inc/inc.know_the_difference.php' ); ?>
+		</div>
 
 
 		
-		<!-- <div data-aos="fade-up" data-aos-delay="50">
+		<!-- <div data-aos="fade-up" data-aos-delay="50"> -->
+		<div>
 			<div class="row row-numbers">
 				<div class="col-md-3">
 					<div class="row">
@@ -47,23 +47,23 @@
 					</div>	
 				</div>
 			</div>
-		</div> -->
+		</div>
 		
 
 
-		<!-- <div class="row">
+		<div class="row">
 			<div class="col-md-12" data-aos="fade-up" data-aos-delay="50">
 				<h1 class="row-title-h1">
 					<?php 
-						// if(get_theme_mod('cjrtec_cards_title_edit')){
-						// 	echo get_theme_mod('cjrtec_cards_title_edit');
-						// }else{
-						// 	echo "Our Bestsellers";
-						// }
+						if(get_theme_mod('cjrtec_cards_title_edit')){
+							echo get_theme_mod('cjrtec_cards_title_edit');
+						}else{
+							echo "Our Bestsellers";
+						}
 					?>
 				</h1>
 			</div>
-		</div> -->
+		</div>
 
 		
 
