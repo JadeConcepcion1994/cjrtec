@@ -19,7 +19,7 @@
 
 
 		
-		<!-- <div data-aos="fade-up" data-aos-delay="50"> -->
+		<div data-aos="fade-up" data-aos-delay="50">
 		<div>
 			<div class="row row-numbers">
 				<div class="col-sm-6 col-lg-3 my-3">
