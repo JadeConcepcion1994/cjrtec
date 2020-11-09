@@ -1,7 +1,7 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-md-12" data-aos="fade-up" data-aos-delay="50">
+		<div class="col" data-aos="fade-up" data-aos-delay="50">
 			<h1 class="row-title-h1">
 				<?php 
 					if(get_theme_mod('cjrtec_cards_title_edit')){
@@ -144,7 +144,7 @@
 
 
 	<div class="row mb-5">
-		<div class="col-md-6 col-lg-3 my-3">
+		<div class="col-sm-6 col-lg-3 my-3">
 			<div class="card h-100">
 				<img 
 					class="card-img-top img-fluid" 
@@ -202,7 +202,7 @@
 			</div><!-- card -->
 		</div><!-- col-md-3 -->
 
-		<div class="col-md-6 col-lg-3 my-3">
+		<div class="col-sm-6 col-lg-3 my-3">
 			<div class="card h-100">
 				<img 
 					class="card-img-top img-fluid" 
@@ -260,7 +260,7 @@
 			</div><!-- card -->
 		</div><!-- col-md-3 -->
 
-		<div class="col-md-6 col-lg-3 my-3">
+		<div class="col-sm-6 col-lg-3 my-3">
 			<div class="card h-100">
 				<img 
 					class="card-img-top img-fluid" 
@@ -319,7 +319,7 @@
 			</div><!-- card -->
 		</div><!-- col-md-3 -->
 
-		<div class="col-md-6 col-lg-3 my-3">
+		<div class="col-sm-6 col-lg-3 my-3">
 			<div class="card h-100">
 				<img 
 					class="card-img-top img-fluid" 

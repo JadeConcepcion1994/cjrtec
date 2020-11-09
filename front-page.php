@@ -27,7 +27,7 @@
 	
 	<!-- Best Sellers Section -->
 	<?php 
-		// include get_theme_file_path( '/inc/inc.best_sellers.php' );
+		include get_theme_file_path( '/inc/inc.best_sellers.php' );
 	?>
 
 	<!-- Why Choose Section -->
