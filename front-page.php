@@ -1,7 +1,6 @@
 
 <?php get_header(); ?>
 	
-	
 <div class="cntr-top-content">
 
 	<!-- Banner Carousel Section -->
@@ -52,9 +51,8 @@
 	
 	<!-- Take Advantage Section -->
 	<?php 
-		// include get_theme_file_path( '/inc/inc.take_advantage.php' );
+		include get_theme_file_path( '/inc/inc.take_advantage.php' );
 	?>
-		
 
 </div> <!-- cntr-top-content -->
 
