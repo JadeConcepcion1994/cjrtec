@@ -125,7 +125,7 @@
 
 
 
-<div class="row">
+<div class="row mb-5">
 	<div class="col-md-6 col-lg-3 my-3">
 		<div class="card h-100">
 			<img 

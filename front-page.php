@@ -5,20 +5,14 @@
 	<div class="cntr-top-content">
 		<?php include get_theme_file_path( '/inc/inc.banner_carousel.php' ); ?>
 
-
-
 		<div class="row">
 			<?php include get_theme_file_path( '/inc/inc.header_second.php' ); ?>
 		</div>
 		
-
-
 		<div class="container">
 				<?php include get_theme_file_path( '/inc/inc.know_the_difference.php' ); ?>
 		</div>
 
-
-		
 		<div data-aos="fade-up" data-aos-delay="50">
 			<!-- <div> -->
 			<div class="row row-numbers">
@@ -61,6 +55,9 @@
 		
 
 
+
+
+
 		<!-- <div class="container cnt-flu"> -->
 		<div class="container">
 			<div class="row">
@@ -79,7 +76,6 @@
 
 			<?php include get_theme_file_path( '/inc/inc.best_sellers.php' ); ?>
 
-
 			<div class="row">
 				<div class="col-md-12">
 
@@ -92,18 +88,18 @@
 									echo get_template_directory_uri(). "/assets/img/pick-and-place-clicker-press.jpg";
 								}
 							?>
-						">
+						" class="img-fluid">
 			
 						<div class="centered">
 							<div data-aos="fade-up" data-aos-delay="50">
 								<h3 class="centered-text">
 									<strong>
 										<?php 
-											// if(get_theme_mod('cjrtec_lower_title_edit')){
-											// 	echo get_theme_mod('cjrtec_lower_title_edit');	
-											// }else{
-											// 	echo "Why Choose Clicker Press by CJRTec?";
-											// }
+											if(get_theme_mod('cjrtec_lower_title_edit')){
+												echo get_theme_mod('cjrtec_lower_title_edit');	
+											}else{
+												echo "Why Choose Clicker Press by CJRTec?";
+											}
 										?>
 									</strong>
 								</h3>
@@ -119,8 +115,9 @@
 				</div>	
 			</div>
 
-			<div class="container-fluid">
-				<?php // include get_theme_file_path( '/inc/inc.why_choose.php' ); ?>
+			<!-- <div class="container-fluid"> -->
+			<div class="container">
+				<?php include get_theme_file_path( '/inc/inc.why_choose.php' ); ?>
 			</div>
 
 		</div>
@@ -131,9 +128,9 @@
 
 
 
-		<!-- <div class="container" style="color: black; margin-top: 50px">
-			<?php // include get_theme_file_path( '/inc/inc.get_help.php' ); ?>
-		</div> -->
+		<div class="container" style="color: black; margin-top: 50px">
+			<?php include get_theme_file_path( '/inc/inc.get_help.php' ); ?>
+		</div>
 
 		
 

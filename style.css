@@ -22,6 +22,12 @@ body{
 	height: 100% !important;
 
 }
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+}
+
 nav {
   box-shadow: 0 2px 4px 0 rgb(255, 88, 41);
 }
@@ -398,7 +404,7 @@ h1#h1_fade {
 
 
 
-.zoom-wrap {
+/* .zoom-wrap {
   width:100%;
   height:35rem;
   overflow:hidden;
@@ -414,7 +420,7 @@ h1#h1_fade {
   left:50%;
   right: 50%;
   transform: translate(-50%);
-}
+} */
 
 
 
