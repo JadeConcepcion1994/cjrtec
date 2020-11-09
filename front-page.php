@@ -42,7 +42,7 @@
 
 	<!-- Testimonials Section -->
 	<?php 
-		// include get_theme_file_path( '/inc/inc.cjr_testimonials.php' ); 
+		include get_theme_file_path( '/inc/inc.cjr_testimonials.php' ); 
 	?>
 	
 	<!-- Client Carousel Section -->
