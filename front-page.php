@@ -22,7 +22,7 @@
 
 	<!-- Info Counter Section -->
 	<?php 
-		// include get_theme_file_path('/inc/inc.info-counter.php'); 
+		include get_theme_file_path('/inc/inc.info-counter.php'); 
 	?>
 	
 	<!-- Best Sellers Section -->
