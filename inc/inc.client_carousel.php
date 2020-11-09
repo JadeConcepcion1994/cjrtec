@@ -1,12 +1,16 @@
 <div data-aos="fade-up" data-aos-delay="510">
-	<div class="container-fluid">
+	<!-- <div class="container-fluid"> -->
+	<!-- <div class="container"> -->
 	
 
-		 <div class="row">
-		 	<div class="col-md-12 col-car-company">
+		<div class="row">
+		 	<!-- <div class="col-md-12 col-car-company"> -->
+		 	<div class="col-12">
 		 		<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-				  <div class="carousel-inner">
+				  <div class="carousel-inner bg-white">
+					
 				    <div class="carousel-item active">
+				    	<!-- <div class="flex-container"> -->
 				    	<div class="flex-container">
 				    		<div>
 				    			<img src="<?php echo get_template_directory_uri(). "/assets/img/client-logo/owens-corning.png" ?>" alt="Image Alt" height="100px" width="100px" />
@@ -28,6 +32,7 @@
 				    		</div>
 				    	</div>
 				    </div>
+
 				    <div class="carousel-item">
 				    	<div class="flex-container">
 				    		<div>
@@ -50,6 +55,7 @@
 				    		</div>
 				    	</div>
 				    </div>
+
 				    <div class="carousel-item">
 		  				<div class="flex-container">
 				    	<div>
@@ -72,6 +78,7 @@
 				    		</div>
 				    	</div>
 				    </div>
+
 				     <div class="carousel-item">
 		  				<div class="flex-container">
 				    		<div>
@@ -94,6 +101,7 @@
 				    		</div>
 				    	</div>
 				    </div>
+
 				    <div class="carousel-item">
 		  				<div class="flex-container">
 				    		<div>
@@ -116,6 +124,7 @@
 				    		</div>
 				    	</div>
 				    </div>
+
 				    <div class="carousel-item">
 		  				<div class="flex-container">
 				    		<div>
@@ -138,6 +147,7 @@
 				    		</div>
 				    	</div>
 				    </div>
+
 				    <div class="carousel-item">
 		  				<div class="flex-container">
 				    		<div>
@@ -160,6 +170,7 @@
 				    		</div>
 				    	</div>
 				    </div>
+
 				     <div class="carousel-item">
 		  				<div class="flex-container">
 				    		<div>
@@ -182,6 +193,7 @@
 				    		</div>
 				    	</div>
 				    </div>
+
 				    <div class="carousel-item">
 		  				<div class="flex-container">
 				    		<div>
@@ -209,9 +221,9 @@
 
 				  </div>
 				</div>
-		 	</div>
-		 </div>
+			</div>
+		</div>
 
 
-	</div>
+	<!-- </div> -->
 </div>

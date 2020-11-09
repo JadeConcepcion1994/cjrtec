@@ -47,7 +47,7 @@
 	
 	<!-- Client Carousel Section -->
 	<?php 
-		// include get_theme_file_path( '/inc/inc.client_carousel.php' ); 
+		include get_theme_file_path( '/inc/inc.client_carousel.php' ); 
 	?>
 	
 	<!-- Take Advantage Section -->
