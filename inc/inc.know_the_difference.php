@@ -24,19 +24,19 @@
 				next day shipping for everything you need.
 			</li>
 			<li>
-				CJR offers the only <a href="<?php echo site_url(); ?>/warranty" target="_blank" class="orange">5-year warranty</a>&ast; in the industry.
+				CJR offers the only <a href="<?php echo site_url(); ?>/warranty" class="orange">5-year warranty</a>&ast; in the industry.
 			</li>
 			<li>
-				CJR offers <a href="#tonnage-formula" class="orange"><strong>FREE</strong> tonnage testing</a> on any of our 40 machines in stock.
+				CJR offers <a href="<?php echo site_url(); ?>/tonnage-formula" class="orange"><strong>FREE</strong> tonnage testing</a> on any of our 40 machines in stock.
 			</li>
 			<li>
-				CJR offers a <a href="#clicker-press-parts" class="orange">buyback program</a> on all stock machines.
+				CJR offers a <a href="<?php echo site_url(); ?>/buyback" class="orange">buyback program</a> on all stock machines.
 			</li>
 			<li>
-				CJR offers a <a href="#finance" class="orange"><strong>FREE</strong> loaner program</a> on custom build machines.
+				CJR offers a <a href="<?php echo site_url(); ?>/finance" class="orange"><strong>FREE</strong> loaner program</a> on custom build machines.
 			</li>
 			<li>
-				CJR has <a href="<?php echo site_url(); ?>/customers" target="_blank" class="orange">hundreds of customers</a> that you are encouraged to talk to.
+				CJR has <a href="<?php echo site_url(); ?>/customers" class="orange">hundreds of customers</a> that you are encouraged to talk to.
 			</li>
 			<li>
 				CJR engineers will visit your facility to discuss current needs for

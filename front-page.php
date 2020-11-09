@@ -17,7 +17,7 @@
 	
 	<!-- Know The Difference Section -->
 	<?php 
-		// include get_theme_file_path( '/inc/inc.know_the_difference.php' ); 
+		include get_theme_file_path( '/inc/inc.know_the_difference.php' ); 
 	?>
 
 	<!-- Info Counter Section -->
