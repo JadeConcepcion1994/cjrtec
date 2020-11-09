@@ -72,7 +72,10 @@ $(document).ready(function(){
   $(window).scroll(function() {
   var scroll = $(window).scrollTop();
   $("#js-hero img").css({
-    width: (100 + scroll/10) +"%"
+    // width: (100 + scroll/10) +"%"
+    
+    width: (100 + scroll/10) +"%",
+    height: (100 + scroll/10) +"%"
   });
 
   // $(".zoom-wrap img").css({

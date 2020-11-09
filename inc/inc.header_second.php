@@ -43,6 +43,7 @@
 
 	<!-- <div class="row test-row"> -->
 		<section class="hero-section" id="js-hero">
+		
 			<img src="
 				<?php 
 					if(wp_get_attachment_urL(get_theme_mod('cjrtec_second_row_image')) ){
