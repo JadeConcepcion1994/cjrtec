@@ -540,6 +540,12 @@ h1#h1_fade {
 		padding: 50px 50px 50px 50px;
 	text-align: center;
 }
+
+a.buyback-link:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
 #img_row{
 	height: 100px;
 	margin-bottom: 30px;
