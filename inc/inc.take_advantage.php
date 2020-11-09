@@ -1,4 +1,4 @@
-
+<div class="row">
 		<div class="col-md-12">
 			<div class="row row-foot-c">
 		 	<div class="col-md-6 col-foot-c">
@@ -16,3 +16,4 @@
 		 	</div>
 		 </div>
 		</div>
+</div>

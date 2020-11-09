@@ -1,4 +1,48 @@
- 	<div class="row">
+<div class="container">
+	<div class="row">
+		<div class="col">
+			<div class="zoom-wrap">
+				<img 
+					src="
+						<?php 
+							if(wp_get_attachment_urL(get_theme_mod('cjrtec_lower_main_image')) ){
+								echo wp_get_attachment_urL(get_theme_mod('cjrtec_lower_main_image'));
+							}else{
+								echo get_template_directory_uri(). "/assets/img/pick-and-place-clicker-press.jpg";
+							}
+						?>" 
+					class="img-fluid"
+				>
+
+				<div class="centered">
+					<div data-aos="fade-up" data-aos-delay="50">
+						<h3 class="centered-text">
+							<strong>
+								<?php 
+									if(get_theme_mod('cjrtec_lower_title_edit')){
+										echo get_theme_mod('cjrtec_lower_title_edit');	
+									}else{
+										echo "Why Choose Clicker Press by CJRTec?";
+									}
+								?>
+							</strong>
+						</h3>
+						
+						<p>
+							There are other companies out there but we are confident that nobody else can give you the BEST deals in the market
+						</p>
+					</div>
+				</div><!-- centered -->
+			</div><!-- zoom-wrap -->
+		</div><!-- col -->
+	</div><!-- row -->
+
+
+
+
+
+
+	<div class="row">
 		 		<div class="col-md-4 r-1">
 		 			<div  data-aos="fade-up" data-aos-delay="50">
 		 			<img src="<?php echo get_template_directory_uri(). "/assets/img/best-warranty.png"; ?>" style="filter: invert(48%) sepia(50%) saturate(3207%) hue-rotate(30deg) brightness(100%) contrast(80%);" id="img_row">
@@ -59,3 +103,16 @@
 		 		    </div>
 		 		</div>
 		 	</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+	 

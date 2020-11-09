@@ -1,4 +1,5 @@
-<div class="container-fluid">
+<div data-aos="fade-up" data-aos-delay="510">
+	<div class="container-fluid">
 	
 
 		 <div class="row">
@@ -212,4 +213,5 @@
 		 </div>
 
 
+	</div>
 </div>

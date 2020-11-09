@@ -1,3 +1,25 @@
+<div class="row" style="margin-bottom: 50px">
+	<div class="col-md-12">
+		<div data-aos="fade-down" data-aos-delay="510">
+			<h2 class="row-title-h1">
+				See what people are saying about <strong style="color:rgb(255, 88, 41)">CJRTec</strong>
+			</h2>	
+			<p align="center" style="color: black">
+				Our customers are our biggest assets. Take a look at what they say about our machines and services.
+			</p>
+			<p align="center">
+				<a href="" style="margin-right: 10px">View Our Customers <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+				<a href="">Read More <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+			</p>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+		<div class="row" style="margin-bottom: 100px">
 			<div class="col-md-12 col-car-customers">
 		 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 				  <div class="carousel-inner">
@@ -32,3 +54,4 @@
 				  </a>
 				</div>
 		 	</div>	
+		</div>
