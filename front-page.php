@@ -20,7 +20,7 @@
 
 		
 		<div data-aos="fade-up" data-aos-delay="50">
-		<div>
+			<!-- <div> -->
 			<div class="row row-numbers">
 				<div class="col-sm-6 col-lg-3 my-3">
 					<!-- <div class="row"> -->
@@ -58,27 +58,27 @@
 		</div>
 		
 
-
-		<div class="row">
-			<div class="col-md-12" data-aos="fade-up" data-aos-delay="50">
-				<h1 class="row-title-h1">
-					<?php 
-						if(get_theme_mod('cjrtec_cards_title_edit')){
-							echo get_theme_mod('cjrtec_cards_title_edit');
-						}else{
-							echo "Our Bestsellers";
-						}
-					?>
-				</h1>
-			</div>
-		</div>
-
 		
 
-		<!-- <div class="container-fluid cnt-flu">
-			<?php // include get_theme_file_path( '/inc/inc.best_sellers.php' ); ?>
 
-			<br>
+		<!-- <div class="container cnt-flu"> -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12" data-aos="fade-up" data-aos-delay="50">
+					<h1 class="row-title-h1">
+						<?php 
+							if(get_theme_mod('cjrtec_cards_title_edit')){
+								echo get_theme_mod('cjrtec_cards_title_edit');
+							}else{
+								echo "Our Bestsellers";
+							}
+						?>
+					</h1>
+				</div>
+			</div>
+
+			<?php include get_theme_file_path( '/inc/inc.best_sellers.php' ); ?>
+
 
 			<div class="row">
 				<div class="col-md-12">
@@ -86,11 +86,11 @@
 					<div class="zoom-wrap">
 						<img src="
 							<?php 
-								// if(wp_get_attachment_urL(get_theme_mod('cjrtec_lower_main_image')) ){
-								// 	echo wp_get_attachment_urL(get_theme_mod('cjrtec_lower_main_image'));
-								// }else{
-								// 	echo get_template_directory_uri(). "/assets/img/pick-and-place-clicker-press.jpg";
-								// }
+								if(wp_get_attachment_urL(get_theme_mod('cjrtec_lower_main_image')) ){
+									echo wp_get_attachment_urL(get_theme_mod('cjrtec_lower_main_image'));
+								}else{
+									echo get_template_directory_uri(). "/assets/img/pick-and-place-clicker-press.jpg";
+								}
 							?>
 						">
 			
@@ -123,7 +123,7 @@
 				<?php // include get_theme_file_path( '/inc/inc.why_choose.php' ); ?>
 			</div>
 
-		</div> -->
+		</div>
 		
 		
 		
