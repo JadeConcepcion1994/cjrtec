@@ -39,7 +39,7 @@
 		</div>
 	</div>
 
-	<div class="col-md-6 half-content-image px-0">
+	<div class="col-md-6 half-content-image px-0 d-none d-md-block">
 		<!-- <div class="row test-row"> -->
 			<section class="hero-section" id="js-hero">
 				<img src="

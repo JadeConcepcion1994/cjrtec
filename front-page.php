@@ -11,7 +11,7 @@
 
 	<!-- Header Second Section -->
 	<?php 
-		// include get_theme_file_path( '/inc/inc.header_second.php' ); 
+		include get_theme_file_path( '/inc/inc.header_second.php' ); 
 	?>
 
 	
