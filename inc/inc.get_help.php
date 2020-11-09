@@ -29,11 +29,10 @@
 			<p>For questions about any of our products, send us an email and we’ll answer you as soon as possible.</p>
 		</div>
 
-		
 	</div>
 
 	<center>
-	<a href="https://www.cjrtec.com/contact.php" class="btn btn-success" style="align-content: center !important">Contact us now!</a>
+	<a href="<?php site_url() ?>/contact" class="btn btn-success" style="align-content: center !important">Contact us now!</a>
 	</center>
 
 </div>
