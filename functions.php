@@ -148,6 +148,7 @@ function cjrtec_register_styles(){
 	wp_enqueue_style('cjrtec-css',get_template_directory_uri() ."/style.css", array('cjrtec-bootstrap'), $version, 'all');
 	wp_enqueue_style('cjrtec-bootstrap', "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css", array(), '4.5.2', 'all');
   wp_enqueue_style('cjrtec-fontawesome', "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", array(), '4.7.9', 'all');
+  wp_enqueue_style('cjrtec-font', 'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap', false);
   wp_enqueue_style('cjrtec-aos', "https://unpkg.com/aos@next/dist/aos.css", array(), '', 'all');
   wp_enqueue_style('cjrtec-pages-css', get_template_directory_uri() . "/css/cjrtec-pages.css", array(), false, 'all');
 }

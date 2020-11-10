@@ -1,4 +1,4 @@
-<section id="cutting-press-footer" class="my-5">
+<!-- <section id="cutting-press-footer" class="my-5">
 	<div class="container">
 		<h2 class="text-center">
 			High-Quality Cutting Presses for Different Industries
@@ -91,7 +91,7 @@
 		<div class="container">
 			<div 
 				class="banner"
-				style="background: url('<?php bloginfo('template_directory'); ?>/assets/img/cnc-press-cutting.jpg'); 
+				style="background: url('<?php // bloginfo('template_directory'); ?>/assets/img/cnc-press-cutting.jpg'); 
 				background-repeat: no-repeat;
     		background-size: contain;
     		background-position: center;"
@@ -110,7 +110,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <section class="footer-list">
 	<footer>

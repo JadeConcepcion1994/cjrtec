@@ -9,7 +9,7 @@ Author URI : https://www.linkedin.com/in/jade-concepcion-16b9b0186/
 */
 
 body{
-	background-color: rgb(247, 247, 247);
+	/* background-color: rgb(247, 247, 247); */
 	overflow-x: hidden;
 	margin: 0 !important;
 	padding: 0 !important;
@@ -20,7 +20,10 @@ body{
 	padding: 0 !important;
 	width: 100% !important;
 	height: 100% !important;
+}
 
+body {
+	font-family: 'Lato', sans-serif;
 }
 
 .container {
@@ -28,9 +31,9 @@ body{
 	max-width: 1200px;
 }
 
-nav {
+/* nav {
   box-shadow: 0 2px 4px 0 rgb(255, 88, 41);
-}
+} */
 
 .navbar{
 	background-color: black;
@@ -66,10 +69,12 @@ ul > li.active a{
 .icon-bar{
 	color: rgb(255, 88, 41) !important;
 }
+
 .free-quote{
 	margin-top: 20px;
 	color: white;
 }
+
 .my-lg-0{
 	background-color: rgb(255, 88, 41);
 	margin-top: -8px !important;
@@ -85,16 +90,25 @@ ul > li.active a{
 	cursor: pointer;
 }
 
-.upper-content{
+/* .upper-content{
 	padding: 5px 5px 5px 5px;
+} */
+
+.upper-content{
+	padding: 20px;
 }
-.float-right-icons{
+
+
+/* .float-right-icons{
 	float: right;
-}
+} */
+
 .fb, .tw, .yt, .li{
 	padding-right: 20px;
 	color: rgb(255, 88, 41);
 }
+
+
 /*.btn-orange-contact{
 	background-color:  rgb(255, 88, 41);
 	color: white;
@@ -224,6 +238,8 @@ img.img-car {
 	width: 100%; 
 	color: white; 
 	position: relative;
+
+	height: 100vh;
 
 }
 
@@ -658,7 +674,7 @@ ul{
 
 ul>li>a{
 	color: white;
-	font-size: 12px;
+	/* font-size: 12px; */
 }
 
 #ul_li_inline > li{
