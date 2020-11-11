@@ -74,8 +74,8 @@ $(document).ready(function(){
   $("#js-hero img").css({
     // width: (100 + scroll/10) +"%"
     
-    width: (100 + scroll/10) +"%",
-    height: (100 + scroll/10) +"%"
+    width: (100 + scroll/15) +"%",
+    height: (100 + scroll/15) +"%"
   });
 
   // $(".zoom-wrap img").css({
