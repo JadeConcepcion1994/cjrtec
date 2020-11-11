@@ -48,6 +48,15 @@ body {
 	text-align: center;
 }
 
+.upper-content .container .upper-content-left a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.upper-content .container .upper-content-left a:hover {
+	color: rgb(255, 88, 41);
+}
+
 .upper-content .container .upper-content-right {
 	flex-grow: 1;
 	text-align: center;
