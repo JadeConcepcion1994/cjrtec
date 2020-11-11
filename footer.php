@@ -127,6 +127,7 @@
 						<li><a href="contact.php">Contact us</a></li>
 					</ul>
 				</div>
+
 				<div class="col-6 col-sm-4 col-md-2 my-3">
 					<p class="ptitle">Account</p>
 					<ul>
@@ -136,6 +137,7 @@
 						<li><a href="unsubscribe.php">Unsubscribe</a></li>
 					</ul>
 				</div>
+
 				<div class="col-6 col-sm-4 col-md-2 my-3">
 					<p class="ptitle">Products</p>
 					<ul>
@@ -149,6 +151,7 @@
 						<li><a href="accessories.php">Accessories</a></li>
 					</ul>
 				</div>
+
 				<div class="col-6 col-sm-4 col-md-2 my-3">
 					<p class="ptitle">Useful Links</p>
 					<ul>
@@ -177,7 +180,7 @@
 						
 					</ul>
 				</div>	
-				<!-- <div class="col-6 col-sm-4 col-md-2 my-3 col-xs-12"> -->
+				
 				<div class="col-6 col-sm-4 col-md-2 my-3">
 					<p class="ptitle">Find us here</p>
 
@@ -186,44 +189,53 @@
 						<li><a href="https://www.instagram.com/cjrtec" target="_blank"><i class="fa fa-instagram fa-lg"></i>  View our feed</a></li>
 						<li><a href="https://www.youtube.com/channel/UCNph4b5fxTNKhQnycRp4oyw" target="_blank"><i class="fa fa-youtube  fa-lg"></i> Watch our Videos</a></li>
 					</ul>
-				</div>	
-			</div>
+				</div>
+
+			</div> <!-- row row-cjr-list -->
 
 			<div class="row row-footer-content">
 				<div class="col-md-12">
 					<p align="center" style="color: white; font-size: 12px">
-					Call <strong style=" color: rgb(255, 88, 41)">(800)-733-2302</strong> or <strong style="color: rgb(255, 88, 41)">email support@cjrtec.com</strong> <br>
-					for more info.
-				</p>
-				<hr style="background-color: white">
+						Call <strong style=" color: rgb(255, 88, 41)">(800)-733-2302</strong> or <strong style="color: rgb(255, 88, 41)">email support@cjrtec.com</strong> <br> for more info.
+					</p>
+					<hr style="background-color: white">
+				</div>
+			</div>
+			
 			<div class="row">
-			<div class="col-md-4">
-				<ul id="ul_li_inline">
-					<li><a href="http://cjrterms.com/" target="_blank">Terms |</a></li>
-					<li><a href="clicker-press-warranty.php">Warranty |</a></li>
-					<li><a href="buyback.php">Buy Back Protection |</a></li>
-					<li><a href="links.php">Links</a></li>
-				</ul>
+				<div class="col-md-4">
+					<ul id="ul_li_inline">
+						<li>
+							<a href="http://cjrterms.com/" target="_blank">
+							Terms |</a>
+						</li>
+						<li>
+							<a href="clicker-press-warranty.php">Warranty |</a>
+						</li>
+						<li>
+							<a href="buyback.php">Buy Back Protection |</a>
+						</li>
+						<li>
+							<a href="links.php">Links</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-md-4 col-copyright-footer">
+					<p class="text-center">Copyright © <?php echo date('Y'); ?> 		
+						<span style=" color: rgb(255, 88, 41)">CJRTec</span>. All rights reserved.
+					</p>
+				</div>
+
+				<!-- <div class="col-md-4">
+					<button onclick="topFunction()"  id="myBtn" title="Go to top" ><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+				</div> -->
+
 			</div>
-			<div class="col-md-4 col-copyright-footer">
-				<p align="center">Copyright © <?php echo date('Y'); ?> 		
-					<span style=" color: rgb(255, 88, 41)">CJRTec</span>. All rights reserved.
-				</p>
-			</div>
-			<!-- <div class="col-md-4">
-				<button onclick="topFunction()"  id="myBtn" title="Go to top" ><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
-			</div> -->
-		</div>
-				<!-- </div> -->
-			<!-- </div> -->
-		<!-- </div> -->
+
+		</div> <!-- container -->
 	</footer>
 </section>
-	
-	
-
-	
-	
 
 <?php wp_footer(); ?>	
 
