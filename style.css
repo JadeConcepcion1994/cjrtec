@@ -301,7 +301,7 @@ img.img-car {
 	color: white; 
 	position: relative;
 
-	height: 100vh;
+	/* height: 100vh; */
 
 }
 
@@ -632,10 +632,7 @@ a.buyback-link:hover {
 	margin-bottom: 30px;
 }
 
-footer{
-	background-color: black;
-	width: 100%;
-}
+
 
 #myBtn {
   display: none;
@@ -690,10 +687,10 @@ footer{
 	max-width: 800px;
 }
 
-.advantage-text {
-	/* padding: 100px; */
+/* .advantage-text {
+	padding: 100px;
 	
-}
+} */
 
 .advantage-cta {
 	display: flex;
@@ -743,10 +740,7 @@ ul>li>a{
 	display: inline;
 	font-size: 12px;
 }
-.col-copyright-footer{
-	color: white;
-	font-size: 12px;
-}
+
 
 #ul_check {
   list-style: none;
@@ -799,6 +793,38 @@ h2.Count{
 }
 
 
+
+/* FOOTER */
+footer{
+	background-color: black;
+	/* width: 100%; */
+}
+
+footer .row-cjr-list {
+	/* padding: 50px 0px 10px 10px;  */
+	padding-top: 1rem;
+	color: white;
+}
+
+footer .row-cjr-list p.ptitle {
+	margin-bottom: 0.5rem;
+	font-weight: 700;
+}
+
+footer .row-cjr-list .col-6 ul {
+	padding: 0;
+}
+
+
+
+
+
+
+
+.col-copyright-footer{
+	color: white;
+	font-size: 12px;
+}
 
 
 /*Responsive Design*/

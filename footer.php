@@ -112,12 +112,13 @@
 	</div>
 </section> -->
 
+
 <section class="footer-list">
 	<footer>
 		<div class="container">
-			<div class="row row-cjr-list" style="padding: 50px 0px 10px 10px; color: white">
-				<div class="col-md-2 col-xs-6">
-					<p class="ptitle" align="center">About CJRTEC</p>
+			<div class="row row-cjr-list">
+				<div class="col-6 col-sm-4 col-md-2 my-3">
+					<p class="ptitle">About CJRTEC</p>
 					<ul>
 						<li><a href="about.php">About us</a></li>
 						<li><a href="testimonials.php">Testimonials</a></li>
@@ -126,8 +127,8 @@
 						<li><a href="contact.php">Contact us</a></li>
 					</ul>
 				</div>
-				<div class="col-md-2 col-xs-6">
-					<p class="ptitle" align="center">Account</p>
+				<div class="col-6 col-sm-4 col-md-2 my-3">
+					<p class="ptitle">Account</p>
 					<ul>
 						<li><a href="login.php">Login</a></li>
 						<li><a href="view-price.php">Registration</a></li>
@@ -135,8 +136,8 @@
 						<li><a href="unsubscribe.php">Unsubscribe</a></li>
 					</ul>
 				</div>
-				<div class="col-md-2 col-xs-6">
-					<p class="ptitle" align="center">Products</p>
+				<div class="col-6 col-sm-4 col-md-2 my-3">
+					<p class="ptitle">Products</p>
 					<ul>
 						<li><a href="clicker-press.php">Clicker Press</a></li>
 						<li><a href="http://www.digitalcuttingsystems.com/" target="_blank">Waterjet Cutting</a></li>
@@ -148,8 +149,8 @@
 						<li><a href="accessories.php">Accessories</a></li>
 					</ul>
 				</div>
-				<div class="col-md-2 col-xs-6">
-					<p class="ptitle" align="center">Useful Links</p>
+				<div class="col-6 col-sm-4 col-md-2 my-3">
+					<p class="ptitle">Useful Links</p>
 					<ul>
 						<li><a href="training.php">Trainings</a></li>
 						<li><a href="referrals.php">Referrals</a></li>
@@ -162,8 +163,8 @@
 					</ul>
 				</div>
 				
-				<div class="col-md-2 col-xs-6">
-					<p class="ptitle" align="center">Learn More</p>
+				<div class="col-6 col-sm-4 col-md-2 my-3">
+					<p class="ptitle">Learn More</p>
 					<ul>
 						<li><a href="types-of-dies.php">Types of Dies</a></li>
 						<li><a href="used-clicker-press.php">Used Presses</a></li>
@@ -176,19 +177,18 @@
 						
 					</ul>
 				</div>	
-				<div class="col-md-2 col-xs-12">
-					<p class="ptitle" align="center">Find us here</p>
+				<!-- <div class="col-6 col-sm-4 col-md-2 my-3 col-xs-12"> -->
+				<div class="col-6 col-sm-4 col-md-2 my-3">
+					<p class="ptitle">Find us here</p>
 
 					<ul class="social">
 						<li><a href="https://www.facebook.com/cjrtec/" target="_blank"><i class="fa fa-facebook-official fa-lg"></i>  Connect to us</a></li>
 						<li><a href="https://www.instagram.com/cjrtec" target="_blank"><i class="fa fa-instagram fa-lg"></i>  View our feed</a></li>
 						<li><a href="https://www.youtube.com/channel/UCNph4b5fxTNKhQnycRp4oyw" target="_blank"><i class="fa fa-youtube  fa-lg"></i> Watch our Videos</a></li>
 					</ul>
-
 				</div>	
-				
-
 			</div>
+
 			<div class="row row-footer-content">
 				<div class="col-md-12">
 					<p align="center" style="color: white; font-size: 12px">
@@ -205,14 +205,18 @@
 					<li><a href="links.php">Links</a></li>
 				</ul>
 			</div>
-			<div class="col-md-4 col-copyright-footer"><p align="center">Copyright © <?php echo date('Y'); ?> <span style=" color: rgb(255, 88, 41)">CJRTec</span>. All rights reserved.</p></div>
+			<div class="col-md-4 col-copyright-footer">
+				<p align="center">Copyright © <?php echo date('Y'); ?> 		
+					<span style=" color: rgb(255, 88, 41)">CJRTec</span>. All rights reserved.
+				</p>
+			</div>
 			<!-- <div class="col-md-4">
 				<button onclick="topFunction()"  id="myBtn" title="Go to top" ><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
 			</div> -->
 		</div>
-				</div>
-			</div>
-		</div>
+				<!-- </div> -->
+			<!-- </div> -->
+		<!-- </div> -->
 	</footer>
 </section>
 	
@@ -221,9 +225,7 @@
 	
 	
 
-<?php 
-wp_footer();
-?>	
+<?php wp_footer(); ?>	
 
 </body>
 </html>
