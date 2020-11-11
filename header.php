@@ -22,12 +22,20 @@
       <i class="fa fa-phone" aria-hidden="true"></i>  + 1(800) 733-2302 / 09:00AM - 5:00PM MST  
     </div> 
 
-    <div class="upper-content-right float-right-icons">
+    <div class="upper-content-right">
       <div>
-        <a href="#"><i class="fa fa-facebook fb" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-twitter tw" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-youtube yt" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-linkedin li" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/cjrtec/" target="_blank">
+          <i class="fa fa-facebook fb" aria-hidden="true"></i>
+        </a>
+        <a href="#">
+          <i class="fa fa-twitter tw" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCNph4b5fxTNKhQnycRp4oyw" target="_blank">
+          <i class="fa fa-youtube yt" aria-hidden="true"></i>
+        </a>
+        <a href="#">
+          <i class="fa fa-linkedin li" aria-hidden="true"></i>
+        </a>
         <!-- <strong style="margin-left: 10px; margin-right: 10px">|</strong>
         <i class="fa fa-search" aria-hidden="true"></i> -->
       </div>
