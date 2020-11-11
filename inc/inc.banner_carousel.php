@@ -151,9 +151,9 @@
 						>
 			    </div>
 
-					<div class="div-content-image px-0">
+					<div class="div-content-image">
 						<div class="container">
-							<h1 id="h1_fade">
+							<h1 class="mb-5" id="h1_fade">
 								<strong>
 									<?php
 										if (get_theme_mod('cjrtec_image_header_edit')) {
