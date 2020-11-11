@@ -746,10 +746,7 @@ ul>li>a{
 	/* font-size: 12px; */
 }
 
-#ul_li_inline > li{
-	display: inline;
-	font-size: 12px;
-}
+
 
 
 #ul_check {
@@ -849,6 +846,15 @@ footer .row-footer-content p {
 
 footer .row-footer-content p strong {
 	color: rgb(255, 88, 41);
+}
+
+#ul_li_inline > li {
+	display: inline;
+	font-size: 12px;
+}
+
+#ul_li_inline > li {
+	color: #ffffff;
 }
 
 .col-copyright-footer{

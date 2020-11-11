@@ -120,64 +120,195 @@
 				<div class="col-6 col-sm-4 col-md-2 my-3">
 					<p class="ptitle">About CJRTEC</p>
 					<ul>
-						<li><a href="about.php">About us</a></li>
-						<li><a href="testimonials.php">Testimonials</a></li>
-						<li><a href="distributors.php">Distributors</a></li>
-						<li><a href="customers.php">Customers</a></li>
-						<li><a href="contact.php">Contact us</a></li>
+						<li>
+							<a href="<?php echo site_url() ?>/about">
+								About us
+							</a>
+						</li>
+						<li>
+							<a href="#testimonials">
+								Testimonials
+							</a>
+						</li>
+						<li>
+							<a href="<?php echo site_url() ?>/distributors">
+								Distributors
+							</a>
+						</li>
+						<li>
+							<a href="<?php echo site_url() ?>/customers">
+								Customers
+							</a>
+						</li>
+						<li>
+							<a href="<?php echo site_url() ?>/contact">
+								Contact us
+							</a>
+						</li>
 					</ul>
 				</div>
 
 				<div class="col-6 col-sm-4 col-md-2 my-3">
 					<p class="ptitle">Account</p>
 					<ul>
-						<li><a href="login.php">Login</a></li>
-						<li><a href="view-price.php">Registration</a></li>
-						<li><a href="forgot-password.php">Forgot Password</a></li>
-						<li><a href="unsubscribe.php">Unsubscribe</a></li>
+						<li>
+							<a href="#login">
+								Login
+							</a>
+						</li>
+						<li>
+							<a href="#registration">
+								Registration
+							</a>
+						</li>
+						<li>
+							<a href="#forgot-password">
+								Forgot Password
+							</a>
+						</li>
+						<li>
+							<a href="#unsubscribe">
+								Unsubscribe
+							</a>
+						</li>
 					</ul>
 				</div>
 
 				<div class="col-6 col-sm-4 col-md-2 my-3">
 					<p class="ptitle">Products</p>
 					<ul>
-						<li><a href="clicker-press.php">Clicker Press</a></li>
-						<li><a href="http://www.digitalcuttingsystems.com/" target="_blank">Waterjet Cutting</a></li>
-						<li><a href="http://www.convolutermachine.com/" target="_blank">Foam Cutting</a></li>
-						<li><a href="http://www.itbotics.com/" target="_blank">Industrial Robots</a></li>
-						<li><a href="http://www.hotmeltcoatingmachines.com/">Hotmelt Laminator</a></li>
-						<li><a href="http://www.industrialknive.com/" target="_blank">Industrial Knives</a></li>
-						<li><a href="clicker-press-parts.php">Press Parts</a></li>
-						<li><a href="accessories.php">Accessories</a></li>
+						<li>
+							<a href="clicker-press.php">
+								Clicker Press
+							</a>
+						</li>
+						<li>
+							<a href="http://www.digitalcuttingsystems.com/" target="_blank">
+								Waterjet Cutting
+							</a>
+						</li>
+						<li>
+							<a href="http://www.convolutermachine.com/" target="_blank">
+								Foam Cutting
+							</a>
+						</li>
+						<li>
+							<a href="http://www.itbotics.com/" target="_blank">
+								Industrial Robots
+							</a>
+						</li>
+						<li>
+							<a href="http://www.hotmeltcoatingmachines.com/">
+								Hotmelt Laminator
+							</a>
+						</li>
+						<li>
+							<a href="http://www.industrialknive.com/" target="_blank">
+								Industrial Knives
+							</a>
+						</li>
+						<li>
+							<a href="clicker-press-parts.php">
+								Press Parts
+							</a>
+						</li>
+						<li>
+							<a href="accessories.php">
+								Accessories
+							</a>
+						</li>
 					</ul>
 				</div>
 
 				<div class="col-6 col-sm-4 col-md-2 my-3">
 					<p class="ptitle">Useful Links</p>
 					<ul>
-						<li><a href="training.php">Trainings</a></li>
-						<li><a href="referrals.php">Referrals</a></li>
-						<li><a href="clicker-press-shipping.php">Shipping</a></li>
-						<li><a href="franchise.php">Franchise</a></li>
-						<li><a href="finance.php">Financing</a></li>
-						<li><a href="http://cjrterms.com/" target="_blank">Purchase Terms</a></li>
-						<li><a href="clicker-press-warranty.php">Warranty</a></li>
-						<li><a href="tonnage-formula.php">Tonnage Formula</a></li>
+						<li>
+							<a href="<?php echo site_url() ?>/training">
+								Trainings
+							</a>
+						</li>
+						<li>
+							<a href="<?php echo site_url() ?>/referrals">
+								Referrals
+							</a>
+						</li>
+						<li>
+							<a href="<?php echo site_url() ?>/clicker-press-shipping">
+								Shipping
+							</a>
+						</li>
+						<li>
+							<a href="<?php echo site_url() ?>/franchise">
+								Franchise
+							</a>
+						</li>
+						<li>
+							<a href="<?php echo site_url() ?>/finance">
+								Financing
+							</a>
+						</li>
+						<li>
+							<a href="http://cjrterms.com/" target="_blank">
+								Purchase Terms
+							</a>
+						</li>
+						<li>
+							<a href="<?php echo site_url() ?>/warranty">
+								Warranty
+							</a>
+						</li>
+						<li>
+							<a href="<?php echo site_url() ?>/tonnage-formula">
+								Tonnage Formula
+							</a>
+						</li>
 					</ul>
 				</div>
 				
 				<div class="col-6 col-sm-4 col-md-2 my-3">
 					<p class="ptitle">Learn More</p>
 					<ul>
-						<li><a href="types-of-dies.php">Types of Dies</a></li>
-						<li><a href="used-clicker-press.php">Used Presses</a></li>
-						<li><a href="die-makers.php">Die makers</a></li>
-						<li><a href="videos.php">Videos</a></li>
-						<li><a href="china-steel.php">China Steel</a></li>
-						<li><a href="buyback.php">Buy Back Protection</a></li>
-						<li><a href="commercial-die-cutting.php">Commercial Die Cutting</a></li>
-						<li><a href="swing-arm-press-testing.php">Swing Arm Press Testing</a></li>
-						
+						<li>
+							<a href="<?php echo site_url() ?>/types-of-dies">
+								Types of Dies
+							</a>
+						</li>
+						<li>
+							<a href="<?php echo site_url() ?>/used-clicker-press">
+								Used Presses
+							</a>
+						</li>
+						<li>
+							<a href="<?php echo site_url() ?>/die-makers">
+								Die makers
+							</a>
+						</li>
+						<li>
+							<a href="<?php echo site_url() ?>/videos">
+								Videos
+							</a>
+						</li>
+						<li>
+							<a href="<?php echo site_url() ?>/china-steel">
+								China Steel
+							</a>
+						</li>
+						<li>
+							<a href="<?php echo site_url() ?>/buyback">
+								Buy Back Protection
+							</a>
+						</li>
+						<li>
+							<a href="<?php echo site_url() ?>/commercial-die-cutting">
+								Commercial Die Cutting
+							</a>
+						</li>
+						<li>
+							<a href="<?php echo site_url(); ?>/swing-arm-press-testing">
+								Swing Arm Press Testing
+							</a>
+						</li>
 					</ul>
 				</div>	
 				
@@ -211,8 +342,15 @@
 			<div class="row row-footer-content">
 				<div class="col-12">
 					<p class="text-center">
-						Call <strong>(800)-733-2302</strong> or 
-						<strong>email support@cjrtec.com</strong> <br> 
+						Call 
+						<a href="tel:+18007332302">
+							<strong>(800)-733-2302</strong>
+						</a> 
+						or
+						<a href="mailto:support@cjrtec.com">
+							<strong>email support@cjrtec.com</strong> 
+						</a>
+						<br> 
 						for more info.
 					</p>
 					<hr style="background-color: white">
@@ -224,32 +362,43 @@
 					<ul id="ul_li_inline">
 						<li>
 							<a href="http://cjrterms.com/" target="_blank">
-							Terms |</a>
+								Terms
+							</a>
+							&nbsp; | &nbsp;
 						</li>
 						<li>
-							<a href="clicker-press-warranty.php">Warranty |</a>
+							<a href="<?php echo site_url(); ?>/warranty">
+								Warranty 
+							</a>
+							&nbsp; | &nbsp;
 						</li>
 						<li>
-							<a href="buyback.php">Buy Back Protection |</a>
+							<a href="<?php echo site_url(); ?>/buyback">
+								Buy Back Protection
+							</a>
 						</li>
-						<li>
+						<!-- <li>
 							<a href="links.php">Links</a>
-						</li>
+						</li> -->
 					</ul>
 				</div>
 
 				<div class="col-md-4 col-copyright-footer">
-					<p class="text-center">Copyright © <?php echo date('Y'); ?> 		
-						<span style=" color: rgb(255, 88, 41)">CJRTec</span>. All rights reserved.
+					<p class="text-center">
+						Copyright © <?php echo date('Y'); ?> 		
+						<a href="<?php echo site_url(); ?>">
+							<span style=" color: rgb(255, 88, 41)">
+								CJRTec
+							</span>
+						</a>
+						. All rights reserved.
 					</p>
 				</div>
 
 				<!-- <div class="col-md-4">
 					<button onclick="topFunction()"  id="myBtn" title="Go to top" ><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
 				</div> -->
-
 			</div>
-
 		</div> <!-- container -->
 	</footer>
 </section>
