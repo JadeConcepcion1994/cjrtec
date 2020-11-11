@@ -9,7 +9,7 @@ Author URI : https://www.linkedin.com/in/jade-concepcion-16b9b0186/
 */
 
 body{
-	/* background-color: rgb(247, 247, 247); */
+	background-color: #f7f7f7;
 	overflow-x: hidden;
 	margin: 0 !important;
 	padding: 0 !important;
@@ -81,7 +81,7 @@ body {
 } */
 
 .navbar{
-	background-color: #333333;
+	background-color: #000000;
 	z-index: 500;
 }
 
@@ -807,7 +807,7 @@ h2.Count{
 
 /* FOOTER */
 footer{
-	background-color: black;
+	background-color: #000000;
 }
 
 #footer-cutting-press {
@@ -882,12 +882,8 @@ footer{
 
 
 
-
-
-
-
 #footer-list {
-	background-color: #333333;
+	background-color: #000000;
 	padding-top: 20px;
 }
 
