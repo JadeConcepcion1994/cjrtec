@@ -19,7 +19,7 @@
     <div class="upper-content-left" id="test-this">
       <i class="fa fa-map-marker" aria-hidden="true"></i> 7023 S 700 W Bldg B, Midvale, UT 84047   
       <strong style="margin-left: 10px; margin-right: 10px">|</strong>
-      <a href="tel:+ 18007332302">
+      <a href="tel:+18007332302">
         <i class="fa fa-phone" aria-hidden="true"></i>  
         + 1(800) 733-2302
       </a> 
