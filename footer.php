@@ -185,18 +185,35 @@
 					<p class="ptitle">Find us here</p>
 
 					<ul class="social">
-						<li><a href="https://www.facebook.com/cjrtec/" target="_blank"><i class="fa fa-facebook-official fa-lg"></i>  Connect to us</a></li>
-						<li><a href="https://www.instagram.com/cjrtec" target="_blank"><i class="fa fa-instagram fa-lg"></i>  View our feed</a></li>
-						<li><a href="https://www.youtube.com/channel/UCNph4b5fxTNKhQnycRp4oyw" target="_blank"><i class="fa fa-youtube  fa-lg"></i> Watch our Videos</a></li>
+						<li>
+							<a href="https://www.facebook.com/cjrtec/" target="_blank">
+								<i class="fa fa-facebook-official fa-lg"></i> 
+								<div><span>Connect to us</span></div>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.instagram.com/cjrtec" target="_blank">
+								<i class="fa fa-instagram fa-lg"></i> 
+								<div><span>View our feed</span></div>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com/channel/UCNph4b5fxTNKhQnycRp4oyw" target="_blank">
+								<i class="fa fa-youtube fa-lg"></i> 
+								<div><span>Watch our Videos</span></div>
+							</a>
+						</li>
 					</ul>
 				</div>
 
 			</div> <!-- row row-cjr-list -->
 
 			<div class="row row-footer-content">
-				<div class="col-md-12">
-					<p align="center" style="color: white; font-size: 12px">
-						Call <strong style=" color: rgb(255, 88, 41)">(800)-733-2302</strong> or <strong style="color: rgb(255, 88, 41)">email support@cjrtec.com</strong> <br> for more info.
+				<div class="col-12">
+					<p class="text-center">
+						Call <strong>(800)-733-2302</strong> or 
+						<strong>email support@cjrtec.com</strong> <br> 
+						for more info.
 					</p>
 					<hr style="background-color: white">
 				</div>
