@@ -594,16 +594,25 @@ img.img-car {
 	flex-direction: column;
 	height: 100%;
 	justify-content: space-between;
+	align-items: center;
 }
 
 /* .card-img-top{
 	height: 500px;
 } */
 
-.btn-cjr{
+.btn-cjr {
 	background-color:  #ff5829;
 	color: #000000;
-	padding-left: 30px 30px 30px 30px;
+	padding: 20px 30px;
+	display: inline-block;
+	margin: 0 auto;
+}
+
+.btn-cjr:hover {
+	background-color: #000000;
+	color: #ffffff;
+	transition: .2s ease-in-out;
 }
 
 /* END BEST SELLER SECTION */
