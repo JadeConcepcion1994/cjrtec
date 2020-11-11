@@ -815,11 +815,31 @@ footer .row-cjr-list .col-6 ul {
 	padding: 0;
 }
 
+footer .row-cjr-list .col-6 ul.social li {
+	margin-bottom: 15px;
+}
 
+footer .row-cjr-list .col-6 ul.social li a {
+	display: flex;
+	align-items: center;
+}
 
+footer .row-cjr-list .col-6 ul.social li a i.fa {
+	margin-right: 10px;
+}
 
+footer .row-cjr-list .col-6 ul.social li a div {
+	line-height: 1;
+}
 
+footer .row-footer-content p {
+	color: #ffffff;
+	font-size: 12px;
+}
 
+footer .row-footer-content p strong {
+	color: rgb(255, 88, 41);
+}
 
 .col-copyright-footer{
 	color: white;
