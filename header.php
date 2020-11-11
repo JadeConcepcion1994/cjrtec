@@ -83,17 +83,21 @@
       );
     ?>
 
-    <div class="button-register">
-      <p class="free-quote">
-        <?php 
-          if (get_theme_mod('cjrtec_free_quote_edit')){
-            echo get_theme_mod('cjrtec_free_quote_edit');
-          } else {
-            echo "Register Now";
-          }
-        ?>
-      </p>
-    </div>
+    <a href="#register">
+      <div class="button-register">
+        <!-- <p class="free-quote"> -->
+        <p class="button-register-text">
+          <?php 
+            if (get_theme_mod('cjrtec_free_quote_edit')){
+              echo get_theme_mod('cjrtec_free_quote_edit');
+            } else {
+              echo "Register Now";
+            }
+          ?>
+        </p>
+      </div>
+    </a>
+    
   </div>
 </nav>
 
