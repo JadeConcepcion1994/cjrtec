@@ -561,12 +561,7 @@ img.img-car {
 }
 
 
-.row-title-h1{
-	color: #000000 !important;
-	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
+
 
 
 /* BEST SELLER SECTION */
@@ -578,6 +573,17 @@ img.img-car {
 /* .card{
 	width: 100%;
 } */
+
+#best-sellers {
+	padding: 75px 0;
+}
+
+.row-title-h2{
+	color: #000000 !important;
+	text-align: center;
+	font-size: 54px;
+	font-weight: 700;
+}
 
 .card-body{
 	color: #000000;
