@@ -7,17 +7,17 @@ a {
 
 a:hover {
 	text-decoration: none;
-	color: #ff6600;
+	color: #ff5829;
 }
 
 /* orange color */
 .orange {
-	color: #ff6600;
+	color: #ff5829;
 }
 
 /* for href Links */
 .href-link {
-	color: #ff6600;
+	color: #ff5829;
 	text-decoration: none;
 }
 
@@ -40,7 +40,7 @@ a:hover {
 
 /* CTA STRIP */
 .cta-strip {
-  background-color: #ff6600;
+  background-color: #ff5829;
   padding: 50px 0;
   color: #ffffff;
 }
@@ -70,7 +70,7 @@ a:hover {
 
 .cta-strip .container .btn-cta-strip:hover {
   background-color: #ffffff;
-  color: #ff6600;
+  color: #ff5829;
 }
 
 @media screen and (max-width: 992px) {
@@ -105,7 +105,7 @@ a:hover {
 }
 
 .section-difference .orange {
-	color: #ff6600;
+	color: #ff5829;
 }
 
 .section-difference ul {
@@ -130,7 +130,7 @@ a:hover {
   font-style: normal;
   font-weight: normal;
   
-	color: #ff6600;
+	color: #ff5829;
 	
 	position: relative;
 	top: 0;
@@ -411,7 +411,7 @@ a:hover {
 }
 
 #die-makers table a {
-	color: #ff6600;
+	color: #ff5829;
 }
 
 
@@ -446,7 +446,7 @@ a:hover {
 
 #clicker-press-shipping .shipping-content-2 .row .col-md-3 {
 	text-align: right;
-	color: #ff6600;
+	color: #ff5829;
 }
 
 #clicker-press-shipping .shipping-content-2 .row .col-md-9 {
@@ -481,7 +481,7 @@ a:hover {
 	justify-content: space-between;
 	align-items: center;
 	text-decoration: none;
-	color: #ff6600;
+	color: #ff5829;
 }
 
 #clicker-press-shipping .shipping-content-4 .card-header .card-link .card-title {
@@ -639,7 +639,7 @@ a:hover {
 }
 
 #testimonials .client-name {
-	color: #ff6600;
+	color: #ff5829;
 }
 
 #testimonials .row {
@@ -725,7 +725,7 @@ a:hover {
 }
 
 #contact .card:hover {
-	background-color: #ff6600;	
+	background-color: #ff5829;	
 }	
 
 #contact .card:hover h3 {
