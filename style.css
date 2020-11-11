@@ -101,7 +101,10 @@ h1 {
 
 ul > li.active a{
 	color: #ff5829;
+}
 
+.dropdown-menu > .menu-item.active a{
+	color: #ff5829;
 }
 
 .navbar-brand {
@@ -118,16 +121,17 @@ ul > li.active a{
 }
 
 .dropdown-menu{
-	/* background-color: #333333; */
-	background-color: #f7f7f7;
+	background-color: #333333;
+	/* background-color: #f7f7f7; */
 }
 
 .dropdown-menu .menu-item a {
-	color: #000000;
+	/* color: #000000; */
+	color: #ffffff;
 }
 
 .dropdown-menu .menu-item a:hover {
-	color: #000000;
+	color: #ff5829;
 }
 
 .navbar-toggler{
