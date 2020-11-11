@@ -31,21 +31,60 @@ body {
 	max-width: 1200px;
 }
 
+
+
+/* UPPER CONTENT SECTION */
+.upper-content {
+	background-color: #f5f5f5;
+}
+
+.upper-content .container {
+	display: flex;
+	align-items: center;
+}
+
+.upper-content .container .upper-content-left {
+	flex-grow: 2;
+	text-align: center;
+}
+
+.upper-content .container .upper-content-right {
+	flex-grow: 1;
+	text-align: center;
+}
+
+i.fa.fb,
+i.fa.tw,
+i.fa.yt,
+i.fa.li {
+	margin: 10px 0;
+	padding-right: 20px;
+	color: rgb(255, 88, 41);
+	font-size: 25px;
+}
+
+
+
+/* NAVBAR SECTION */
 /* nav {
-  box-shadow: 0 2px 4px 0 rgb(255, 88, 41);
+  box-shadow: 0 2px 4px 0 rgba(255, 88, 41, 0.8);
 } */
 
 .navbar{
-	background-color: black;
+	background-color: #333333;
 	z-index: 500;
+}
 
+.navbar#navbar {
+	padding: 0;
 }
 
 ul > li.active a{
 	color: rgb(255, 88, 41);
 
 }
-.navbar-brand{
+
+.navbar-brand {
 	margin-left: 20px;
 }
 	
@@ -54,12 +93,12 @@ ul > li.active a{
 	padding: 5px 5px 5px 5px;
 }
 
-.nav-item > a:hover{
+.nav-item > a:hover {
 	color: rgb(255, 88, 41);
 }
 
 .dropdown-menu{
-	background-color: black;
+	background-color: #333333;
 }
 
 .navbar-toggler{
@@ -70,74 +109,22 @@ ul > li.active a{
 	color: rgb(255, 88, 41) !important;
 }
 
+.button-register {
+	background-color: rgb(255, 88, 41);
+	padding: 15px 50px;
+	text-align: center;
+	transition: 0.2s ease-in-out;
+}
+
+.button-register:hover {
+	background-color: #000000;
+	cursor: pointer;
+}
+
 .free-quote{
 	margin-top: 20px;
 	color: white;
 }
-
-.my-lg-0{
-	background-color: rgb(255, 88, 41);
-	margin-top: -8px !important;
-	margin-bottom: -8px !important;
-	margin-right: -33px !important;
-	height: 70px;
-	width: 250px;
-}
-
-.my-lg-0:hover{
-	background-color: transparent;
-	color: white !important;
-	cursor: pointer;
-}
-
-/* .upper-content{
-	padding: 5px 5px 5px 5px;
-} */
-
-.upper-content{
-	padding: 20px;
-}
-
-
-/* .float-right-icons{
-	float: right;
-} */
-
-.fb, .tw, .yt, .li{
-	padding-right: 20px;
-	color: rgb(255, 88, 41);
-}
-
-
-/*.btn-orange-contact{
-	background-color:  rgb(255, 88, 41);
-	color: white;
-}
-.btn-orange-contact:hover{
-	background-color: transparent;
-	color: white;
-}
-.btn-black-register{
-	background-color: black;
-	color: white;
-}
-.btn-black-register:hover{
-	background-color: transparent;
-	color: white;
-}*/
-.call-us{
-	color: white;
-}
-.call-us:hover{
-	color: rgb(255, 88, 41);
-}
-.get-started{
-	color: black;
-}
-.get-started:hover{
-	color: white;
-}
-
 
 /* CSS for navbar toggler animations */
 .navbar-toggler .top-bar {
@@ -165,15 +152,96 @@ ul > li.active a{
 .navbar-toggler.collapsed .bottom-bar {
   transform: rotate(0);
 }
+
 .icon-bar {
   width: 22px; 
   height: 2px;
   background-color: rgb(255, 88, 41);
   display: block;
-  transition: all 0.6s;
-  margin-top: 4px;
-
+  transition: all 0.3s;
+	margin-top: 4px;
+	margin-left: 5px;
+	margin-bottom: 4px;
 }
+
+/*Fixed top for navbar & some content on top*/
+/* .custom-sticky {
+  position: fixed;
+  top: 20;
+  width: 100%;
+} */
+
+.sticky {
+  position: fixed;
+  top: 100;
+  width: 100%;
+}
+
+.sticky + .main-wrapper {
+	padding-top: 90px;
+}
+
+
+
+/* .my-lg-0{
+	background-color: rgb(255, 88, 41);
+	margin-top: -8px !important;
+	margin-bottom: -8px !important;
+	margin-right: -33px !important;
+	height: 70px;
+	width: 250px;
+} */
+
+/* .my-lg-0:hover{
+	background-color: transparent;
+	color: white !important;
+	cursor: pointer;
+} */
+
+/* .upper-content{
+	padding: 5px 5px 5px 5px;
+} */
+
+
+
+/* HEADER SECTION */
+
+
+/*.btn-orange-contact{
+	background-color:  rgb(255, 88, 41);
+	color: white;
+}
+.btn-orange-contact:hover{
+	background-color: transparent;
+	color: white;
+}
+.btn-black-register{
+	background-color: black;
+	color: white;
+}
+.btn-black-register:hover{
+	background-color: transparent;
+	color: white;
+}*/
+
+.call-us {
+	color: white;
+}
+
+.call-us:hover{
+	color: rgb(255, 88, 41);
+}
+
+.get-started{
+	color: black;
+}
+
+.get-started:hover{
+	color: white;
+}
+
+
+
 
 /* .carousel-inner{
   width: 100%; 
@@ -203,14 +271,8 @@ img.img-car {
 #h1_fade{
 	font-size: 50px;
 }
-/*Fixed top for navbar & some content on top*/
 
-.sticky {
-  position: fixed;
-  top: 20;
-  width: 100%;
 
-}
 
 /* .div-content-image {
   position: absolute;
@@ -740,6 +802,54 @@ h2.Count{
 
 
 /*Responsive Design*/
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu {display: none;}
+	.navbar .nav-item:hover .nav-link {color: #fff;}
+	.navbar .nav-item:hover .dropdown-menu{display: block;}
+	.navbar .nav-item .dropdown-menu{margin-top:0;}
+}
+
+
+@media all and (max-width: 992px) {
+	.upper-content .container {
+		flex-direction: column;
+	}
+
+	.navbar#navbar {
+		padding: 10px;
+	}
+
+	ul#menu-primary-menu {
+		margin-bottom: 20px;
+	}
+}
+
+
+@media all and (max-width: 768px) {
+	.upper-content {
+		font-size: 12px;
+	}
+
+	i.fa.fb,
+	i.fa.tw,
+	i.fa.yt,
+	i.fa.li {
+		font-size: 20px;
+	}
+}
+
+
+@media all and (max-width: 540px) {
+	.upper-content {
+		display: none;
+	}
+}
+
+
+
+
+
+
 
 /*Moto G4 / Galaxy S5*/
   /* @media screen and (device-width: 360px) and (orientation:portrait) {
@@ -1512,3 +1622,5 @@ h2.Count{
 		}
 
 	} */
+
+

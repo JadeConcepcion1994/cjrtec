@@ -5,7 +5,7 @@
 
 	<!-- Banner Carousel Section -->
 	<?php 
-		// include get_theme_file_path('/inc/inc.banner_carousel.php'); 
+		include get_theme_file_path('/inc/inc.banner_carousel.php'); 
 	?>
 
 	<!-- Header Second Section -->
