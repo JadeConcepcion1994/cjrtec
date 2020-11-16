@@ -853,7 +853,7 @@ footer ul > li > a {
 
 
 /* ALL OTHER SECTIONS */
-@media all and (max-width: 992px) {
+@media all and (max-width: 991px) {
 	/* Upper Content and Navbar */
 	.upper-content .container {
 		flex-direction: column;
