@@ -1,6 +1,5 @@
 /* PAGE UTILITES CLASS */
-
-a {
+/* a {
 	text-decoration: none;
 	transition: 0.2s ease-in-out;
 }
@@ -8,12 +7,12 @@ a {
 a:hover {
 	text-decoration: none;
 	color: #ff5829;
-}
+} */
 
 /* orange color */
-.orange {
+/* .orange {
 	color: #ff5829;
-}
+} */
 
 /* for href Links */
 .href-link {

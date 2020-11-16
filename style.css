@@ -35,6 +35,16 @@ ul {
 	list-style-type: none;
 }
 
+a {
+	text-decoration: none;
+	transition: 0.2s ease-in-out;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #ff5829;
+}
+
 
 
 /* UTILITY CLASSES */
