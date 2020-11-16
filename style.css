@@ -498,23 +498,7 @@ img.img-car {
 
 
 
-/* .zoom-wrap {
-  width:100%;
-  height:35rem;
-  overflow:hidden;
-  position:relative;
 
-}
-
-.zoom-wrap img{
-  width:100%;
-  height: 100%;
-  position:absolute;
-  top:0;
-  left:50%;
-  right: 50%;
-  transform: translate(-50%);
-} */
 
 
 
@@ -638,6 +622,68 @@ img.img-car {
 /* END BEST SELLER SECTION */
 
 
+
+
+
+
+/* WHY CHOOSE SECTION */
+
+#why-choose .bg-image {
+	position: relative;
+}
+
+#why-choose .centered-desc {
+	position: absolute;
+  /* top: 50%; */
+	/* left: 50%; */
+	/* transform: translate(-50%, -50%); */
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	
+	background-color: rgba(0,0,0,0.5);
+}
+
+#why-choose .centered-desc > div {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	padding: 20px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+#why-choose .centered-desc h3 {
+	font-size: 38px;
+}
+
+
+/* END WHY CHOOSE SECTION */
+
+
+
+/* .zoom-wrap {
+  width:100%;
+  height:35rem;
+  overflow:hidden;
+  position:relative;
+
+} */
+
+/* .zoom-wrap img{
+  width:100%;
+  height: 100%;
+  position:absolute;
+  top:0;
+  left:50%;
+  right: 50%;
+  transform: translate(-50%);
+} */
+
+
 .img-text{
 	width: 100%;
 	object-fit: contain;
@@ -650,6 +696,7 @@ img.img-car {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .r-1{
 	background-color: #000000;
 	color: #ffffff;
@@ -985,15 +1032,21 @@ footer{
 
 
 /*Responsive Design*/
+
+/* NAVBAR ONLY */
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu {display: none;}
 	.navbar .nav-item:hover .nav-link {color: #fff;}
 	.navbar .nav-item:hover .dropdown-menu{display: block;}
 	.navbar .nav-item .dropdown-menu{margin-top:0;}
 }
+/* END NAVBAR ONLY */
 
 
+
+/* ALL OTHER SECTIONS */
 @media all and (max-width: 992px) {
+	/* Upper Content and Navbar */
 	.upper-content .container {
 		flex-direction: column;
 	}
@@ -1009,6 +1062,7 @@ footer{
 
 
 @media all and (max-width: 768px) {
+	/* Upper Content and Navbar */
 	.upper-content {
 		font-size: 12px;
 	}
@@ -1019,14 +1073,38 @@ footer{
 	i.fa.li {
 		font-size: 20px;
 	}
+
 }
 
 
 @media all and (max-width: 540px) {
+	/* Upper Content and Navbar */
 	.upper-content {
 		display: none;
 	}
 
+	/* Best Sellers */
+	#best-sellers .row-items {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#best-sellers .row-items .col-item {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	/* Why Choose */
+	#why-choose .bg-image {
+		display: none;
+	}
+	#why-choose .centered-desc {
+		position: relative;
+		color: #000000;
+		background-color: rgba(255,255,255,0);
+	}
+
+	/* footer */
 	#footer-banner .banner-content {
 		padding: 0 20px;
 	}
@@ -1042,7 +1120,9 @@ footer{
 	#footer-banner .banner-content a {
 		font-size: 16px;
 	}
+
 }
+/* END ALL OTHER SECTIONS */
 
 
 

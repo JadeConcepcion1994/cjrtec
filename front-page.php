@@ -31,7 +31,7 @@
 
 	<!-- Why Choose Section -->
 	<?php 
-		// include get_theme_file_path( '/inc/inc.why_choose.php' );
+		include get_theme_file_path( '/inc/inc.why_choose.php' );
 	?>
 
 	<!-- Get Help Contact Section -->
