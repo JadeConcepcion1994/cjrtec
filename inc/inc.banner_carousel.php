@@ -1,4 +1,4 @@
-<section id="banner-carousel">			
+<section id="banner-carousel">
 	<div 
 		id="carouselExampleIndicators" 
 		class="carousel slide carousel-top" 
@@ -205,6 +205,4 @@
 			</div><!-- div-content-image -->
 		</div><!-- carousel-inner -->
 	</div><!-- carouselExampleIndicators -->
-
-	
 </section>
