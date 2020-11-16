@@ -608,8 +608,8 @@ img.img-car {
 }
 
 #best-sellers .col-item {
-	padding-left: 5px;
-	padding-right: 5px;
+	padding-left: 7px;
+	padding-right: 7px;
 }
 
 #best-sellers .card.h-100 {
@@ -624,7 +624,7 @@ img.img-car {
 #best-sellers .btn-cjr {
 	background-color:  #ff5829;
 	color: #000000;
-	padding: 20px 30px;
+	padding: 12px 30px;
 	display: inline-block;
 	margin: 0 auto;
 }
