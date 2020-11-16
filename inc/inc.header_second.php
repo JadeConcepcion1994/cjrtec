@@ -1,46 +1,46 @@
-<div class="row">
-	<div class="col-md-6 half-content-text">
-		<div data-aos="fade-up" data-aos-delay="150">
-			<h3 class="h1-text">
-				<?php 
-					if (get_theme_mod('cjrtec_header_second_edit')) {
-						echo get_theme_mod('cjrtec_header_second_edit');
-					} else {
-						echo "With automation, the door to maximum productivity could open at any moment.";
-					}
-				?>
-			</h3>
+<section id="header-second">
+	<div class="row">
+		<div class="col-md-6 half-content-text">
+			<div data-aos="fade-up" data-aos-delay="150">
+				<h2 class="text-center">
+					<?php 
+						if (get_theme_mod('cjrtec_header_second_edit')) {
+							echo get_theme_mod('cjrtec_header_second_edit');
+						} else {
+							echo "With automation, the door to maximum productivity could open at any moment.";
+						}
+					?>
+				</h2>
 
-			<br>
+				<br>
 
-			<p class="p-text">
-				<?php 
-					if (get_theme_mod('cjrtec_paragraph_content_edit')) {
-						echo get_theme_mod('cjrtec_paragraph_content_edit');
-					} else {
-						echo "	Whether it’s leather, rubber, PVC cards, fabric, paper, or cardboard, CJR’s clicker press machines can speed up your cutting operations 10x faster than usual, increasing your production and helping your business achieve maximum efficiency.";
-					}
-				?>
-			</p>
+				<p class="p-text">
+					<?php 
+						if (get_theme_mod('cjrtec_paragraph_content_edit')) {
+							echo get_theme_mod('cjrtec_paragraph_content_edit');
+						} else {
+							echo "	Whether it’s leather, rubber, PVC cards, fabric, paper, or cardboard, CJR’s clicker press machines can speed up your cutting operations 10x faster than usual, increasing your production and helping your business achieve maximum efficiency.";
+						}
+					?>
+				</p>
 
-			<br>
+				<br>
 
-			<a 
-				href="<?php echo get_theme_mod('cjrtec_link_edit'); ?>" class="btn btn-black"
-			>
-				<?php
-					if (get_theme_mod('cjrtec_link_title_edit')) {
-						echo get_theme_mod('cjrtec_link_title_edit');
-					} else {
-						echo "ABOUT US";
-					}
-				?>	
-			</a>
+				<a 
+					href="<?php echo get_theme_mod('cjrtec_link_edit'); ?>" class="btn btn-black"
+				>
+					<?php
+						if (get_theme_mod('cjrtec_link_title_edit')) {
+							echo get_theme_mod('cjrtec_link_title_edit');
+						} else {
+							echo "ABOUT US";
+						}
+					?>	
+				</a>
+			</div>
 		</div>
-	</div>
 
-	<div class="col-md-6 half-content-image px-0 d-none d-md-block">
-		<!-- <div class="row test-row"> -->
+		<div class="col-md-6 half-content-image px-0 d-none d-md-block">
 			<section class="hero-section" id="js-hero">
 				<img src="
 					<?php 
@@ -52,9 +52,6 @@
 					?>"
 				>
 			</section>
-		<!-- </div> -->
+		</div>
 	</div>
-</div>
-
-
-
+</section>

@@ -11,10 +11,7 @@
 			From purchasing to setting up your press to diagnosing issues, CJR Support Team has you covered.
 		</p>
 
-		<!-- <div class="row" style="padding: 50px 50px 50px 50px"> -->
 		<div class="row my-3">
-
-			<!-- <div class="col-md-4" align="center"> -->
 			<div class="col-sm-4 text-center">
 				<div class="get-help-icons">
 					<i class="fa fa-comments-o" aria-hidden="true"></i>
@@ -22,8 +19,6 @@
 				<p>Get real-time assistance from a CJR expert right on your computer or mobile device.</p>
 			</div>
 
-
-			<!-- <div class="col-md-4" align="center"> -->
 			<div class="col-sm-4 text-center">
 				<div class="get-help-icons">
 					<i class="fa fa-phone" aria-hidden="true"></i>
@@ -32,20 +27,13 @@
 				for us to call you.</p>
 			</div>
 
-
-			<!-- <div class="col-md-4" align="center"> -->
 			<div class="col-sm-4 text-center">
 				<div class="get-help-icons">
 					<i class="fa fa-envelope-o" aria-hidden="true"></i>
 				</div>
 				<p>For questions about any of our products, send us an email and we’ll answer you as soon as possible.</p>
 			</div>
-
 		</div>
-
-		<!-- <center>
-		<a href="<?php // site_url() ?>/contact" class="btn btn-success" style="align-content: center !important">Contact us now!</a>
-		</center> -->
 
 		<div class="text-center">
 			<a 

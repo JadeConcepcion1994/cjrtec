@@ -15,7 +15,6 @@
 		</div>
 
 		<div class="row row-items">
-			<!-- <div class="col-sm-6 col-lg-3 my-3" data-aos="fade-up" data-aos-delay="50"> -->
 			<div class="col-sm-6 my-2 col-item" data-aos="fade-up" data-aos-delay="50">
 				<div class="card h-100">
 					<img 
@@ -74,7 +73,6 @@
 				</div><!-- card -->
 			</div><!-- col-md-3 -->
 
-			<!-- <div class="col-sm-6 col-lg-3 my-3" data-aos="fade-up" data-aos-delay="50"> -->
 			<div class="col-sm-6 my-2 col-item" data-aos="fade-up" data-aos-delay="50">
 				<div class="card h-100">
 					<img 
@@ -133,7 +131,6 @@
 				</div><!-- card -->
 			</div><!-- col-md-3 -->
 
-			<!-- <div class="col-sm-6 col-lg-3 my-3" data-aos="fade-up" data-aos-delay="50"> -->
 			<div class="col-sm-6 my-2 col-item" data-aos="fade-up" data-aos-delay="50">
 				<div class="card h-100">
 					<img 
@@ -193,7 +190,6 @@
 				</div><!-- card -->
 			</div><!-- col-md-3 -->
 
-			<!-- <div class="col-sm-6 col-lg-3 my-3" data-aos="fade-up" data-aos-delay="50"> -->
 			<div class="col-sm-6 my-2 col-item" data-aos="fade-up" data-aos-delay="50">
 				<div class="card h-100">
 					<img 

@@ -14,14 +14,10 @@
 							?>" 
 						class="img-fluid"
 					>
-
-					
 				</div><!-- zoom-wrap bg-image -->
 
-				<!-- <div class="centered"> -->
 				<div class="centered-desc">
 					<div data-aos="fade-up" data-aos-delay="50">
-						<!-- <h3 class="centered-text"> -->
 						<h3 class="text-center">
 							<strong>
 								<?php 
@@ -38,11 +34,7 @@
 							There are other companies out there but we are confident that nobody else can give you the BEST deals in the market
 						</p>
 					</div>
-				</div><!-- centered -->
-
-
-				
-
+				</div>
 			</div><!-- col -->
 		</div><!-- row -->
 
