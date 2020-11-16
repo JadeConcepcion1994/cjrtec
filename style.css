@@ -724,6 +724,17 @@ img.img-car {
 }
 
 
+/* CLIENT CAROUSEL SECTION */
+#client-carousel {
+	padding: 75px 0;
+	color: #000000;
+}
+
+#client-carousel h2 {
+	font-size: 48px;
+	font-weight: 700;
+}	
+
 
 /* .zoom-wrap {
   width:100%;
@@ -831,7 +842,7 @@ a.buyback-link:hover {
 
 .advantage.bg-orange {
 	background-color: #ff5829;
-	padding: 75px 0;
+	padding: 50px 0;
 }
 
 .advantage .container {
@@ -1154,6 +1165,19 @@ footer{
 	#cjr-testimonials .testimonials-info h2 {
 		font-size: 44px;
 	}
+
+	/* Client Carousel */
+	
+	#client-carousel {
+		padding-top: 50px;
+		padding-bottom: 0;
+		/* color: #000000; */
+	}
+
+	#client-carousel h2 {
+		font-size: 36px;
+		/* font-weight: 700; */
+	}	
 }
 
 
