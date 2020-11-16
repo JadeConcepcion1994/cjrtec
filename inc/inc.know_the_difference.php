@@ -6,7 +6,8 @@
 			What sets <span class="orange"><strong>CJR Tec</strong></span> apart?
 		</h2>
 
-		<ul class="text-center">
+		<!-- <ul class="text-center"> -->
+		<ul>
 			<li>
 				CJR currently enjoys a <strong>market share of nearly 70% of all machines
 				sold</strong> in USA.

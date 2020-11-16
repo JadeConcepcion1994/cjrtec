@@ -398,12 +398,17 @@ ul > li.active a{
 .section-difference ul {
   list-style-type: none;
   margin-bottom: 30px;
-  padding: 0;
+	padding: 0;
+	width: 100%;
+	max-width: 750px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .section-difference ul li {
   font-size: 20px;
-	margin-bottom: 5px;
+	/* margin-bottom: 5px; */
+	margin-bottom: 10px;
 }
 
 .section-difference ul li a {
@@ -904,6 +909,12 @@ footer ul > li > a {
 
 
 
+	/* Section Difference */
+	.section-difference ul {
+		text-align: left;
+	}
+
+
 	/* cjr testimonials */
 	#cjr-testimonials .testimonials-info {
 		padding: 30px 0;
@@ -949,6 +960,20 @@ footer ul > li > a {
 	}
 
 
+
+	/* Know the difference */
+	.section-difference ul li {
+    font-size: 16px;
+    /* margin-bottom: 10px; */
+	}
+
+	.section-difference ul li a {
+		font-size: 16px;
+	}
+
+	.section-difference ul li::before {
+		font-size: 18px;
+	}
 
 	/* Why Choose */
 	#why-choose .bg-image {
