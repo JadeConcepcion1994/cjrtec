@@ -14,8 +14,9 @@
 			</div>
 		</div>
 
-		<div class="row mb-5">
-			<div class="col-sm-6 col-lg-3 my-3" data-aos="fade-up" data-aos-delay="50">
+		<div class="row row-items">
+			<!-- <div class="col-sm-6 col-lg-3 my-3" data-aos="fade-up" data-aos-delay="50"> -->
+			<div class="col-sm-6 my-1 col-item" data-aos="fade-up" data-aos-delay="50">
 				<div class="card h-100">
 					<img 
 						class="card-img-top img-fluid" 
@@ -41,7 +42,7 @@
 										}
 									?>
 								</h5>
-								<p class="card-text mb-3">
+								<p class="card-text mb-5">
 									<?php 
 										if (get_theme_mod('cjrtec_first_paragraph_edit')) {
 											echo get_theme_mod('cjrtec_first_paragraph_edit'); 
@@ -73,7 +74,8 @@
 				</div><!-- card -->
 			</div><!-- col-md-3 -->
 
-			<div class="col-sm-6 col-lg-3 my-3" data-aos="fade-up" data-aos-delay="50">
+			<!-- <div class="col-sm-6 col-lg-3 my-3" data-aos="fade-up" data-aos-delay="50"> -->
+			<div class="col-sm-6 my-1 col-item" data-aos="fade-up" data-aos-delay="50">
 				<div class="card h-100">
 					<img 
 						class="card-img-top img-fluid" 
@@ -99,7 +101,7 @@
 										}
 									?>
 								</h5>
-								<p class="card-text mb-3">
+								<p class="card-text mb-5">
 									<?php 
 										if (get_theme_mod('cjrtec_second_paragraph_edit')) {
 											echo get_theme_mod('cjrtec_second_paragraph_edit'); 
@@ -131,7 +133,8 @@
 				</div><!-- card -->
 			</div><!-- col-md-3 -->
 
-			<div class="col-sm-6 col-lg-3 my-3" data-aos="fade-up" data-aos-delay="50">
+			<!-- <div class="col-sm-6 col-lg-3 my-3" data-aos="fade-up" data-aos-delay="50"> -->
+			<div class="col-sm-6 my-1 col-item" data-aos="fade-up" data-aos-delay="50">
 				<div class="card h-100">
 					<img 
 						class="card-img-top img-fluid" 
@@ -158,7 +161,7 @@
 										}
 									?>
 								</h5>
-								<p class="card-text mb-3">
+								<p class="card-text mb-5">
 									<?php 
 										if (get_theme_mod('cjrtec_third_paragraph_edit')) {
 											echo get_theme_mod('cjrtec_third_paragraph_edit'); 
@@ -190,7 +193,8 @@
 				</div><!-- card -->
 			</div><!-- col-md-3 -->
 
-			<div class="col-sm-6 col-lg-3 my-3" data-aos="fade-up" data-aos-delay="50">
+			<!-- <div class="col-sm-6 col-lg-3 my-3" data-aos="fade-up" data-aos-delay="50"> -->
+			<div class="col-sm-6 my-1 col-item" data-aos="fade-up" data-aos-delay="50">
 				<div class="card h-100">
 					<img 
 						class="card-img-top img-fluid" 
@@ -216,7 +220,7 @@
 										}
 									?>
 								</h5>
-								<p class="card-text mb-3">
+								<p class="card-text mb-5">
 									<?php 
 										if (get_theme_mod('cjrtec_fourth_paragraph_edit')) {
 											echo get_theme_mod('cjrtec_fourth_paragraph_edit'); 

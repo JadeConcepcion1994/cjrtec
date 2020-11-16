@@ -31,27 +31,27 @@
 
 	<!-- Why Choose Section -->
 	<?php 
-		include get_theme_file_path( '/inc/inc.why_choose.php' );
+		// include get_theme_file_path( '/inc/inc.why_choose.php' );
 	?>
 
 	<!-- Get Help Contact Section -->
 	<?php 
-		include get_theme_file_path( '/inc/inc.get_help.php' ); 
+		// include get_theme_file_path( '/inc/inc.get_help.php' ); 
 	?>
 
 	<!-- Testimonials Section -->
 	<?php 
-		include get_theme_file_path( '/inc/inc.cjr_testimonials.php' ); 
+		// include get_theme_file_path( '/inc/inc.cjr_testimonials.php' ); 
 	?>
 	
 	<!-- Client Carousel Section -->
 	<?php 
-		include get_theme_file_path( '/inc/inc.client_carousel.php' ); 
+		// include get_theme_file_path( '/inc/inc.client_carousel.php' ); 
 	?>
 	
 	<!-- Take Advantage Section -->
 	<?php 
-		include get_theme_file_path( '/inc/inc.take_advantage.php' );
+		// include get_theme_file_path( '/inc/inc.take_advantage.php' );
 	?>
 
 </div> <!-- cntr-top-content -->
