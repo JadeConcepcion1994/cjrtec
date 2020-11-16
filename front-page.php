@@ -36,7 +36,7 @@
 
 	<!-- Get Help Contact Section -->
 	<?php 
-		// include get_theme_file_path( '/inc/inc.get_help.php' ); 
+		include get_theme_file_path( '/inc/inc.get_help.php' ); 
 	?>
 
 	<!-- Testimonials Section -->

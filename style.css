@@ -42,6 +42,20 @@ h1 {
 	font-size: 64px;
 }
 
+.btn-cjr {
+	background-color:  #ff5829;
+	color: #000000;
+	padding: 12px 30px;
+	/* display: inline-block; */
+	/* margin: 0 auto; */
+}
+
+.btn-cjr:hover {
+	background-color: #000000;
+	color: #ffffff;
+	transition: .2s ease-in-out;
+}
+
 
 /* UPPER CONTENT SECTION */
 .upper-content {
@@ -605,24 +619,19 @@ img.img-car {
 	font-weight: 700;
 }
 
-#best-sellers .btn-cjr {
+/* #best-sellers .btn-cjr {
 	background-color:  #ff5829;
 	color: #000000;
 	padding: 12px 30px;
 	display: inline-block;
 	margin: 0 auto;
-}
+} */
 
-#best-sellers .btn-cjr:hover {
+/* #best-sellers .btn-cjr:hover {
 	background-color: #000000;
 	color: #ffffff;
 	transition: .2s ease-in-out;
-}
-
-/* END BEST SELLER SECTION */
-
-
-
+} */
 
 
 
@@ -661,7 +670,28 @@ img.img-car {
 }
 
 
-/* END WHY CHOOSE SECTION */
+/* GET HELP SECTION */
+#get-help {
+	color: black;
+	margin-top: 75px;
+}
+
+#get-help h3 {
+	font-size: 32px;
+	font-weight: 700;
+}
+
+#get-help .get-help-icons {
+	font-size: 56px;
+}
+
+#get-help a.btn.btn-cjr {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+
 
 
 
