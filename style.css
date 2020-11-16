@@ -691,7 +691,37 @@ img.img-car {
 	font-weight: 700;
 }
 
+/* CJR TESTIMONIALS SECTION */
+#cjr-testimonials {
+	color: #000000;
+	padding-top: 75px;
+}
 
+#cjr-testimonials .testimonials-info {
+	padding: 70px 10px;
+	color: #ffffff;
+}
+
+#cjr-testimonials .testimonials-info h2 {
+	font-size: 54px;
+}
+
+#cjr-testimonials .testimonials-info p {
+	font-size: 18px;
+}
+
+#cjr-testimonials .testimonials-info a {
+	color: #ffffff;
+}
+
+#cjr-testimonials .testimonials-info a:hover {
+	color: #000000;
+}
+
+#cjr-testimonials .col-md-6.bg-white {
+	display: flex;
+    align-items: center;
+}
 
 
 
@@ -881,8 +911,19 @@ ul>li>a{
   color: #ff5829; 
   font-weight: 900;
 }
+
 .orange{
 	color: #ff5829;
+}
+
+
+
+.bg-orange {
+	background-color: #ff5829;
+}
+
+.bg-white {
+	background-color: #ffffff;
 }
 
 /* INFO COUNTER SECTION */
@@ -1104,6 +1145,15 @@ footer{
 		font-size: 20px;
 	}
 
+	/* cjr testimonials */
+	#cjr-testimonials .testimonials-info {
+		padding: 30px 0;
+		
+	}
+
+	#cjr-testimonials .testimonials-info h2 {
+		font-size: 44px;
+	}
 }
 
 
@@ -1151,6 +1201,25 @@ footer{
 		font-size: 16px;
 	}
 
+	/* cjr testimonials */
+	#cjr-testimonials .testimonials-info {
+		padding: 30px 0;
+		
+	}
+
+	#cjr-testimonials .testimonials-info h2 {
+		font-size: 32px;
+	}
+
+	#cjr-testimonials .testimonials-info p {
+		font-size: 16px;
+	}
+
+	#cjr-testimonials .testimonials-info .link-view-customers,
+	#cjr-testimonials .testimonials-info .link-read-more {
+		display: block;
+		line-height: 1;
+	}
 }
 /* END ALL OTHER SECTIONS */
 
