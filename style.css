@@ -658,9 +658,13 @@ ul > li.active a{
 
 /* FOOTER CUTTING PRESS LIST */
 /* FOOTER */
-footer{
+footer {
 	background-color: #000000;
 }
+
+footer ul > li > a {
+	color: #ffffff;
+} 
 
 #footer-cutting-press {
 	background-color: #f5f5f5;
@@ -947,6 +951,8 @@ footer{
 
 
 	/* footer */
+
+
 	#footer-banner .banner-content {
 		padding: 0 20px;
 	}
