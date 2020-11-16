@@ -940,7 +940,7 @@ footer ul > li > a {
 
 
 
-@media all and (max-width: 540px) {
+@media all and (max-width: 539px) {
 	/* Upper Content and Navbar */
 	.upper-content {
 		display: none;
@@ -1031,7 +1031,7 @@ footer ul > li > a {
 
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 374px) {
 	/* Banner Carousel Section */
 	#banner-carousel .first-box,
 	#banner-carousel .second-box {
@@ -1046,6 +1046,11 @@ footer ul > li > a {
 
 	#info-counter .row.row-numbers .col-sm-6 .h5-number-title {
 		text-align: center;
+	}
+
+	/* Best Sellers */
+	#best-sellers .row-title-h2 {
+		font-size: 38px;
 	}
 }
 /* END ALL OTHER SECTIONS */
