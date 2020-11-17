@@ -955,16 +955,32 @@ function cjrtec_home_content($wp_customize){
     )
   );
 
+  // $wp_customize -> add_setting(
+  //   'cjrtec_c1_title_edit', array(
+  //     'default' => 'Text Title'
+  //   )
+  // );
+
+  // $wp_customize -> add_control(
+  //   new WP_Customize_Control(
+  //     $wp_customize, 'cjrtec_c1_title_control', array(
+  //       'label' => 'Text Title Column 1',
+  //       'section' => 'cjrtec_homepage_settings_section',
+  //       'settings' => 'cjrtec_c1_title_edit'
+  //     )
+  //   )
+  // );
+
   $wp_customize -> add_setting(
     'cjrtec_c1_title_edit', array(
-      'default' => 'Text Title'
+      'default' => 'Column 1 - About Warranty Title'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_c1_title_control', array(
-        'label' => 'Text Title Column 1',
+        'label' => 'Column 1 - About Warranty Title',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_c1_title_edit'
       )
@@ -972,31 +988,32 @@ function cjrtec_home_content($wp_customize){
   );
 
   $wp_customize -> add_setting(
-    'cjrtec_c1_title_edit', array(
-      'default' => 'Text Title'
+    'column_1_warranty_edit', array(
+      'default' => 'Column 1 - About Warranty Content'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
-      $wp_customize, 'cjrtec_c1_title_control', array(
-        'label' => 'Text Title Column 1',
+      $wp_customize, 'column_1_warranty_control', array(
+        'label' => 'Column 1 - About Warranty Content',
         'section' => 'cjrtec_homepage_settings_section',
-        'settings' => 'cjrtec_c1_title_edit'
+        'settings' => 'column_1_warranty_edit',
+        'type' => 'textarea'
       )
     )
   );
 
   $wp_customize -> add_setting(
     'cjrtec_c2_title_edit', array(
-      'default' => 'Text Title'
+      'default' => 'Column 2 - About Buyback Title'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_c2_title_control', array(
-        'label' => 'Text Title Column 2',
+        'label' => 'Column 2 - About Buyback Title',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_c2_title_edit'
       )
@@ -1004,17 +1021,51 @@ function cjrtec_home_content($wp_customize){
   );
 
   $wp_customize -> add_setting(
+    'column_2_buyback_edit', array(
+      'default' => 'Column 2 - About Buyback Content'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'column_2_buyback_control', array(
+        'label' => 'Column 2 - About Buyback Content',
+        'section' => 'cjrtec_homepage_settings_section',
+        'settings' => 'column_2_buyback_edit',
+        'type' => 'textarea'
+      )
+    )
+  );
+
+  $wp_customize -> add_setting(
     'cjrtec_c3_title_edit', array(
-      'default' => 'Text Title'
+      'default' => 'Column 3 - About Financing Title'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_c3_title_control', array(
-        'label' => 'Text Title Column 3',
+        'label' => 'Column 3 - About Financing Title',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_c3_title_edit'
+      )
+    )
+  );
+
+  $wp_customize -> add_setting(
+    'column_3_financing_edit', array(
+      'default' => 'Column 3 - About Financing Content'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'column_3_financing_control', array(
+        'label' => 'Column 3 - About Financing Content',
+        'section' => 'cjrtec_homepage_settings_section',
+        'settings' => 'column_3_financing_edit',
+        'type' => 'textarea'
       )
     )
   );

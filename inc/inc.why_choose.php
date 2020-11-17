@@ -62,7 +62,13 @@
 						</strong>
 					</h5>
 					<p>
-						Every CJR machine comes with Full Warranty on all parts and service.
+						<?php
+							if (get_theme_mod('column_1_warranty_edit')) {
+								echo get_theme_mod('column_1_warranty_edit');
+							} else {
+								echo "Every CJR machine comes with Full Warranty on all parts and service.";
+							}
+						?>
 					</p>
 					<a href="<?php site_url(); ?>/warranty">
 						Learn More <i class="fa fa-chevron-right" aria-hidden="true" style="margin-left: 10px"></i>
@@ -85,7 +91,13 @@
 						</strong>
 					</h5>
 					<p>
-						CJR guarantees to buy back any clicker press up to 40 tons.
+						<?php
+							if (get_theme_mod('column_2_buyback_edit')) {
+								echo get_theme_mod('column_2_buyback_edit');
+							} else {
+								echo "CJR guarantees to buy back any clicker press up to 40 tons.";
+							}
+						?>
 					</p>
 					<a 
 						href="<?php site_url() ?>/buyback"
@@ -111,7 +123,13 @@
 						</strong>
 					</h5>
 					<p>
-						Apply for special financing and free up your capital.
+						<?php
+							if (get_theme_mod('column_3_financing_edit')) {
+								echo get_theme_mod('column_3_financing_edit');
+							} else {
+								echo "Apply for special financing and free up your capital.";
+							}
+						?>
 					</p>
 					<a href="<?php site_url() ?>/finance">
 						Learn More <i class="fa fa-chevron-right" aria-hidden="true" style="margin-left: 10px"></i>
