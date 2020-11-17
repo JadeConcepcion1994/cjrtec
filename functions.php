@@ -471,7 +471,6 @@ function cjrtec_home_content($wp_customize){
   //second row content
   $wp_customize -> add_setting(
     'cjrtec_header_second_edit', array(
-      // 'default' => 'Header Content Second'
       'default' => 'Second Header Title'
     )
   );
@@ -499,7 +498,6 @@ function cjrtec_home_content($wp_customize){
 
   $wp_customize -> add_setting(
     'cjrtec_paragraph_content_edit', array(
-      // 'default' => 'Paragraph Content'
       'default' => 'Second Header Content'
     )
   );
@@ -517,7 +515,6 @@ function cjrtec_home_content($wp_customize){
 
   $wp_customize -> add_setting(
     'cjrtec_link_title_edit', array(
-      // 'default' => 'Link Title'
       'default' => 'Second Header CTA Title'
     )
   );
@@ -567,6 +564,71 @@ function cjrtec_home_content($wp_customize){
         'settings' => 'cjrtec_second_row_image',
         'height' => 700,
         'width' => 1000
+      )
+    )
+  );
+
+  // Info Counter Section
+  $wp_customize -> add_setting(
+    'info_counter_years_edit', array(
+      'default' => '0'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'info_counter_years_control', array(
+        'label' => 'Info Counter Years of Experience',
+        'section' => 'cjrtec_homepage_settings_section',
+        'settings' => 'info_counter_years_edit'
+      )
+    )
+  );
+
+  $wp_customize -> add_setting(
+    'info_counter_projects_edit', array(
+      'default' => '0'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'info_counter_projects_control', array(
+        'label' => 'Info Counter Successful Projects',
+        'section' => 'cjrtec_homepage_settings_section',
+        'settings' => 'info_counter_projects_edit'
+      )
+    )
+  );
+
+  $wp_customize -> add_setting(
+    'info_counter_professionals_edit', array(
+      'default' => '0'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'info_counter_professionals_control', array(
+        'label' => 'Info Counter Professional Experts',
+        'section' => 'cjrtec_homepage_settings_section',
+        'settings' => 'info_counter_professionals_edit'
+      )
+    )
+  );
+
+  $wp_customize -> add_setting(
+    'info_counter_customers_edit', array(
+      'default' => '0'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'info_counter_customers_control', array(
+        'label' => 'Info Counter Happy Customers',
+        'section' => 'cjrtec_homepage_settings_section',
+        'settings' => 'info_counter_customers_edit'
       )
     )
   );
