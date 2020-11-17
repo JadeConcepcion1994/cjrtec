@@ -167,39 +167,49 @@
 					</h1>
 
 					<div class="row mx-0"  id="row_fade">
-						<div class="first-box">
-							<!-- <center> -->
-								<a href="<?php echo get_theme_mod('cjrtec_first_box_link_edit'); ?>" class="call-us">
-									<?php
-										if (get_theme_mod('cjrtec_first_box_edit')) {
-											echo get_theme_mod('cjrtec_first_box_edit');
-										} else {
-											echo "CALL US";
-										} 
-									?>	
-								</a>	
-								<p>
-									800-733-2302
-								</p>
-							<!-- </center> -->
-						</div>
+						<a href="" class="first-box">
+							<div>
+								<h3>CALL US</h3>
+								<p>800-733-2302</p>
+							</div>
+						</a>
+
+						<a href="" class="second-box">
+							<div>
+								<h3>GET STARTED</h3>
+								<p>Request a FREE quote now</p>
+							</div>
+						</a>
+
+						<!-- <div class="first-box">
+							<a href="<?php // echo get_theme_mod('cjrtec_first_box_link_edit'); ?>" class="call-us">
+								<?php
+									// if (get_theme_mod('cjrtec_first_box_edit')) {
+									// 	echo get_theme_mod('cjrtec_first_box_edit');
+									// } else {
+									// 	echo "CALL US";
+									// } 
+								?>	
+							</a>	
+							<p>
+								800-733-2302
+							</p>
+						</div> -->
 							
-						<div class="second-box">
-							<!-- <center> -->
-								<a href="<?php echo get_theme_mod('cjrtec_second_box_link_edit'); ?>" class="get-started">
-									<?php 
-										if (get_theme_mod('cjrtec_second_box_edit')) {
-											echo get_theme_mod('cjrtec_second_box_edit');
-										} else {
-											echo "GET STARTED";
-										}
-									?>
-								</a>
-								<p>
-									Request a FREE quote now
-								</p>
-							<!-- </center> -->
-						</div>
+						<!-- <div class="second-box">
+							<a href="<?php // echo get_theme_mod('cjrtec_second_box_link_edit'); ?>" class="get-started">
+								<?php 
+									// if (get_theme_mod('cjrtec_second_box_edit')) {
+									// 	echo get_theme_mod('cjrtec_second_box_edit');
+									// } else {
+									// 	echo "GET STARTED";
+									// }
+								?>
+							</a>
+							<p>
+								Request a FREE quote now
+							</p>
+						</div> -->
 					</div><!-- row row_fade -->
 				</div>
 			</div><!-- div-content-image -->

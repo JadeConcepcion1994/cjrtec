@@ -267,7 +267,7 @@ ul > li.active a{
 
 
 /* BANNER CAROUSEL SECTION */
-#banner-carousel .call-us {
+/* #banner-carousel .call-us {
 	color: #ffffff;
 }
 
@@ -281,7 +281,7 @@ ul > li.active a{
 
 #banner-carousel .get-started:hover{
 	color: #ffffff;
-}
+} */
 
 #banner-carousel img.img-car {
 	height: 600px;
@@ -326,20 +326,36 @@ ul > li.active a{
 
 #banner-carousel .first-box {
 	background-color: #000000;
+	color: #ffffff;
 	width: 25%;
 	padding: 30px;
+	border: 2px solid #000000;
 }
 
 #banner-carousel .second-box {
 	background-color: #ff5829;
+	color:#ffffff;
 	width: 25%;
-	padding: 30px;
-	color:#000000;
+	padding: 30px;	
+}
+
+#banner-carousel .first-box:hover h3, 
+#banner-carousel .second-box:hover h3, 
+#banner-carousel .first-box:hover p,
+#banner-carousel .second-box:hover p {
+	transform: scale(1.1);
+}
+
+#banner-carousel .first-box h3,
+#banner-carousel .second-box h3 {
+	font-weight: 700;
+	transition: all .3s ease-in-out;
 }
 
 #banner-carousel .first-box p,
 #banner-carousel .second-box p {
 	margin: 0;
+	transition: all .3s ease-in-out;
 }
 
 
