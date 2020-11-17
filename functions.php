@@ -210,6 +210,39 @@ function cjrtec_home_content($wp_customize){
     )
   );
 
+  // Topbar Info Section
+  $wp_customize -> add_setting(
+    'topbar_address_content_edit', array(
+      'default' => 'Company Address'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'topbar_address_content_control', array(
+        'label' => 'Company Address',
+        'section' => 'cjrtec_homepage_settings_section',
+        'settings' => 'topbar_address_content_edit'
+      )
+    )
+  );
+
+  $wp_customize -> add_setting(
+    'topbar_phone_number_edit', array(
+      'default' => '800-733-2302'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'topbar_phone_number_control', array(
+        'label' => 'Company Phone Number',
+        'section' => 'cjrtec_homepage_settings_section',
+        'settings' => 'topbar_phone_number_edit'
+      )
+    )
+  );
+
   // Navbar Registration CTA Title
   $wp_customize -> add_setting(
     'navbar_registration_cta_title_edit', array(
