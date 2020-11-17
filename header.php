@@ -85,8 +85,8 @@
 
     <a href="
       <?php
-        if (get_theme_mod('registration_cta_link_edit')) {
-          echo get_theme_mod('registration_cta_link_edit');
+        if (get_theme_mod('navbar_registration_cta_link_edit')) {
+          echo get_theme_mod('navbar_registration_cta_link_edit');
         } else {
           echo "&num;registration";
         }
@@ -96,8 +96,8 @@
         <!-- <p class="free-quote"> -->
         <p class="button-register-text">
           <?php 
-            if (get_theme_mod('cjrtec_free_quote_edit')){
-              echo get_theme_mod('cjrtec_free_quote_edit');
+            if (get_theme_mod('navbar_registration_cta_title_edit')){
+              echo get_theme_mod('navbar_registration_cta_title_edit');
             } else {
               echo "Register Now";
             }
