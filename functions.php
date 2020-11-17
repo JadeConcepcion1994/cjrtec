@@ -307,23 +307,22 @@ function cjrtec_home_content($wp_customize){
     )
   );
 
-  //adding the settings inside the section
-  $wp_customize -> add_setting(
-    'cjrtec_first_box_edit', array(
-      'default' => 'First Box Contact Number'
-    )
-  );
+  // // adding the settings inside the section
+  // $wp_customize -> add_setting(
+  //   'cjrtec_first_box_edit', array(
+  //     'default' => 'First Box Contact Number'
+  //   )
+  // );
 
-  $wp_customize -> add_control(
-    new WP_Customize_Control(
-      $wp_customize, 'cjrtec_first_box_control', array(
-        'label' => 'First Box Content',
-        'section' => 'cjrtec_homepage_settings_section',
-        'settings' => 'cjrtec_first_box_edit',
-        // 'type' => 'textarea'
-      )
-    )
-  );
+  // $wp_customize -> add_control(
+  //   new WP_Customize_Control(
+  //     $wp_customize, 'cjrtec_first_box_control', array(
+  //       'label' => 'First Box Content',
+  //       'section' => 'cjrtec_homepage_settings_section',
+  //       'settings' => 'cjrtec_first_box_edit',
+  //     )
+  //   )
+  // );
 
   $wp_customize -> add_setting(
     'cjrtec_first_box_link_edit', array(

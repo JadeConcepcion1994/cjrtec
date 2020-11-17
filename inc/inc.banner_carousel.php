@@ -182,8 +182,13 @@
 								<h3>CALL US</h3>
 								<p>
 									<?php
-										if (get_theme_mod('cjrtec_first_box_edit')) {
-											echo get_theme_mod('cjrtec_first_box_edit');
+										// if (get_theme_mod('cjrtec_first_box_edit')) {
+										// 	echo get_theme_mod('cjrtec_first_box_edit');
+										// } else {
+										// 	echo "800-733-2302";
+										// }
+										if (get_theme_mod('topbar_phone_number_edit')) {
+											echo get_theme_mod('topbar_phone_number_edit');
 										} else {
 											echo "800-733-2302";
 										}
