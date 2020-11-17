@@ -31,7 +31,14 @@
 						</h3>
 						
 						<p class="text-center">
-							There are other companies out there but we are confident that nobody else can give you the BEST deals in the market
+							<?php
+								if (get_theme_mod('why_choose_section_heading_content_edit')) {
+									echo get_theme_mod('why_choose_section_heading_content_edit');
+								} else {
+									echo "There are other companies out there but we are confident that nobody else can give you the BEST deals in the market";
+								}
+							?>
+							
 						</p>
 					</div>
 				</div>

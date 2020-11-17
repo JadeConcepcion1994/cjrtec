@@ -471,14 +471,15 @@ function cjrtec_home_content($wp_customize){
   //second row content
   $wp_customize -> add_setting(
     'cjrtec_header_second_edit', array(
-      'default' => 'Header Content Second'
+      // 'default' => 'Header Content Second'
+      'default' => 'Second Header Title'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_header_second_control', array(
-        'label' => 'Header Content Second',
+        'label' => 'Second Header Title',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_header_second_edit'
       )
@@ -498,14 +499,15 @@ function cjrtec_home_content($wp_customize){
 
   $wp_customize -> add_setting(
     'cjrtec_paragraph_content_edit', array(
-      'default' => 'Paragraph Content'
+      // 'default' => 'Paragraph Content'
+      'default' => 'Second Header Content'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_paragraph_content_control', array(
-        'label' => 'Paragraph Content',
+        'label' => 'Second Header Content',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_paragraph_content_edit',
         'type' => 'textarea'
@@ -515,14 +517,15 @@ function cjrtec_home_content($wp_customize){
 
   $wp_customize -> add_setting(
     'cjrtec_link_title_edit', array(
-      'default' => 'Link Title'
+      // 'default' => 'Link Title'
+      'default' => 'Second Header CTA Title'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_link_title_control', array(
-        'label' => 'Link Title',
+        'label' => 'Second Header CTA Title',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_link_title_edit'
       )
@@ -540,14 +543,14 @@ function cjrtec_home_content($wp_customize){
 
   $wp_customize -> add_setting(
     'cjrtec_link_edit', array(
-      'default' => 'Link here'
+      'default' => 'Second Header CTA Link'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_link_control', array(
-        'label' => 'Link',
+        'label' => 'Second Header CTA Link',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_link_edit',
       )
@@ -559,7 +562,7 @@ function cjrtec_home_content($wp_customize){
   $wp_customize -> add_control(
     new WP_Customize_Cropped_Image_Control(
       $wp_customize, 'cjrtec_second_row_control', array(
-        'label' => 'Image',
+        'label' => 'Second Header Right Column Image',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_second_row_image',
         'height' => 700,
@@ -571,14 +574,14 @@ function cjrtec_home_content($wp_customize){
   //cards main header
   $wp_customize -> add_setting(
     'cjrtec_cards_title_edit', array(
-      'default' => 'Main Title'
+      'default' => 'Best Sellers Heading Title'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_cards_title_control', array(
-        'label' => 'Card Main Title',
+        'label' => 'Best Sellers Heading Title',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_cards_title_edit'
       )
@@ -591,7 +594,7 @@ function cjrtec_home_content($wp_customize){
   $wp_customize -> add_control(
     new WP_Customize_Cropped_Image_Control(
       $wp_customize, 'cjrtec_first_card_control', array(
-        'label' => 'First Card Image',
+        'label' => 'Bestseller Product 1 Image',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_first_card_image',
         'height' => 700,
@@ -602,14 +605,14 @@ function cjrtec_home_content($wp_customize){
 
   $wp_customize -> add_setting(
     'cjrtec_first_title_edit', array(
-      'default' => 'First Card Title'
+      'default' => 'Bestseller Product 1 Title'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_first_title_control', array(
-        'label' => 'Card Title',
+        'label' => 'Bestseller Product 1 Title',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_first_title_edit'
       )
@@ -618,14 +621,14 @@ function cjrtec_home_content($wp_customize){
 
   $wp_customize -> add_setting(
     'cjrtec_first_paragraph_edit', array(
-      'default' => 'First Card Paragraph'
+      'default' => 'Bestseller Product 1 Description'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_par_box_control', array(
-        'label' => 'Card Paragraph',
+        'label' => 'Bestseller Product 1 Description',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_first_paragraph_edit',
         'type' => 'textarea'
@@ -635,26 +638,30 @@ function cjrtec_home_content($wp_customize){
 
   $wp_customize -> add_setting(
     'cjrtec_first_link_title_edit', array(
-      'default' => 'First Link Title'
+      'default' => 'Best Seller Product 1 CTA Title'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_first_link_title_control', array(
-        'label' => 'Link Title',
+        'label' => 'Best Seller Product 1 CTA Title',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_first_link_title_edit'
       )
     )
   );
 
-  $wp_customize -> add_setting('cjrtec_first_link_edit');
+  $wp_customize -> add_setting(
+    'cjrtec_first_link_edit', array(
+      'default' => 'Best Seller Product 1 CTA Link'
+    )
+  );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_first_link_control', array(
-        'label' => 'First Link',
+        'label' => 'Best Seller Product 1 CTA Link',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_first_link_edit',
       )
@@ -667,7 +674,7 @@ function cjrtec_home_content($wp_customize){
   $wp_customize -> add_control(
     new WP_Customize_Cropped_Image_Control(
       $wp_customize, 'cjrtec_second_card_control', array(
-        'label' => 'Second Card Image',
+        'label' => 'Bestseller Product 2 Image',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_second_card_image',
         'height' => 700,
@@ -678,14 +685,14 @@ function cjrtec_home_content($wp_customize){
 
   $wp_customize -> add_setting(
     'cjrtec_second_title_edit', array(
-      'default' => 'Second Card Title'
+      'default' => 'Bestseller Product 2 Title'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_second_title_control', array(
-        'label' => 'Card Title',
+        'label' => 'Bestseller Product 2 Title',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_second_title_edit'
       )
@@ -694,14 +701,14 @@ function cjrtec_home_content($wp_customize){
 
   $wp_customize -> add_setting(
     'cjrtec_second_paragraph_edit', array(
-      'default' => 'First Card Paragraph'
+      'default' => 'Bestseller Product 2 Description'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_par2_box_control', array(
-        'label' => 'Card Paragraph',
+        'label' => 'Bestseller Product 2 Description',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_second_paragraph_edit',
         'type' => 'textarea'
@@ -711,26 +718,29 @@ function cjrtec_home_content($wp_customize){
 
   $wp_customize -> add_setting(
     'cjrtec_second_link_title_edit', array(
-      'default' => 'Second Link Title'
+      'default' => 'Bestseller Product 2 CTA Title'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_second_link_title_control', array(
-        'label' => 'Link Title',
+        'label' => 'Bestseller Product 2 CTA Title',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_second_link_title_edit'
       )
     )
   );
 
-  $wp_customize -> add_setting('cjrtec_second_link_edit');
+  $wp_customize -> add_setting(
+    'cjrtec_second_link_edit', array(
+      'default' => 'Bestseller Product 2 CTA Link'
+    ));
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_second_link_control', array(
-        'label' => 'Second Link',
+        'label' => 'Bestseller Product 2 CTA Link',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_second_link_edit'
       )
@@ -743,7 +753,7 @@ function cjrtec_home_content($wp_customize){
   $wp_customize -> add_control(
     new WP_Customize_Cropped_Image_Control(
       $wp_customize, 'cjrtec_third_card_control', array(
-        'label' => 'Third Card Image',
+        'label' => 'Bestseller Product 3 Image',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_third_card_image',
         'height' => 700,
@@ -754,14 +764,14 @@ function cjrtec_home_content($wp_customize){
 
   $wp_customize -> add_setting(
     'cjrtec_third_title_edit', array(
-      'default' => 'Third Card Title'
+      'default' => 'Bestseller Product 3 Title'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_third_title_control', array(
-        'label' => 'Card Title',
+        'label' => 'Bestseller Product 3 Title',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_third_title_edit'
       )
@@ -770,14 +780,14 @@ function cjrtec_home_content($wp_customize){
 
   $wp_customize -> add_setting(
     'cjrtec_third_paragraph_edit', array(
-      'default' => 'Third Card Paragraph'
+      'default' => 'Bestseller Product 3 Description'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_par3_box_control', array(
-        'label' => 'Card Paragraph',
+        'label' => 'Bestseller Product 3 Description',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_third_paragraph_edit',
         'type' => 'textarea'
@@ -787,26 +797,30 @@ function cjrtec_home_content($wp_customize){
 
   $wp_customize -> add_setting(
     'cjrtec_third_link_title_edit', array(
-      'default' => 'Third Link Title'
+      'default' => 'Bestseller Product 3 CTA Title'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_third_link_title_control', array(
-        'label' => 'Link Title',
+        'label' => 'Bestseller Product 3 CTA Title',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_third_link_title_edit'
       )
     )
   );
 
-  $wp_customize -> add_setting('cjrtec_third_link_edit');
+  $wp_customize -> add_setting(
+    'cjrtec_third_link_edit', array(
+      'default' => 'Bestseller Product 3 CTA Link'
+    )
+  );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_third_link_control', array(
-        'label' => 'Third Link',
+        'label' => 'Bestseller Product 3 CTA Link',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_third_link_edit'
       )
@@ -819,7 +833,7 @@ function cjrtec_home_content($wp_customize){
   $wp_customize -> add_control(
     new WP_Customize_Cropped_Image_Control(
       $wp_customize, 'cjrtec_fourth_card_control', array(
-        'label' => 'Fourth Card Image',
+        'label' => 'Bestseller Product 4 Image',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_fourth_card_image',
         'height' => 700,
@@ -830,14 +844,14 @@ function cjrtec_home_content($wp_customize){
 
   $wp_customize -> add_setting(
     'cjrtec_fourth_title_edit', array(
-      'default' => 'Fourth Card Title'
+      'default' => 'Bestseller Product 4 Title'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_fourth_title_control', array(
-        'label' => 'Card Title',
+        'label' => 'Bestseller Product 4 Title',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_fourth_title_edit'
       )
@@ -846,14 +860,14 @@ function cjrtec_home_content($wp_customize){
 
   $wp_customize -> add_setting(
     'cjrtec_fourth_paragraph_edit', array(
-      'default' => 'Fourth Card Paragraph'
+      'default' => 'Bestseller Product 4 Description'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_par4_box_control', array(
-        'label' => 'Card Paragraph',
+        'label' => 'Bestseller Product 4 Description',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_fourth_paragraph_edit',
         'type' => 'textarea'
@@ -863,39 +877,43 @@ function cjrtec_home_content($wp_customize){
 
   $wp_customize -> add_setting(
     'cjrtec_fourth_link_title_edit', array(
-      'default' => 'Fourth Link Title'
+      'default' => 'Bestseller Product 4 CTA Title'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_fourth_link_title_control', array(
-        'label' => 'Link Title',
+        'label' => 'Bestseller Product 4 CTA Title',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_fourth_link_title_edit'
       )
     )
   );
 
-  $wp_customize -> add_setting('cjrtec_fourth_link_edit');
+  $wp_customize -> add_setting(
+    'cjrtec_fourth_link_edit', array(
+      'default' => 'Bestseller Product 4 CTA Link'
+    )
+  );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_fourth_link_control', array(
-        'label' => 'Fourth Link',
+        'label' => 'Bestseller Product 4 CTA Link',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_fourth_link_edit',
       )
     )
   );
 
-  //image & text below cards
+  // WhY CHOOSE SECTION
   $wp_customize -> add_setting('cjrtec_lower_main_image');
 
   $wp_customize -> add_control(
     new WP_Customize_Cropped_Image_Control(
       $wp_customize, 'cjrtec_lower_main_control', array(
-        'label' => 'Lower Main Image',
+        'label' => 'Why Choose Section Heading Image',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_lower_main_image',
         'height' => 700,
@@ -906,16 +924,33 @@ function cjrtec_home_content($wp_customize){
 
   $wp_customize -> add_setting(
     'cjrtec_lower_title_edit', array(
-      'default' => 'Text Title'
+      'default' => 'Why Choose Section Heading Title'
     )
   );
 
   $wp_customize -> add_control(
     new WP_Customize_Control(
       $wp_customize, 'cjrtec_lower_title_control', array(
-        'label' => 'Image Text Title',
+        'label' => 'Why Choose Section Heading Title',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'cjrtec_lower_title_edit'
+      )
+    )
+  );
+
+  $wp_customize -> add_setting(
+    'why_choose_section_heading_content_edit', array(
+      'default' => 'Why Choose Section Heading Content'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'why_choose_section_heading_content_control', array(
+        'label' => 'Why Choose Section Heading Content',
+        'section' => 'cjrtec_homepage_settings_section',
+        'settings' => 'why_choose_section_heading_content_edit',
+        'type' => 'textarea'
       )
     )
   );
