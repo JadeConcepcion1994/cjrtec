@@ -750,11 +750,130 @@ function cjrtec_home_content($wp_customize){
     'settings' => 'cjrtec_c3_title_edit'
   )));
 
+  // GET HELP SECTION
+  // Get Help Heading
+  $wp_customize -> add_setting(
+    'get_help_heading_edit', array(
+      'default' => 'Get Help Heading Title'
+    )
+  );
 
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'get_help_heading_control', array(
+        'label' => 'Get Help Heading',
+        'section' => 'cjrtec_free_quote_section',
+        'settings' => 'get_help_heading_edit'
+      )
+    )
+  );
 
+  // Get Help Description
+  $wp_customize -> add_setting(
+    'get_help_description_edit', array(
+      'default' => 'Get Help Description Content'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'get_help_description_control', array(
+        'label' => 'Get Help Description Content',
+        'section' => 'cjrtec_free_quote_section',
+        'settings' => 'get_help_description_edit',
+        'type' => 'textarea'
+      )
+    )
+  );
+
+  // Get Help Column 1
+  $wp_customize -> add_setting(
+    'get_help_column_1_edit', array(
+      'default' => 'Get Help Column 1 Content'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'get_help_column_1_control', array(
+        'label' => 'Get Help Column 1 Content',
+        'section' => 'cjrtec_free_quote_section',
+        'settings'=> 'get_help_column_1_edit',
+        'type' => 'textarea'
+      )
+    )
+  );
+
+  // Get Help Column 2
+  $wp_customize -> add_setting(
+    'get_help_column_2_edit', array(
+      'default' => 'Get Help Column 2 Content'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'get_help_column_2_control', array(
+        'label' => 'Get Help Column 2 Content',
+        'section' => 'cjrtec_free_quote_section',
+        'settings'=> 'get_help_column_2_edit',
+        'type' => 'textarea'
+      )
+    )
+  );
+
+  // Get Help Column 3
+  $wp_customize -> add_setting(
+    'get_help_column_3_edit', array(
+      'default' => 'Get Help Column 3 Content'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'get_help_column_3_control', array(
+        'label' => 'Get Help Column 3 Content',
+        'section' => 'cjrtec_free_quote_section',
+        'settings'=> 'get_help_column_3_edit',
+        'type' => 'textarea'
+      )
+    )
+  );
+
+  // Get Help CTA Title
+  $wp_customize -> add_setting(
+    'get_help_cta_title_edit', array(
+      'default' => 'Get Help CTA Title'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'get_help_cta_title_control', array(
+        'label' => 'Get Help CTA Title',
+        'section' => 'cjrtec_free_quote_section',
+        'settings' => 'get_help_cta_title_edit',
+      )
+    )
+  );
+
+  // Get Help CTA Link
+  $wp_customize -> add_setting(
+    'get_help_cta_link_edit', array(
+      'default' => 'Get Help CTA Link'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'get_help_cta_link_control', array(
+        'label' => 'Get Help CTA Link',
+        'section' => 'cjrtec_free_quote_section',
+        'settings' => 'get_help_cta_link_edit'
+      )
+    )
+  );
 }
 add_action('customize_register', 'cjrtec_home_content');
-  
-
 
 ?>
