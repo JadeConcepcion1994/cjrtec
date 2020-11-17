@@ -83,7 +83,15 @@
       );
     ?>
 
-    <a href="#register">
+    <a href="
+      <?php
+        if (get_theme_mod('registration_cta_link_edit')) {
+          echo get_theme_mod('registration_cta_link_edit');
+        } else {
+          echo "&num;registration";
+        }
+      ?>"
+    >
       <div class="button-register">
         <!-- <p class="free-quote"> -->
         <p class="button-register-text">

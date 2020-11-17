@@ -167,17 +167,51 @@
 					</h1>
 
 					<div class="row mx-0"  id="row_fade">
-						<a href="" class="first-box">
+						<a href="
+							<?php
+								if (get_theme_mod('cjrtec_first_box_link_edit')) {
+									echo get_theme_mod('cjrtec_first_box_link_edit');
+								} else {
+									site_url(); ?>/contact 
+									<?php
+								}
+							?>" 
+							class="first-box"
+						>
 							<div>
 								<h3>CALL US</h3>
-								<p>800-733-2302</p>
+								<p>
+									<?php
+										if (get_theme_mod('cjrtec_first_box_edit')) {
+											echo get_theme_mod('cjrtec_first_box_edit');
+										} else {
+											echo "800-733-2302";
+										}
+									?>
+								</p>
 							</div>
 						</a>
 
-						<a href="" class="second-box">
+						<a href="
+							<?php
+								if (get_theme_mod('cjrtec_second_box_link_edit')) {
+									echo get_theme_mod('cjrtec_second_box_link_edit');
+								} else {
+									echo "&num;free-quote-page";
+								}
+							?>" 
+							class="second-box">
 							<div>
 								<h3>GET STARTED</h3>
-								<p>Request a FREE quote now</p>
+								<p>
+									<?php
+										if (get_theme_mod('cjrtec_second_box_edit')) {
+											echo get_theme_mod('cjrtec_second_box_edit');
+										} else {
+											echo "Request a FREE quote now";
+										}
+									?>
+								</p>
 							</div>
 						</a>
 

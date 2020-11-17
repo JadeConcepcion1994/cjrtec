@@ -210,26 +210,45 @@ function cjrtec_home_content($wp_customize){
 
   //adding the settings inside the section
   $wp_customize->add_setting('cjrtec_free_quote_edit', array(
-    'default' => 'Free Quotes Here'
+    // 'default' => 'Free Quotes Here'
+    'default' => 'Registration CTA Title'
   ));
 
   $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'cjrtec_free_quote_control', array(
-    'label' => 'Free Quote',
+    // 'label' => 'Free Quote',
+    'label' => 'Registration CTA Title',
     'section' => 'cjrtec_free_quote_section',
     'settings' => 'cjrtec_free_quote_edit'
   )));
 
+  // Registration CTA Link
+  $wp_customize -> add_setting(
+    'registration_cta_link_edit', array(
+      'default' => 'Registration CTA Link'
+    )
+  );
 
-  //adding the settings inside the section
-  $wp_customize->add_setting('cjrtec_address_content_edit', array(
-    'default' => 'Address Content Here'
-  ));
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'registration_cta_link_control', array(
+        'label' => 'Registration CTA Link',
+        'section' => 'cjrtec_free_quote_section',
+        'settings' => 'registration_cta_link_edit'
+      )
+    )
+  );
 
-  $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'cjrtec_address_content_control', array(
-    'label' => 'Address Content',
-    'section' => 'cjrtec_free_quote_section',
-    'settings' => 'cjrtec_address_content_edit'
-  )));
+
+  // //adding the settings inside the section
+  // $wp_customize->add_setting('cjrtec_address_content_edit', array(
+  //   'default' => 'Address Content Here'
+  // ));
+
+  // $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'cjrtec_address_content_control', array(
+  //   'label' => 'Address Content',
+  //   'section' => 'cjrtec_free_quote_section',
+  //   'settings' => 'cjrtec_address_content_edit'
+  // )));
 
   //adding the settings inside the section
   $wp_customize->add_setting('cjrtec_image_header_edit', array(
@@ -244,22 +263,22 @@ function cjrtec_home_content($wp_customize){
 
   //adding the settings inside the section
   $wp_customize->add_setting('cjrtec_first_box_edit', array(
-    'default' => 'First Box Content'
+    'default' => 'First Box Contact Number'
   ));
 
   $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'cjrtec_first_box_control', array(
     'label' => 'First Box Content',
     'section' => 'cjrtec_free_quote_section',
     'settings' => 'cjrtec_first_box_edit',
-    'type' => 'textarea'
+    // 'type' => 'textarea'
   )));
 
   $wp_customize->add_setting('cjrtec_first_box_link_edit', array(
-    'default' => 'Link here'
+    'default' => 'Contact Page Link here'
   ));
 
   $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'cjrtec_first_box_link_control', array(
-    'label' => 'First Box Link',
+    'label' => 'First Box Link (Add Contact Page Link Below)',
     'section' => 'cjrtec_free_quote_section',
     'settings' => 'cjrtec_first_box_link_edit'
   )));
@@ -277,11 +296,11 @@ function cjrtec_home_content($wp_customize){
   )));
 
   $wp_customize->add_setting('cjrtec_second_box_link_edit', array(
-    'default' => 'Link here'
+    'default' => 'Free Quotes Page Link here'
   ));
 
   $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'cjrtec_second_box_link_control', array(
-    'label' => 'Second Box Link',
+    'label' => 'Second Box Link (Add Free Quotes Page Link Below)',
     'section' => 'cjrtec_free_quote_section',
     'settings' => 'cjrtec_second_box_link_edit'
   )));
