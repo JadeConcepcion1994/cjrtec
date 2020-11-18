@@ -316,26 +316,86 @@
 
 					<ul class="social">
 						<li>
-							<a href="https://www.facebook.com/cjrtec/" target="_blank">
+							<a href="
+								<?php
+									if (get_theme_mod('facebook_link_edit')) {
+										echo get_theme_mod('facebook_link_edit');
+									} else {
+										echo 'https://www.facebook.com/';
+									}
+								?>" 
+								target="_blank"
+							>
 								<i class="fa fa-facebook-official fa-lg"></i> 
 								<div><span>Connect to us</span></div>
 							</a>
 						</li>
+
 						<li>
-							<a href="https://www.instagram.com/cjrtec" target="_blank">
+							<a href="
+								<?php
+									if (get_theme_mod('twitter_link_edit')) {
+										echo get_theme_mod('twitter_link_edit');
+									} else {
+										echo 'https://twitter.com/';
+									}
+								?>" 
+								target="_blank"
+							>
+								<i class="fa fa-twitter fa-lg"></i> 
+								<div><span>Follow us</span></div>
+							</a>
+						</li>
+
+						<li>
+							<a href="
+								<?php
+									if (get_theme_mod('youtube_link_edit')) {
+										echo get_theme_mod('youtube_link_edit');
+									} else {
+										echo 'https://www.youtube.com/';
+									}
+								?>" 
+								target="_blank"
+							>
+								<i class="fa fa-youtube fa-lg"></i> 
+								<div><span>Watch our videos</span></div>
+							</a>
+						</li>
+
+						<li>
+							<a href="
+								<?php
+									if (get_theme_mod('linkedin_link_edit')) {
+										echo get_theme_mod('linkedin_link_edit');
+									} else {
+										echo 'https://www.linkedin.com/';
+									}
+								?>" 
+								target="_blank"
+							>
+								<i class="fa fa-linkedin fa-lg"></i> 
+								<div><span>LinkedIn</span></div>
+							</a>
+						</li>
+
+						<li>
+							<a href="
+								<?php
+									if (get_theme_mod('instagram_link_edit')) {
+										echo get_theme_mod('instagram_link_edit');
+									} else {
+										echo 'https://www.instagram.com/';
+									}
+								?>" 
+								target="_blank"
+							>
 								<i class="fa fa-instagram fa-lg"></i> 
 								<div><span>View our feed</span></div>
 							</a>
 						</li>
-						<li>
-							<a href="https://www.youtube.com/channel/UCNph4b5fxTNKhQnycRp4oyw" target="_blank">
-								<i class="fa fa-youtube fa-lg"></i> 
-								<div><span>Watch our Videos</span></div>
-							</a>
-						</li>
 					</ul>
 				</div>
-
 			</div> <!-- row row-cjr-list -->
 
 			<div class="row row-footer-content">
