@@ -7,7 +7,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device=width, initial-scale=1.0">
 <meta name="description" content="CJRTEC Site Template">
-<meta name="author" content=" https://www.linkedin.com/in/jade-concepcion-16b9b0186/">
 
 <?php wp_head(); ?>
 
@@ -17,7 +16,8 @@
 <div class="upper-content" id="content_top_fixed">
   <div class="container">
     <div class="upper-content-left" id="test-this">
-      <i class="fa fa-map-marker" aria-hidden="true"></i> 
+      <i class="fa fa-map-marker" aria-hidden="true"></i>
+      &nbsp;
       <?php
         if (get_theme_mod('topbar_address_content_edit')) {
           echo get_theme_mod('topbar_address_content_edit');
@@ -26,7 +26,8 @@
         }
       ?>
       <strong style="margin-left: 10px; margin-right: 10px">|</strong>
-      <i class="fa fa-phone" aria-hidden="true"></i>  
+      <i class="fa fa-phone" aria-hidden="true"></i>
+      &nbsp;
       <?php
         if (get_theme_mod('topbar_phone_number_edit')) {
           echo get_theme_mod('topbar_phone_number_edit');
@@ -34,7 +35,23 @@
           echo "800-733-2302";
         }
       ?> 
-      / 09:00AM - 5:00PM MST  
+      &nbsp; &sol; &nbsp;
+      <?php
+        if (get_theme_mod('topbar_business_hour_open_edit')) {
+          echo get_theme_mod('topbar_business_hour_open_edit');
+        } else {
+          echo "9:00AM";
+        }
+      ?>
+      &nbsp; &dash; &nbsp; 
+      <?php
+        if (get_theme_mod('topbar_business_hour_close_edit')) {
+          echo get_theme_mod('topbar_business_hour_close_edit');
+        } else {
+          echo "5:00PM";
+        }
+      ?>
+      MST 
     </div> 
 
     <div class="upper-content-right">

@@ -229,7 +229,7 @@ function cjrtec_home_content($wp_customize){
 
   $wp_customize -> add_setting(
     'topbar_phone_number_edit', array(
-      'default' => '800-733-2302'
+      'default' => 'Phone Number'
     )
   );
 
@@ -239,6 +239,38 @@ function cjrtec_home_content($wp_customize){
         'label' => 'Company Phone Number',
         'section' => 'cjrtec_homepage_settings_section',
         'settings' => 'topbar_phone_number_edit'
+      )
+    )
+  );
+
+  $wp_customize -> add_setting(
+    'topbar_business_hour_open_edit', array(
+      'default' => 'Business Hour Open'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'topbar_business_hour_open_control', array(
+        'label' => 'Business Hour Open (e.g. 9:00AM)',
+        'section' => 'cjrtec_homepage_settings_section',
+        'settings' => 'topbar_business_hour_open_edit'
+      )
+    )
+  );
+
+  $wp_customize -> add_setting(
+    'topbar_business_hour_close_edit', array(
+      'default' => 'Business Hour Close'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'topbar_business_hour_close_control', array(
+        'label' => 'Business Hour Close (e.g. 5:00PM)',
+        'section' => 'cjrtec_homepage_settings_section',
+        'settings' => 'topbar_business_hour_close_edit'
       )
     )
   );
