@@ -334,33 +334,41 @@ ul > li.active a{
 	color: #ffffff;
 	width: 25%;
 	padding: 30px;
-	border: 2px solid #000000;
+	/* border: 2px solid #000000; */
 }
 
 #banner-carousel .second-box {
 	background-color: #ff5829;
 	color:#ffffff;
 	width: 25%;
-	padding: 30px;	
+	padding: 30px;
+	/* border: 2px solid #ff5829; */
 }
 
-#banner-carousel .first-box:hover h3, 
+#banner-carousel .first-box:hover,
+#banner-carousel .second-box:hover {
+	background-color: #ffffff;
+	color: #000000;
+	transition: 0.2s ease-in-out;
+}
+
+/* #banner-carousel .first-box:hover h3, 
 #banner-carousel .second-box:hover h3, 
 #banner-carousel .first-box:hover p,
 #banner-carousel .second-box:hover p {
 	transform: scale(1.1);
-}
+} */
 
 #banner-carousel .first-box h3,
 #banner-carousel .second-box h3 {
 	font-weight: 700;
-	transition: all .3s ease-in-out;
+	/* transition: all .3s ease-in-out; */
 }
 
 #banner-carousel .first-box p,
 #banner-carousel .second-box p {
 	margin: 0;
-	transition: all .3s ease-in-out;
+	/* transition: all .3s ease-in-out; */
 }
 
 
