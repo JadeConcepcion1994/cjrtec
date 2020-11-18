@@ -68,6 +68,9 @@
         <a href="#">
           <i class="fa fa-linkedin li" aria-hidden="true"></i>
         </a>
+        <a href="#">
+          <i class="fa fa-instagram in" aria-hidden="true"></i>
+        </a>
         <!-- <strong style="margin-left: 10px; margin-right: 10px">|</strong>
         <i class="fa fa-search" aria-hidden="true"></i> -->
       </div>
