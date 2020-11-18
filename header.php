@@ -56,19 +56,64 @@
 
     <div class="upper-content-right">
       <div>
-        <a href="https://www.facebook.com/cjrtec/" target="_blank">
+        <a href="
+          <?php
+            if (get_theme_mod('facebook_link_edit')) {
+              echo get_theme_mod('facebook_link_edit');
+            } else {
+              echo 'https://www.facebook.com/';
+            }
+          ?>" 
+          target="_blank"
+        >
           <i class="fa fa-facebook fb" aria-hidden="true"></i>
         </a>
-        <a href="#">
+        <a href="
+          <?php
+            if (get_theme_mod('twitter_link_edit')) {
+              echo get_theme_mod('twitter_link_edit');
+            } else {
+              echo 'https://twitter.com/';
+            }
+          ?>" 
+          target="_blank"
+        >
           <i class="fa fa-twitter tw" aria-hidden="true"></i>
         </a>
-        <a href="https://www.youtube.com/channel/UCNph4b5fxTNKhQnycRp4oyw" target="_blank">
+        <a href="
+          <?php
+            if (get_theme_mod('youtube_link_edit')) {
+              echo get_theme_mod('youtube_link_edit');
+            } else {
+              echo 'https://www.youtube.com/';
+            }
+          ?>" 
+          target="_blank"
+        >
           <i class="fa fa-youtube yt" aria-hidden="true"></i>
         </a>
-        <a href="#">
+        <a href="
+          <?php
+            if (get_theme_mod('linkedin_link_edit')) {
+              echo get_theme_mod('linkedin_link_edit');
+            } else {
+              echo 'https://www.linkedin.com/';
+            }
+          ?>" 
+          target="_blank"
+        >
           <i class="fa fa-linkedin li" aria-hidden="true"></i>
         </a>
-        <a href="#">
+        <a href="
+          <?php
+            if (get_theme_mod('instagram_link_edit')) {
+              echo get_theme_mod('instagram_link_edit');
+            } else {
+              echo 'https://www.instagram.com/';
+            }
+          ?>" 
+          target="_blank"
+        >
           <i class="fa fa-instagram in" aria-hidden="true"></i>
         </a>
         <!-- <strong style="margin-left: 10px; margin-right: 10px">|</strong>

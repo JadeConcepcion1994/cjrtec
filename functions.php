@@ -275,6 +275,98 @@ function cjrtec_home_content($wp_customize){
     )
   );
 
+  // Social Media Links
+  // Facebook
+  $wp_customize -> add_setting(
+    'facebook_link_edit', array(
+      'default' => 'https://www.facebook.com/'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'facebook_link_control', array(
+        'label' => 'Facebook Link',
+        'section' => 'cjrtec_homepage_settings_section',
+        'settings' => 'facebook_link_edit'
+      )
+    )
+  );
+
+  // Twitter
+  $wp_customize -> add_setting(
+    'twitter_link_edit', array(
+      'default' => 'https://twitter.com/'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'twitter_link_control', array(
+        'label' => 'Twitter Link',
+        'section' => 'cjrtec_homepage_settings_section',
+        'settings' => 'twitter_link_edit'
+      )
+    )
+  );
+
+  // Youtube
+  $wp_customize -> add_setting(
+    'youtube_link_edit', array(
+      'default' => 'https://www.youtube.com/'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'youtube_link_control', array(
+        'label' => 'Youtube Link',
+        'section' => 'cjrtec_homepage_settings_section',
+        'settings' => 'youtube_link_edit'
+      )
+    )
+  );
+
+  // LinkedIn
+  $wp_customize -> add_setting(
+    'linkedin_link_edit', array(
+      'default' => 'https://www.linkedin.com/'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'linkedin_link_control', array(
+        'label' => 'LinkedIn Link',
+        'section' => 'cjrtec_homepage_settings_section',
+        'settings' => 'linkedin_link_edit'
+      )
+    )
+  );
+
+  // Instagram
+  // 
+  $wp_customize -> add_setting(
+    'instagram_link_edit', array(
+      'default' => 'https://www.instagram.com/'
+    )
+  );
+
+  $wp_customize -> add_control(
+    new WP_Customize_Control(
+      $wp_customize, 'instagram_link_control', array(
+        'label' => 'Instagram Link',
+        'section' => 'cjrtec_homepage_settings_section',
+        'settings' => 'instagram_link_edit'
+      )
+    )
+  );
+
+
+
+
+
+
   // Navbar Registration CTA Title
   $wp_customize -> add_setting(
     'navbar_registration_cta_title_edit', array(
