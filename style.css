@@ -284,9 +284,14 @@ ul > li.active a{
 } */
 
 #banner-carousel img.img-car {
-	height: 600px;
+	/* height: 500px; */
+	height: 87vh;
 	object-fit: cover;
 	object-position: top;
+	/* object-position: center; */
+
+	width: 100%;
+	max-width: 1920px;
 }
 
 #banner-carousel .carousel-indicators li {
